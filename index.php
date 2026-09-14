@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "Boutique Homestay in Lonavala with Private Pool | Retrofusion";
-$pageDescription = "Book Retrofusion, a boutique homestay in Lonavala with private pool villas, 4BHK stays, in-house food, mountain views, caretaker service, and pet-friendly options.";
-$pageKeywords = "Boutique Homestay in Lonavala with private pool, boutique homestay in Lonavala, private pool villa in Lonavala, luxury homestay in Lonavala, 4BHK homestay in Lonavala, villas in Lonavala with swimming pool, homestay in Lonavala with food, pet friendly homestay Lonavala, family homestay in Lonavala, group stay in Lonavala, Lonavala villa with caretaker, mountain view villa Lonavala";
+$pageTitle = "Best Homestay in Lonavala with Private Pool | Retrofusion";
+$pageDescription = "Looking for the best homestay in Lonavala? Book Retrofusion for private pool villas, 4BHK stays, in-house food, mountain views, and pet-friendly options.";
+$pageKeywords = "homestay in Lonavala, best homestay in lonavala, boutique homestay in Lonavala, private pool homestay in Lonavala, luxury homestay in Lonavala, 4BHK homestay in Lonavala, villas in Lonavala with swimming pool, homestay in Lonavala with food, pet friendly homestay Lonavala, family homestay in Lonavala, group stay in Lonavala, Lonavala villa with caretaker, mountain view villa Lonavala";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/";
-$ogTitle = "Boutique Homestay in Lonavala with Private Pool | Retrofusion";
-$ogDescription = "Explore Retrofusion's boutique private pool homestays in Lonavala for families, couples, groups, celebrations, workations, and pet-friendly getaways.";
+$ogTitle = "Best Homestay in Lonavala with Private Pool | Retrofusion";
+$ogDescription = "Looking for the best homestay in Lonavala? Book Retrofusion for private pool villas, 4BHK stays, in-house food, mountain views, and pet-friendly options.";
 $ogImage = "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp";
 $twitterTitle = $ogTitle;
 $twitterDescription = $ogDescription;
@@ -30,14 +30,14 @@ include 'includes/header.php';
   </div>
   <div class="relative z-20 text-center text-white px-4 pointer-events-none">
     <p class="text-white text-sm md:text-base uppercase tracking-[0.3em] mb-4 font-light animate-fade-in-up"
-      style="opacity:0;animation-delay:0.3s;">Retrofusion Boutique Homestays</p>
+      style="opacity:0;animation-delay:0.3s;">Best Homestay in Lonavala</p>
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight font-display animate-fade-in-up"
       style="opacity:0;animation-delay:0.5s;">
       <span
-        class="bg-gradient-to-r from-white via-stone-100 to-white bg-clip-text text-transparent drop-shadow-2xl">Boutique Homestay in Lonavala with Private Pool</span>
+        class="bg-gradient-to-r from-white via-stone-100 to-white bg-clip-text text-transparent drop-shadow-2xl">Luxury Homestay in Lonavala with Private Pool</span>
     </h1>
     <p class="text-base md:text-xl text-stone-300/90 font-light tracking-wide max-w-2xl mx-auto animate-fade-in-up"
-      style="opacity:0;animation-delay:0.9s;">Three private pool villas, united by luxury, warmth, food, views, and caretaker-led comfort.</p>
+      style="opacity:0;animation-delay:0.9s;">Experience the perfect homestay in Lonavala. Three private pool villas, united by luxury, warmth, food, views, and caretaker-led comfort.</p>
     <div
       class="w-20 h-[1px] bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto mt-8 mb-8 animate-scale-x">
     </div>
@@ -77,7 +77,7 @@ include 'includes/header.php';
 <section id="villas-section" class="py-8 bg-gradient-to-br from-stone-50 via-amber-50/30 to-stone-100 scroll-reveal">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-8">
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2A24] mb-3">Our Offerings
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F2A24] mb-3">Our Premium Homestay in Lonavala Offerings
       </h2>
       <p class="text-base sm:text-lg text-stone-500 max-w-2xl leading-relaxed">Three homes. Three distinct moods.
         One unforgettable stay</p>
