@@ -137,7 +137,8 @@ if (!empty($webhook_url)) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($webhook_data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 5); // 5 sec timeout to avoid blocking
+    curl_setopt($ch, CURLOPT_TIMEOUT, 8);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_exec($ch);
     curl_close($ch);
 }

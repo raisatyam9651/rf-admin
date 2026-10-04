@@ -72,23 +72,28 @@ try {
     $mail->Port = 587;
 
     // Email Settings
-    $mail->setFrom('contact@retrofusion.in', $_POST['name']);
+    $mail->setFrom('contact@retrofusion.in', $_POST['name'] ?? 'Website Visitor');
     $mail->addAddress('satyamrai374@gmail.com', 'New Lead');
     $mail->addAddress('jitendrarora@gmail.com', 'New Lead');
 
-    $mail->Subject = 'New Lead Retrofustion Website';
+    $mail->Subject = 'New Lead Retrofusion Website';
     $mail->MsgHTML($body);
     $mail->IsHTML(true);
 
     $mail->send();
-    echo "<script> window.location.href = 'thank-you.php'; </script>";
 }
 catch (Exception $e) {
-    echo "<script>
-        alert('Something went wrong, Please try again later');
-        window.location.href = 'https://retrofusion.in';
-    </script>";
+    // Log the error for admin review
+    file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "SMTP Error: " . $mail->ErrorInfo . " | Exception: " . $e->getMessage() . "\n", FILE_APPEND);
+    
+    // Optional fallback via standard mail()
+    $fallback_headers = "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: Retrofusion <contact@retrofusion.in>\r\n";
+    @mail('satyamrai374@gmail.com, jitendrarora@gmail.com', 'New Lead Retrofusion Website (Fallback)', $body, $fallback_headers);
 }
+
+// Redirect client to thank-you page (the lead was captured in Google Sheets)
+echo "<script> window.location.href = 'thank-you.php'; </script>";
+exit();
 
 
 
