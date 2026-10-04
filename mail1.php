@@ -58,7 +58,10 @@ if (!empty($webhook_url)) {
     curl_setopt($ch, CURLOPT_TIMEOUT, 10);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     $response = curl_exec($ch);
+    $curl_err = curl_error($ch);
     curl_close($ch);
+    
+    file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "Lead: " . ($_POST['name'] ?? '') . " | Phone: " . ($_POST['phone'] ?? '') . " | Webhook Result: " . $response . ($curl_err ? " | Curl Err: $curl_err" : "") . "\n", FILE_APPEND);
 }
 
 try {

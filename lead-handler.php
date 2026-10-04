@@ -94,8 +94,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, 8);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_exec($ch);
+        $response = curl_exec($ch);
+        $curl_err = curl_error($ch);
         curl_close($ch);
+        
+        file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "Lead: $name | Phone: $phone | Webhook Result: " . $response . ($curl_err ? " | Curl Err: $curl_err" : "") . "\n", FILE_APPEND);
     }
     
     $all_sent = true; // Optimization: always success as per user requirement to simply send
