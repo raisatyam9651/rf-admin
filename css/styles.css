@@ -611,3 +611,18 @@ article .prose figure img {
     max-height: 560px;
   }
 }
+
+/* ===== Corporate Quote 2-Column Responsive Grid ===== */
+.corporate-quote-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .corporate-quote-grid {
+    grid-template-columns: 5fr 7fr;
+    gap: 3.5rem;
+  }
+}

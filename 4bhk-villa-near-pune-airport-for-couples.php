@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef";
-$pageDescription = "Book a long stay workation homestay in Lonavala at Retrofusion. 300 Mbps fiber internet, power backup, quiet desks, private pool, home-style meals & weekly discounts.";
-$pageKeywords = "homestay in lonavala for long stay workation, long stay villa lonavala, remote work homestay lonavala, workation in lonavala, monthly stay villa lonavala";
+$pageTitle = "4BHK Villa Near Pune Airport for Couples | 65 Mins Drive";
+$pageDescription = "Flying into Pune for a couple group getaway? Book a 4BHK private pool villa in Lonavala. 65 mins drive from PNQ Airport. 4 master suites, heated jacuzzi & chef.";
+$pageKeywords = "4bhk villa near pune airport for couples, pnq airport couple group villa, romantic villa near pune airport, luxury couple stay pune airport, fly in couple getaway lonavala";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation";
-$ogTitle = "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef";
-$ogImage = "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp";
+$canonicalUrl = "https://retrofusion.in/4bhk-villa-near-pune-airport-for-couples";
+$ogTitle = "4BHK Villa Near Pune Airport for Couples | 65 Mins Drive";
+$ogImage = "https://retrofusion.in/images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg";
 include 'includes/header.php';
 ?>
 
@@ -18,12 +18,12 @@ include 'includes/header.php';
   "@graph": [
     {
       "@type": "LodgingBusiness",
-      "@id": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation#lodging",
-      "name": "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef",
-      "description": "Book a long stay workation homestay in Lonavala at Retrofusion. 300 Mbps fiber internet, power backup, quiet desks, private pool, home-style meals & weekly discounts.",
-      "url": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation",
+      "@id": "https://retrofusion.in/4bhk-villa-near-pune-airport-for-couples#lodging",
+      "name": "4BHK Villa Near Pune Airport for Couples | 65 Mins Drive",
+      "description": "Flying into Pune for a couple group getaway? Book a 4BHK private pool villa in Lonavala. 65 mins drive from PNQ Airport. 4 master suites, heated jacuzzi & chef.",
+      "url": "https://retrofusion.in/4bhk-villa-near-pune-airport-for-couples",
       "image": [
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg",
         "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp"
       ],
@@ -44,7 +44,7 @@ include 'includes/header.php';
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation#breadcrumb",
+      "@id": "https://retrofusion.in/4bhk-villa-near-pune-airport-for-couples#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -55,37 +55,49 @@ include 'includes/header.php';
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef",
-          "item": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation"
+          "name": "4BHK Villa Near Pune Airport for Couples | 65 Mins Drive",
+          "item": "https://retrofusion.in/4bhk-villa-near-pune-airport-for-couples"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation#faq",
+      "@id": "https://retrofusion.in/4bhk-villa-near-pune-airport-for-couples#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How fast and reliable is the internet for video conferences?",
+          "name": "How far is the villa from Pune Airport?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our villas are fitted with dual-band 300+ Mbps optical fiber mesh networks with generator backup, ensuring zero jitter on Zoom, Meet, and Teams calls."
+            "text": "It is roughly 70 km from Pune Airport (PNQ), taking around 65 minutes via the expressway bypass."
+
           }
         },
         {
           "@type": "Question",
-          "name": "Are food and housekeeping included for long stays?",
+          "name": "Can 4 couples stay with complete privacy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! Our in-house cooks prepare daily fresh meals according to your preferences, and daily housekeeping ensures clean rooms and refreshed linens."
+            "text": "Yes, each couple has their own private AC master bedroom with ensuite bathroom."
+
           }
         },
         {
           "@type": "Question",
-          "name": "What are the savings on weekly and monthly stays?",
+          "name": "Can your team arrange candlelit dinners?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer substantial percentage discounts on stays of 7 days, 14 days, and 30 days compared to weekend rack rates."
+            "text": "Yes, we can arrange romantic candlelit dinners on the garden lawn or poolside deck."
+
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Wi-Fi fast enough for remote work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all villas have high-speed 300+ Mbps dual-fiber mesh Wi-Fi."
+
           }
         }
       ]
@@ -140,26 +152,26 @@ include 'includes/header.php';
 </style>
 
 <!-- ===== HERO SECTION ===== -->
-<section class="relative min-h-[90vh] flex items-center justify-center bg-[#0B2530] overflow-hidden mobile-hero-padding desktop-hero-padding pb-16 px-4 sm:px-6 lg:px-8">
+<section class="relative min-h-[90vh] flex items-center justify-center bg-[#240713] overflow-hidden mobile-hero-padding desktop-hero-padding pb-16 px-4 sm:px-6 lg:px-8">
   <div class="absolute inset-0 z-0">
-    <img src="images/v1773076226_27_ipqwdd.webp" alt="Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef" class="w-full h-full object-cover opacity-35 scale-105 transform transition duration-1000 ease-out" />
-    <div class="absolute inset-0 bg-gradient-to-t from-[#0B2530] via-[#0B2530]/75 to-transparent"></div>
-    <div class="absolute inset-0 bg-gradient-to-r from-[#0B2530]/90 via-transparent to-[#0B2530]/90"></div>
+    <img src="images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg" alt="4BHK Villa Near Pune Airport for Couples | 65 Mins Drive" class="w-full h-full object-cover opacity-35 scale-105 transform transition duration-1000 ease-out" />
+    <div class="absolute inset-0 bg-gradient-to-t from-[#240713] via-[#240713]/75 to-transparent"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[#240713]/90 via-transparent to-[#240713]/90"></div>
   </div>
 
   <div class="max-w-7xl mx-auto relative z-10 w-full">
     <div class="text-center max-w-4xl mx-auto">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full badge-gold text-xs sm:text-sm font-semibold uppercase tracking-widest mb-6">
         <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
-        Remote-Ready Hillside Sanctuary • 300 Mbps Fiber Mesh & 24/7 Power
+        65 Mins from Pune Airport (PNQ) • Quick Highway Cruise
       </div>
 
       <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-display leading-[1.12]">
-        The Ultimate Homestay in Lonavala for <br class='hidden sm:inline' /><span class='highlight-gradient'>Long Stay Workations</span>
+        Hilltop Romance at a <br class='hidden sm:inline' /><span class='highlight-gradient'>4BHK Villa Near Pune Airport for Couples</span>
       </h1>
 
       <p class="text-base sm:text-lg md:text-xl text-stone-200 font-light max-w-3xl mx-auto mb-10 leading-relaxed">
-        Trade traffic jams and noisy city apartments for serene valley views, birdsong, and crisp mountain breeze. Work with uninterrupted power, high-speed dual fiber, private pool breaks, and fresh chef-prepared meals.
+        Pick up couple friends landing at Pune Airport (PNQ) and reach your private hill sanctuary in just over an hour. 4 independent master suites, private pool, heated jacuzzi, and live barbecue.
       </p>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mb-14">
@@ -176,20 +188,20 @@ include 'includes/header.php';
 
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8 border-t border-white/10 text-left">
         <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
+          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">65 Mins from PNQ</div>
+          <div class="text-xs text-stone-300 font-medium">Direct Highway Run from Pune Airport</div>
+        </div>
+        <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
           <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">100% Private</div>
-          <div class="text-xs text-stone-300 font-medium">Exclusive Pool & Entire Villa to Your Squad</div>
+          <div class="text-xs text-stone-300 font-medium">Whole Villa & Pool to Your Couple Group</div>
         </div>
         <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
-          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Gourmet Chef</div>
-          <div class="text-xs text-stone-300 font-medium">Custom Buffets, Snacks & Poolside Live BBQ</div>
+          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Heated Jacuzzi</div>
+          <div class="text-xs text-stone-300 font-medium">Private Jacuzzi & Pool Decks</div>
         </div>
         <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
-          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Fast Highway</div>
-          <div class="text-xs text-stone-300 font-medium">Expressway Access into Lonavala Hills</div>
-        </div>
-        <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
-          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">GST Invoicing</div>
-          <div class="text-xs text-stone-300 font-medium">Official Billing for Easy Reimbursements</div>
+          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">4 Master Suites</div>
+          <div class="text-xs text-stone-300 font-medium">Ensuite AC Bedrooms for 4 Couples</div>
         </div>
       </div>
     </div>
@@ -202,31 +214,31 @@ include 'includes/header.php';
     <div class="text-center max-w-3xl mx-auto mb-10">
       <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Seamless Highway Route</span>
       <h2 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mt-2">
-        Easy Highway Connectivity for Extended Stays
+        Quick Highway Transit from Pune Airport
       </h2>
       <p class="text-stone-500 text-sm mt-2">Skip painful city gridlocks. Arrive effortlessly at our private gated estates.</p>
     </div>
 
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
       <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Mumbai (BKC / Powai)</h4>
-        <div class="text-xl font-extrabold text-amber-600 my-1">~90 Mins</div>
-        <p class="text-xs text-stone-400">Direct Expressway cruise</p>
+        <h4 class="font-bold text-[#0F2A24] text-sm">Pune Airport (Lohegaon)</h4>
+        <div class="text-xl font-extrabold text-amber-600 my-1">~65 Mins</div>
+        <p class="text-xs text-stone-400">Via Nagar Road bypass to Expressway</p>
       </div>
       <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Pune (Baner / Hinjewadi)</h4>
+        <h4 class="font-bold text-[#0F2A24] text-sm">Viman Nagar / Kalyani Nagar</h4>
+        <div class="text-xl font-extrabold text-amber-600 my-1">~60 Mins</div>
+        <p class="text-xs text-stone-400">Fast link to bypass road</p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
+        <h4 class="font-bold text-[#0F2A24] text-sm">Shivajinagar Station</h4>
         <div class="text-xl font-extrabold text-amber-600 my-1">~55 Mins</div>
-        <p class="text-xs text-stone-400">Fast highway commute</p>
+        <p class="text-xs text-stone-400">Smooth transit through Pune city</p>
       </div>
       <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Navi Mumbai / Panvel</h4>
-        <div class="text-xl font-extrabold text-amber-600 my-1">~50 Mins</div>
-        <p class="text-xs text-stone-400">Seamless expressway bypass</p>
-      </div>
-      <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Lonavala Main Market</h4>
-        <div class="text-xl font-extrabold text-amber-600 my-1">~08 Mins</div>
-        <p class="text-xs text-stone-400">Local organic grocery & medical stores</p>
+        <h4 class="font-bold text-[#0F2A24] text-sm">Baner Expressway Start</h4>
+        <div class="text-xl font-extrabold text-amber-600 my-1">~40 Mins</div>
+        <p class="text-xs text-stone-400">Direct run straight up to Lonavala</p>
       </div>
     </div>
   </div>
@@ -238,10 +250,10 @@ include 'includes/header.php';
     <div class="text-center max-w-3xl mx-auto mb-16">
       <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Curated Highlights</span>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mt-2 mb-4">
-        Engineered for Seamless Remote Productivity
+        The Premier Fly-In Couple Haven Near Pune
       </h2>
       <p class="text-stone-600 text-base md:text-lg">
-        Everything founders, remote engineers, and creative teams need for productive work sprints.
+        Celebrate with friends flying into Pune for a luxury weekend retreat.
       </p>
     </div>
 
@@ -250,93 +262,93 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-20">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
-          Connectivity & Power
+          Hill Pool
         </div>
         <h3 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mb-4">
-          Dual Fiber Mesh Wi-Fi & 100% Inverter/DG Backup
+          Private Swimming Pool with Sahyadri Views
         </h3>
         <p class="text-stone-600 text-base leading-relaxed mb-6">
-          Never drop an important client presentation or Zoom meeting. Full mesh coverage extending from bedroom desks to garden verandas.
+          Unwind in the private pool with valley views, sun loungers, and music playing on the deck.
         </p>
         <ul class="space-y-3">
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            300+ Mbps high-speed dual fiber connections
+            Private swimming pool with mountain backdrop
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Automatic heavy inverter & generator backup
+            Terrace view deck for evening tea
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Ergonomic work nooks with abundant charging ports
+            Ample poolside seating for the whole gang
           </li>
         </ul>
       </div>
       <div>
-        <img loading="lazy" src="images/office_team_building_villa_mumbai.webp" alt="Dual Fiber Mesh Wi-Fi & 100% Inverter/DG Backup" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
+        <img loading="lazy" src="images/v1769862646_pool_ckwldd.webp" alt="Private Swimming Pool with Sahyadri Views" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
       </div>
     </div>
     <!-- Experience 2 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-20">
       <div lg:order-2>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
-          Active Wellness
+          Sizzling Grills
         </div>
         <h3 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mb-4">
-          Post-Call Private Pool Dips & Nature Decks
+          Live Poolside Charcoal BBQ & Feasts
         </h3>
         <p class="text-stone-600 text-base leading-relaxed mb-6">
-          Step away from screens during lunch. Rejuvenate with private swimming pool laps, table tennis, or quiet mountain terrace strolls.
+          Fresh barbecue skewers by the pool followed by delicious home-style buffets prepared by our resident cooks.
         </p>
         <ul class="space-y-3">
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Private swimming pool with sun deck loungers
+            Live charcoal BBQ with paneer & chicken skewers
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Indoor table tennis, pool table & board games
+            Authentic Maharashtrian & North Indian buffets
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Scenic mountain balconies with valley views
+            Freshly brewed chai with piping hot pakodas
           </li>
         </ul>
       </div>
       <div lg:order-1>
-        <img loading="lazy" src="images/v1769863047_29_qtp6zr.webp" alt="Post-Call Private Pool Dips & Nature Decks" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
+        <img loading="lazy" src="images/v1769863054_03.1_c7vcel.webp" alt="Live Poolside Charcoal BBQ & Feasts" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
       </div>
     </div>
     <!-- Experience 3 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-20">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
-          Nutritious Dining
+          4 Master Suites
         </div>
         <h3 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mb-4">
-          Healthy Home-Style Cooking by Personal Cook
+          4 Ensuite Bedrooms with Mountain Views
         </h3>
         <p class="text-stone-600 text-base leading-relaxed mb-6">
-          Say goodbye to oily delivery food. Our resident cook prepares wholesome breakfast, lunch, and dinner tailored to your dietary regimen.
+          Independent king-size air-conditioned bedrooms with attached washrooms for 4 couples.
         </p>
         <ul class="space-y-3">
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Daily breakfast, wholesome thalis, and snacks
+            4 private master bedrooms for 4 couples
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Pure Veg, Jain, and Non-Veg dietary options
+            Balcony sit-outs with mountain views
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Evening tea/coffee served on the terrace
+            Hotel-grade linens and amenities
           </li>
         </ul>
       </div>
       <div>
-        <img loading="lazy" src="images/v1769863054_03.1_c7vcel.webp" alt="Healthy Home-Style Cooking by Personal Cook" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
+        <img loading="lazy" src="images/v1773076226_27_ipqwdd.webp" alt="4 Ensuite Bedrooms with Mountain Views" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
       </div>
     </div>
   </div>
@@ -348,10 +360,10 @@ include 'includes/header.php';
     <div class="text-center max-w-3xl mx-auto mb-16">
       <span class="text-amber-400 font-bold uppercase tracking-widest text-xs">Tailored Itineraries</span>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold font-display mt-2 mb-4">
-        Long Stay Workation Pricing & Tiers
+        Pune Airport Couple Packages
       </h2>
       <p class="text-stone-400 text-base md:text-lg">
-        Special tiered packages offering substantial savings for extended weekly and monthly stays.
+        Flexible packages with whole-estate privacy and transparent tariffs.
       </p>
     </div>
 
@@ -360,14 +372,14 @@ include 'includes/header.php';
       <!-- Package 1 -->
       <div class="bg-stone-800/80 rounded-3xl p-8 border border-white/10 hover:border-amber-500/50 transition-all flex flex-col justify-between">
         <div>
-          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Weekly Stay</div>
-          <h3 class="text-2xl font-bold text-white font-display mb-3">7-Day Sprint Workation</h3>
-          <p class="text-stone-400 text-sm mb-6">Ideal for product release sprints, roadmap planning, or writing retreats.</p>
+          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">1-Night Stay</div>
+          <h3 class="text-2xl font-bold text-white font-display mb-3">Weekend Couple Express</h3>
+          <p class="text-stone-400 text-sm mb-6">Quick Saturday-to-Sunday party trip without any travel fatigue.</p>
           <ul class="space-y-3 text-sm text-stone-300 mb-8">
-            <li class="flex items-center gap-2">✓ Private 4BHK villa buyout for 7 days</li>
-            <li class="flex items-center gap-2">✓ High-speed WiFi & dedicated power backup</li>
-            <li class="flex items-center gap-2">✓ Daily housekeeping & chef meal plans</li>
-            <li class="flex items-center gap-2">✓ Full private pool & lawn access</li>
+            <li class="flex items-center gap-2">✓ Full 4BHK private estate access</li>
+            <li class="flex items-center gap-2">✓ Private pool & games arena</li>
+            <li class="flex items-center gap-2">✓ Evening tea & snacks</li>
+            <li class="flex items-center gap-2">✓ Dedicated on-site caretakers</li>
           </ul>
         </div>
         <a href="#corporate-quote" class="w-full py-3.5 bg-white/10 hover:bg-amber-500 hover:text-stone-950 text-white font-bold rounded-xl text-center text-xs uppercase tracking-wider transition">
@@ -380,14 +392,14 @@ include 'includes/header.php';
           Most Popular
         </div>
         <div>
-          <div class="text-xs uppercase tracking-widest text-amber-400 font-bold mb-2 mt-2">Fortnight Stay</div>
-          <h3 class="text-2xl font-bold text-white font-display mb-3">14-Day Deep Work Retreat</h3>
-          <p class="text-stone-300 text-sm mb-6">Our most booked extended package for remote squads and creative freelancers.</p>
+          <div class="text-xs uppercase tracking-widest text-amber-400 font-bold mb-2 mt-2">2-Night Stay</div>
+          <h3 class="text-2xl font-bold text-white font-display mb-3">Full Weekend Celebration</h3>
+          <p class="text-stone-300 text-sm mb-6">Ample time to relax, party, and reconnect with zero rush.</p>
           <ul class="space-y-3 text-sm text-stone-200 mb-8">
-            <li class="flex items-center gap-2">✓ 14 Nights private villa accommodation</li>
-            <li class="flex items-center gap-2">✓ Dedicated workstation setup & office amenities</li>
-            <li class="flex items-center gap-2">✓ Complimentary live BBQ evening session</li>
-            <li class="flex items-center gap-2">✓ Substantial long-stay discounted tariff</li>
+            <li class="flex items-center gap-2">✓ Complete 48-hour villa buyout</li>
+            <li class="flex items-center gap-2">✓ Complimentary live BBQ setup</li>
+            <li class="flex items-center gap-2">✓ Garden bonfire session</li>
+            <li class="flex items-center gap-2">✓ Flexible checkout timings</li>
           </ul>
         </div>
         <a href="#corporate-quote" class="w-full py-3.5 bg-amber-500 hover:bg-amber-600 text-stone-950 font-bold rounded-xl text-center text-xs uppercase tracking-wider transition shadow-lg shadow-amber-500/20">
@@ -397,14 +409,14 @@ include 'includes/header.php';
       <!-- Package 3 -->
       <div class="bg-stone-800/80 rounded-3xl p-8 border border-white/10 hover:border-amber-500/50 transition-all flex flex-col justify-between">
         <div>
-          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Monthly Stay</div>
-          <h3 class="text-2xl font-bold text-white font-display mb-3">30-Day Mountain Residence</h3>
-          <p class="text-stone-400 text-sm mb-6">Transform Lonavala into your serene secondary home for an entire month.</p>
+          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Midweek Special</div>
+          <h3 class="text-2xl font-bold text-white font-display mb-3">Midweek Romantic Stay</h3>
+          <p class="text-stone-400 text-sm mb-6">Mon-Thu booking offering tranquility and up to 30% discount.</p>
           <ul class="space-y-3 text-sm text-stone-300 mb-8">
-            <li class="flex items-center gap-2">✓ Complete estate buyout for 30 days</li>
-            <li class="flex items-center gap-2">✓ Personalized culinary meal plans</li>
-            <li class="flex items-center gap-2">✓ Weekly deep sanitization & linen refresh</li>
-            <li class="flex items-center gap-2">✓ Unbeatable monthly contract rates</li>
+            <li class="flex items-center gap-2">✓ 30% discount on regular rates</li>
+            <li class="flex items-center gap-2">✓ Peaceful surroundings</li>
+            <li class="flex items-center gap-2">✓ 300 Mbps Wi-Fi for remote work</li>
+            <li class="flex items-center gap-2">✓ Fresh homestyle chef cooking</li>
           </ul>
         </div>
         <a href="#corporate-quote" class="w-full py-3.5 bg-white/10 hover:bg-amber-500 hover:text-stone-950 text-white font-bold rounded-xl text-center text-xs uppercase tracking-wider transition">
@@ -422,10 +434,10 @@ include 'includes/header.php';
     <div class="mb-10 text-center max-w-3xl mx-auto">
       <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Featured Accommodations</span>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mt-2 mb-4">
-        Our Corporate Outing Estates
+        Our Romantic Luxury Villas & Estates
       </h2>
       <p class="text-base sm:text-lg text-stone-600 leading-relaxed">
-        Three homes. Three distinct moods. One unforgettable stay
+        Private swimming pools, heated jacuzzis, candlelit lawns, and secluded valley serenity.
       </p>
     </div>
     <div class="w-full">
@@ -911,7 +923,7 @@ include 'includes/header.php';
 </div>
 
 <!-- ===== HIGH-CONVERTING BOOKING & QUOTE FORM ===== -->
-<section id="corporate-quote" class="py-20 relative overflow-hidden bg-[#0B2530]">
+<section id="corporate-quote" class="py-20 relative overflow-hidden bg-[#240713]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     <div class="corporate-quote-grid">
       
@@ -995,8 +1007,8 @@ include 'includes/header.php';
           </div>
 
           <form action="lead-handler.php" method="POST" class="space-y-4">
-            <input type="hidden" name="source" value="homestay_lonavala_long_stay_workation">
-            <input type="hidden" name="villa" value="Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef">
+            <input type="hidden" name="source" value="4bhk_villa_near_pune_airport_couples">
+            <input type="hidden" name="villa" value="4BHK Villa Near Pune Airport for Couples | 65 Mins Drive">
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
@@ -1072,11 +1084,11 @@ include 'includes/header.php';
 <!-- ===== SEO CONTENT ARTICLE ===== -->
 <section class="py-20 bg-white">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 seo-article text-left">
-    <h2>Why Lonavala is the Ideal Workation Destination Near Mumbai & Pune</h2>
-    <p>With hybrid and remote work now an established standard for executives, engineers, and digital agencies, spending weeks cooped up in crowded Mumbai or Pune apartments leads to mental burnout.</p>
-    <p>Lonavala provides the ideal escape: cool hill station weather, lush Sahyadri topography, and complete tranquility—all within an easy 90-minute drive from the city.</p>
-    <h3>Bespoke Remote Work Infrastructure at Retrofusion</h3>
-    <p>Unlike commercial hotels where Wi-Fi drops and room service is exorbitantly priced, Retrofusion villas function like high-end private residences. You get reliable dual-fiber mesh internet, uninterrupted power backup, dedicated quiet rooms, and personal cooks who prepare clean, nutritious meals daily.</p>
+    <h2>Why Groups Flying into Pune Airport Choose Retrofusion Lonavala</h2>
+    <p>Pune Airport has great flight connections across India. When couple friends fly in for a weekend together, driving straight to Lonavala takes just about 65 minutes.</p>
+    <p>Instead of multiple hotel rooms in the city, our 4BHK estates give 4 couples an entire private luxury villa with private pool, jacuzzi, and dedicated cooks.</p>
+    <h3>Complete Rest & Relaxation</h3>
+    <p>Our team takes care of food, grilling, bonfire setups, and cleanup so you can focus entirely on enjoying your weekend.</p>
   </div>
 </section>
 
@@ -1097,36 +1109,48 @@ include 'includes/header.php';
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
           <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
-            How fast and reliable is the internet for video conferences?
+            How far is the villa from Pune Airport?
           </span>
           <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
-          All our villas are fitted with dual-band 300+ Mbps optical fiber mesh networks with generator backup, ensuring zero jitter on Zoom, Meet, and Teams calls.
+          It is roughly 70 km from Pune Airport (PNQ), taking around 65 minutes via the expressway bypass.
         </div>
       </div>
       <!-- FAQ 2 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
           <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
-            Are food and housekeeping included for long stays?
+            Can 4 couples stay with complete privacy?
           </span>
           <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
-          Yes! Our in-house cooks prepare daily fresh meals according to your preferences, and daily housekeeping ensures clean rooms and refreshed linens.
+          Yes, each couple has their own private AC master bedroom with ensuite bathroom.
         </div>
       </div>
       <!-- FAQ 3 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
           <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
-            What are the savings on weekly and monthly stays?
+            Can your team arrange candlelit dinners?
           </span>
           <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
-          We offer substantial percentage discounts on stays of 7 days, 14 days, and 30 days compared to weekend rack rates.
+          Yes, we can arrange romantic candlelit dinners on the garden lawn or poolside deck.
+        </div>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
+            Is Wi-Fi fast enough for remote work?
+          </span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
+          Yes, all villas have high-speed 300+ Mbps dual-fiber mesh Wi-Fi.
         </div>
       </div>
     </div>

@@ -1,13 +1,13 @@
 <?php
-$pageTitle = "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef";
-$pageDescription = "Book a long stay workation homestay in Lonavala at Retrofusion. 300 Mbps fiber internet, power backup, quiet desks, private pool, home-style meals & weekly discounts.";
-$pageKeywords = "homestay in lonavala for long stay workation, long stay villa lonavala, remote work homestay lonavala, workation in lonavala, monthly stay villa lonavala";
+$pageTitle = "4BHK Villa Near Mumbai for Reunion Party | Private Pool Estates";
+$pageDescription = "Plan the best reunion party near Mumbai in Lonavala. 90 mins drive. 4BHK luxury pool villas sleeping 15-25 friends with BBQ, bonfire, music lounge & home chef food.";
+$pageKeywords = "4bhk villa near mumbai for reunion party, reunion villa near mumbai, private pool villa near mumbai for reunion, college reunion stay near mumbai, 4bhk get together villa mumbai";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation";
-$ogTitle = "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef";
-$ogImage = "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp";
+$canonicalUrl = "https://retrofusion.in/4bhk-villa-near-mumbai-for-reunion-party";
+$ogTitle = "4BHK Villa Near Mumbai for Reunion Party | Private Pool Estates";
+$ogImage = "https://retrofusion.in/images/v1770226533_N34_stewru.webp";
 include 'includes/header.php';
 ?>
 
@@ -18,12 +18,12 @@ include 'includes/header.php';
   "@graph": [
     {
       "@type": "LodgingBusiness",
-      "@id": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation#lodging",
-      "name": "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef",
-      "description": "Book a long stay workation homestay in Lonavala at Retrofusion. 300 Mbps fiber internet, power backup, quiet desks, private pool, home-style meals & weekly discounts.",
-      "url": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation",
+      "@id": "https://retrofusion.in/4bhk-villa-near-mumbai-for-reunion-party#lodging",
+      "name": "4BHK Villa Near Mumbai for Reunion Party | Private Pool Estates",
+      "description": "Plan the best reunion party near Mumbai in Lonavala. 90 mins drive. 4BHK luxury pool villas sleeping 15-25 friends with BBQ, bonfire, music lounge & home chef food.",
+      "url": "https://retrofusion.in/4bhk-villa-near-mumbai-for-reunion-party",
       "image": [
-        "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
         "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp"
       ],
@@ -44,7 +44,7 @@ include 'includes/header.php';
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation#breadcrumb",
+      "@id": "https://retrofusion.in/4bhk-villa-near-mumbai-for-reunion-party#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -55,37 +55,49 @@ include 'includes/header.php';
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef",
-          "item": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation"
+          "name": "4BHK Villa Near Mumbai for Reunion Party | Private Pool Estates",
+          "item": "https://retrofusion.in/4bhk-villa-near-mumbai-for-reunion-party"
         }
       ]
     },
     {
       "@type": "FAQPage",
-      "@id": "https://retrofusion.in/homestay-in-lonavala-for-long-stay-workation#faq",
+      "@id": "https://retrofusion.in/4bhk-villa-near-mumbai-for-reunion-party#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How fast and reliable is the internet for video conferences?",
+          "name": "How far is the villa from Mumbai?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "All our villas are fitted with dual-band 300+ Mbps optical fiber mesh networks with generator backup, ensuring zero jitter on Zoom, Meet, and Teams calls."
+            "text": "Our villas are located in Lonavala, just 80-90 km from Navi Mumbai and approximately 90-105 minutes drive from BKC and Dadar via the Mumbai-Pune Expressway."
+
           }
         },
         {
           "@type": "Question",
-          "name": "Are food and housekeeping included for long stays?",
+          "name": "Can we bring outside alcohol for the reunion party?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! Our in-house cooks prepare daily fresh meals according to your preferences, and daily housekeeping ensures clean rooms and refreshed linens."
+            "text": "Yes, you can bring your own beverages with zero corkage fees. We provide refrigerators and ice buckets."
+
           }
         },
         {
           "@type": "Question",
-          "name": "What are the savings on weekly and monthly stays?",
+          "name": "Is parking available for multiple vehicles?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer substantial percentage discounts on stays of 7 days, 14 days, and 30 days compared to weekend rack rates."
+            "text": "Yes, our gated estates offer private secure parking for 4 to 6 SUVs/cars."
+
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you accommodate large reunion groups over 20 guests?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our 4BHK villas can host up to 20-25 guests with extra rollaway mattresses and bedding setups."
+
           }
         }
       ]
@@ -140,26 +152,26 @@ include 'includes/header.php';
 </style>
 
 <!-- ===== HERO SECTION ===== -->
-<section class="relative min-h-[90vh] flex items-center justify-center bg-[#0B2530] overflow-hidden mobile-hero-padding desktop-hero-padding pb-16 px-4 sm:px-6 lg:px-8">
+<section class="relative min-h-[90vh] flex items-center justify-center bg-[#121028] overflow-hidden mobile-hero-padding desktop-hero-padding pb-16 px-4 sm:px-6 lg:px-8">
   <div class="absolute inset-0 z-0">
-    <img src="images/v1773076226_27_ipqwdd.webp" alt="Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef" class="w-full h-full object-cover opacity-35 scale-105 transform transition duration-1000 ease-out" />
-    <div class="absolute inset-0 bg-gradient-to-t from-[#0B2530] via-[#0B2530]/75 to-transparent"></div>
-    <div class="absolute inset-0 bg-gradient-to-r from-[#0B2530]/90 via-transparent to-[#0B2530]/90"></div>
+    <img src="images/v1770226533_N34_stewru.webp" alt="4BHK Villa Near Mumbai for Reunion Party | Private Pool Estates" class="w-full h-full object-cover opacity-35 scale-105 transform transition duration-1000 ease-out" />
+    <div class="absolute inset-0 bg-gradient-to-t from-[#121028] via-[#121028]/75 to-transparent"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[#121028]/90 via-transparent to-[#121028]/90"></div>
   </div>
 
   <div class="max-w-7xl mx-auto relative z-10 w-full">
     <div class="text-center max-w-4xl mx-auto">
       <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full badge-gold text-xs sm:text-sm font-semibold uppercase tracking-widest mb-6">
         <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
-        Remote-Ready Hillside Sanctuary • 300 Mbps Fiber Mesh & 24/7 Power
+        90 Mins from Mumbai • Quick Expressway Drive into Lonavala Hills
       </div>
 
       <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-display leading-[1.12]">
-        The Ultimate Homestay in Lonavala for <br class='hidden sm:inline' /><span class='highlight-gradient'>Long Stay Workations</span>
+        Top-Rated 4BHK Villa Near Mumbai for <br class='hidden sm:inline' /><span class='highlight-gradient'>Reunion Parties & Batch Meets</span>
       </h1>
 
       <p class="text-base sm:text-lg md:text-xl text-stone-200 font-light max-w-3xl mx-auto mb-10 leading-relaxed">
-        Trade traffic jams and noisy city apartments for serene valley views, birdsong, and crisp mountain breeze. Work with uninterrupted power, high-speed dual fiber, private pool breaks, and fresh chef-prepared meals.
+        Avoid Mumbai traffic and cramped banquet rooms. Escape to a private 4BHK hill station villa with exclusive pool, starlit bonfire lawn, live barbecue, and private spaces for 15-25 friends.
       </p>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mb-14">
@@ -176,20 +188,20 @@ include 'includes/header.php';
 
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-8 border-t border-white/10 text-left">
         <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
+          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">90 Mins Drive</div>
+          <div class="text-xs text-stone-300 font-medium">Fast Expressway Access from Mumbai</div>
+        </div>
+        <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
           <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">100% Private</div>
-          <div class="text-xs text-stone-300 font-medium">Exclusive Pool & Entire Villa to Your Squad</div>
+          <div class="text-xs text-stone-300 font-medium">No Outside Guests or Shared Pools</div>
         </div>
         <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
-          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Gourmet Chef</div>
-          <div class="text-xs text-stone-300 font-medium">Custom Buffets, Snacks & Poolside Live BBQ</div>
+          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Live BBQ</div>
+          <div class="text-xs text-stone-300 font-medium">Poolside Charcoal Grill & Bonfire</div>
         </div>
         <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
-          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Fast Highway</div>
-          <div class="text-xs text-stone-300 font-medium">Expressway Access into Lonavala Hills</div>
-        </div>
-        <div class="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10">
-          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">GST Invoicing</div>
-          <div class="text-xs text-stone-300 font-medium">Official Billing for Easy Reimbursements</div>
+          <div class="text-amber-400 font-bold text-xl md:text-2xl font-display">Sleeps 15-25</div>
+          <div class="text-xs text-stone-300 font-medium">Spacious 4BHKs with Extra Bedding</div>
         </div>
       </div>
     </div>
@@ -202,31 +214,31 @@ include 'includes/header.php';
     <div class="text-center max-w-3xl mx-auto mb-10">
       <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Seamless Highway Route</span>
       <h2 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mt-2">
-        Easy Highway Connectivity for Extended Stays
+        Fast Drive from Every Mumbai Corner
       </h2>
       <p class="text-stone-500 text-sm mt-2">Skip painful city gridlocks. Arrive effortlessly at our private gated estates.</p>
     </div>
 
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
       <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Mumbai (BKC / Powai)</h4>
+        <h4 class="font-bold text-[#0F2A24] text-sm">South Mumbai / BKC</h4>
         <div class="text-xl font-extrabold text-amber-600 my-1">~90 Mins</div>
-        <p class="text-xs text-stone-400">Direct Expressway cruise</p>
+        <p class="text-xs text-stone-400">Via Eastern Freeway & Expressway</p>
       </div>
       <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Pune (Baner / Hinjewadi)</h4>
+        <h4 class="font-bold text-[#0F2A24] text-sm">Western Suburbs (Andheri)</h4>
+        <div class="text-xl font-extrabold text-amber-600 my-1">~105 Mins</div>
+        <p class="text-xs text-stone-400">Fast transit via JVLR & Expressway</p>
+      </div>
+      <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
+        <h4 class="font-bold text-[#0F2A24] text-sm">Navi Mumbai / Vashi</h4>
         <div class="text-xl font-extrabold text-amber-600 my-1">~55 Mins</div>
-        <p class="text-xs text-stone-400">Fast highway commute</p>
+        <p class="text-xs text-stone-400">Smooth Atal Setu / Expressway run</p>
       </div>
       <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Navi Mumbai / Panvel</h4>
-        <div class="text-xl font-extrabold text-amber-600 my-1">~50 Mins</div>
-        <p class="text-xs text-stone-400">Seamless expressway bypass</p>
-      </div>
-      <div class="p-5 rounded-2xl bg-white border border-stone-200 shadow-sm text-center">
-        <h4 class="font-bold text-[#0F2A24] text-sm">Lonavala Main Market</h4>
-        <div class="text-xl font-extrabold text-amber-600 my-1">~08 Mins</div>
-        <p class="text-xs text-stone-400">Local organic grocery & medical stores</p>
+        <h4 class="font-bold text-[#0F2A24] text-sm">Thane / Central Suburbs</h4>
+        <div class="text-xl font-extrabold text-amber-600 my-1">~75 Mins</div>
+        <p class="text-xs text-stone-400">Direct Airoli-Panvel-Expressway</p>
       </div>
     </div>
   </div>
@@ -238,10 +250,10 @@ include 'includes/header.php';
     <div class="text-center max-w-3xl mx-auto mb-16">
       <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Curated Highlights</span>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mt-2 mb-4">
-        Engineered for Seamless Remote Productivity
+        The Ultimate Alumni & Friends Escape Near Mumbai
       </h2>
       <p class="text-stone-600 text-base md:text-lg">
-        Everything founders, remote engineers, and creative teams need for productive work sprints.
+        Turn an ordinary weekend into a legendary batch reunion just 90 minutes outside Mumbai.
       </p>
     </div>
 
@@ -250,93 +262,93 @@ include 'includes/header.php';
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-20">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
-          Connectivity & Power
+          Private Leisure
         </div>
         <h3 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mb-4">
-          Dual Fiber Mesh Wi-Fi & 100% Inverter/DG Backup
+          Private Pool Deck with Hill Views
         </h3>
         <p class="text-stone-600 text-base leading-relaxed mb-6">
-          Never drop an important client presentation or Zoom meeting. Full mesh coverage extending from bedroom desks to garden verandas.
+          Enjoy midnight pool games and sunbathing loungers with panoramic Sahyadri views without prying eyes.
         </p>
         <ul class="space-y-3">
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            300+ Mbps high-speed dual fiber connections
+            Spacious private swimming pool with night lights
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Automatic heavy inverter & generator backup
+            Private terrace sit-outs with mist breezes
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Ergonomic work nooks with abundant charging ports
+            Outdoor pool shower & relaxing sun loungers
           </li>
         </ul>
       </div>
       <div>
-        <img loading="lazy" src="images/office_team_building_villa_mumbai.webp" alt="Dual Fiber Mesh Wi-Fi & 100% Inverter/DG Backup" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
+        <img loading="lazy" src="images/v1769868140_B30_yc8rqu.webp" alt="Private Pool Deck with Hill Views" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
       </div>
     </div>
     <!-- Experience 2 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-20">
       <div lg:order-2>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
-          Active Wellness
+          Gourmet BBQ
         </div>
         <h3 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mb-4">
-          Post-Call Private Pool Dips & Nature Decks
+          Live Charcoal Grills & Maharashtrian Feasts
         </h3>
         <p class="text-stone-600 text-base leading-relaxed mb-6">
-          Step away from screens during lunch. Rejuvenate with private swimming pool laps, table tennis, or quiet mountain terrace strolls.
+          Our resident cooks prepare steaming hot evening snacks, live charcoal kebabs, and traditional thalis.
         </p>
         <ul class="space-y-3">
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Private swimming pool with sun deck loungers
+            Live poolside charcoal BBQ setup
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Indoor table tennis, pool table & board games
+            Traditional mutton, chicken, and paneer delicacies
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Scenic mountain balconies with valley views
+            Full breakfast spread with poha, misal & eggs
           </li>
         </ul>
       </div>
       <div lg:order-1>
-        <img loading="lazy" src="images/v1769863047_29_qtp6zr.webp" alt="Post-Call Private Pool Dips & Nature Decks" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
+        <img loading="lazy" src="images/v1769863054_03.1_c7vcel.webp" alt="Live Charcoal Grills & Maharashtrian Feasts" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
       </div>
     </div>
     <!-- Experience 3 -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-20">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider mb-4">
-          Nutritious Dining
+          Midnight Banter
         </div>
         <h3 class="text-2xl sm:text-3xl font-bold text-[#0F2A24] font-display mb-4">
-          Healthy Home-Style Cooking by Personal Cook
+          Giant Living Hall with Music & Screen
         </h3>
         <p class="text-stone-600 text-base leading-relaxed mb-6">
-          Say goodbye to oily delivery food. Our resident cook prepares wholesome breakfast, lunch, and dinner tailored to your dietary regimen.
+          Sprawling living room with comfortable sofas where your whole gang can chat, sing, and project nostalgic memories.
         </p>
         <ul class="space-y-3">
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Daily breakfast, wholesome thalis, and snacks
+            Air-conditioned central living hall seating 20+
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Pure Veg, Jain, and Non-Veg dietary options
+            55-65 inch Smart TV with HDMI & casting
           </li>
           <li class="flex items-center text-stone-700 text-sm font-medium">
             <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-            Evening tea/coffee served on the terrace
+            Dedicated table tennis and indoor games corner
           </li>
         </ul>
       </div>
       <div>
-        <img loading="lazy" src="images/v1769863054_03.1_c7vcel.webp" alt="Healthy Home-Style Cooking by Personal Cook" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
+        <img loading="lazy" src="images/v1769863051_08.2_ws3oiy.webp" alt="Giant Living Hall with Music & Screen" class="w-full h-80 sm:h-96 object-cover rounded-3xl shadow-2xl border border-stone-200" />
       </div>
     </div>
   </div>
@@ -348,10 +360,10 @@ include 'includes/header.php';
     <div class="text-center max-w-3xl mx-auto mb-16">
       <span class="text-amber-400 font-bold uppercase tracking-widest text-xs">Tailored Itineraries</span>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold font-display mt-2 mb-4">
-        Long Stay Workation Pricing & Tiers
+        Mumbai Reunion Getaway Packages
       </h2>
       <p class="text-stone-400 text-base md:text-lg">
-        Special tiered packages offering substantial savings for extended weekly and monthly stays.
+        Carefully planned packages for college friends, school alumni, and extended families.
       </p>
     </div>
 
@@ -360,14 +372,14 @@ include 'includes/header.php';
       <!-- Package 1 -->
       <div class="bg-stone-800/80 rounded-3xl p-8 border border-white/10 hover:border-amber-500/50 transition-all flex flex-col justify-between">
         <div>
-          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Weekly Stay</div>
-          <h3 class="text-2xl font-bold text-white font-display mb-3">7-Day Sprint Workation</h3>
-          <p class="text-stone-400 text-sm mb-6">Ideal for product release sprints, roadmap planning, or writing retreats.</p>
+          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Overnight Bash</div>
+          <h3 class="text-2xl font-bold text-white font-display mb-3">1-Night Fast Reunion</h3>
+          <p class="text-stone-400 text-sm mb-6">Quick weekend escape from Mumbai to catch up and unwind.</p>
           <ul class="space-y-3 text-sm text-stone-300 mb-8">
-            <li class="flex items-center gap-2">✓ Private 4BHK villa buyout for 7 days</li>
-            <li class="flex items-center gap-2">✓ High-speed WiFi & dedicated power backup</li>
-            <li class="flex items-center gap-2">✓ Daily housekeeping & chef meal plans</li>
-            <li class="flex items-center gap-2">✓ Full private pool & lawn access</li>
+            <li class="flex items-center gap-2">✓ Entire 4BHK estate private access</li>
+            <li class="flex items-center gap-2">✓ Private pool & indoor lounge games</li>
+            <li class="flex items-center gap-2">✓ Evening high tea & snacks</li>
+            <li class="flex items-center gap-2">✓ On-site caretaker assistance</li>
           </ul>
         </div>
         <a href="#corporate-quote" class="w-full py-3.5 bg-white/10 hover:bg-amber-500 hover:text-stone-950 text-white font-bold rounded-xl text-center text-xs uppercase tracking-wider transition">
@@ -380,14 +392,14 @@ include 'includes/header.php';
           Most Popular
         </div>
         <div>
-          <div class="text-xs uppercase tracking-widest text-amber-400 font-bold mb-2 mt-2">Fortnight Stay</div>
-          <h3 class="text-2xl font-bold text-white font-display mb-3">14-Day Deep Work Retreat</h3>
-          <p class="text-stone-300 text-sm mb-6">Our most booked extended package for remote squads and creative freelancers.</p>
+          <div class="text-xs uppercase tracking-widest text-amber-400 font-bold mb-2 mt-2">Full Weekend</div>
+          <h3 class="text-2xl font-bold text-white font-display mb-3">2-Night / 3-Day Celebration</h3>
+          <p class="text-stone-300 text-sm mb-6">The preferred alumni choice with unhurried pool parties and bonfires.</p>
           <ul class="space-y-3 text-sm text-stone-200 mb-8">
-            <li class="flex items-center gap-2">✓ 14 Nights private villa accommodation</li>
-            <li class="flex items-center gap-2">✓ Dedicated workstation setup & office amenities</li>
-            <li class="flex items-center gap-2">✓ Complimentary live BBQ evening session</li>
-            <li class="flex items-center gap-2">✓ Substantial long-stay discounted tariff</li>
+            <li class="flex items-center gap-2">✓ 48 hours complete villa buyout</li>
+            <li class="flex items-center gap-2">✓ Live BBQ setup on Saturday night</li>
+            <li class="flex items-center gap-2">✓ Starlit bonfire with music</li>
+            <li class="flex items-center gap-2">✓ Flexible checkout timing</li>
           </ul>
         </div>
         <a href="#corporate-quote" class="w-full py-3.5 bg-amber-500 hover:bg-amber-600 text-stone-950 font-bold rounded-xl text-center text-xs uppercase tracking-wider transition shadow-lg shadow-amber-500/20">
@@ -397,14 +409,14 @@ include 'includes/header.php';
       <!-- Package 3 -->
       <div class="bg-stone-800/80 rounded-3xl p-8 border border-white/10 hover:border-amber-500/50 transition-all flex flex-col justify-between">
         <div>
-          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Monthly Stay</div>
-          <h3 class="text-2xl font-bold text-white font-display mb-3">30-Day Mountain Residence</h3>
-          <p class="text-stone-400 text-sm mb-6">Transform Lonavala into your serene secondary home for an entire month.</p>
+          <div class="text-xs uppercase tracking-widest text-stone-400 font-bold mb-2">Weekday Escape</div>
+          <h3 class="text-2xl font-bold text-white font-display mb-3">Midweek Special Reunion</h3>
+          <p class="text-stone-400 text-sm mb-6">Mon-Thu stay offering discounted tariffs and zero expressway traffic.</p>
           <ul class="space-y-3 text-sm text-stone-300 mb-8">
-            <li class="flex items-center gap-2">✓ Complete estate buyout for 30 days</li>
-            <li class="flex items-center gap-2">✓ Personalized culinary meal plans</li>
-            <li class="flex items-center gap-2">✓ Weekly deep sanitization & linen refresh</li>
-            <li class="flex items-center gap-2">✓ Unbeatable monthly contract rates</li>
+            <li class="flex items-center gap-2">✓ Save up to 30% on booking tariffs</li>
+            <li class="flex items-center gap-2">✓ Peaceful serene atmosphere</li>
+            <li class="flex items-center gap-2">✓ High-speed Wi-Fi throughout</li>
+            <li class="flex items-center gap-2">✓ Tailored chef meal packages</li>
           </ul>
         </div>
         <a href="#corporate-quote" class="w-full py-3.5 bg-white/10 hover:bg-amber-500 hover:text-stone-950 text-white font-bold rounded-xl text-center text-xs uppercase tracking-wider transition">
@@ -422,10 +434,10 @@ include 'includes/header.php';
     <div class="mb-10 text-center max-w-3xl mx-auto">
       <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Featured Accommodations</span>
       <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mt-2 mb-4">
-        Our Corporate Outing Estates
+        Our Signature 4BHK Reunion Estates
       </h2>
       <p class="text-base sm:text-lg text-stone-600 leading-relaxed">
-        Three homes. Three distinct moods. One unforgettable stay
+        Three private estates. Private pools, vast gathering lawns, and unforgettable reunion memories.
       </p>
     </div>
     <div class="w-full">
@@ -911,7 +923,7 @@ include 'includes/header.php';
 </div>
 
 <!-- ===== HIGH-CONVERTING BOOKING & QUOTE FORM ===== -->
-<section id="corporate-quote" class="py-20 relative overflow-hidden bg-[#0B2530]">
+<section id="corporate-quote" class="py-20 relative overflow-hidden bg-[#121028]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     <div class="corporate-quote-grid">
       
@@ -995,8 +1007,8 @@ include 'includes/header.php';
           </div>
 
           <form action="lead-handler.php" method="POST" class="space-y-4">
-            <input type="hidden" name="source" value="homestay_lonavala_long_stay_workation">
-            <input type="hidden" name="villa" value="Homestay in Lonavala for Long Stay Workation | High-Speed WiFi & Chef">
+            <input type="hidden" name="source" value="4bhk_villa_near_mumbai_reunion_party">
+            <input type="hidden" name="villa" value="4BHK Villa Near Mumbai for Reunion Party | Private Pool Estates">
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
@@ -1072,11 +1084,11 @@ include 'includes/header.php';
 <!-- ===== SEO CONTENT ARTICLE ===== -->
 <section class="py-20 bg-white">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 seo-article text-left">
-    <h2>Why Lonavala is the Ideal Workation Destination Near Mumbai & Pune</h2>
-    <p>With hybrid and remote work now an established standard for executives, engineers, and digital agencies, spending weeks cooped up in crowded Mumbai or Pune apartments leads to mental burnout.</p>
-    <p>Lonavala provides the ideal escape: cool hill station weather, lush Sahyadri topography, and complete tranquility—all within an easy 90-minute drive from the city.</p>
-    <h3>Bespoke Remote Work Infrastructure at Retrofusion</h3>
-    <p>Unlike commercial hotels where Wi-Fi drops and room service is exorbitantly priced, Retrofusion villas function like high-end private residences. You get reliable dual-fiber mesh internet, uninterrupted power backup, dedicated quiet rooms, and personal cooks who prepare clean, nutritious meals daily.</p>
+    <h2>Why Groups Traveling from Mumbai Choose Retrofusion for Reunions</h2>
+    <p>Planning a reunion for Mumbai friends is challenging: city apartments don't have enough space, hotels split friends into separate rooms with 11 PM restaurant closures, and traffic is a nightmare.</p>
+    <p>Retrofusion in Lonavala provides the ideal solution just 90 minutes from Mumbai. Our 4BHK estates let 15 to 25 people stay together under one private roof, complete with private pool, party lawn, and cook services.</p>
+    <h3>Seamless Highway Journey from Mumbai</h3>
+    <p>Thanks to the Mumbai-Pune Expressway and the Atal Setu bridge, reaching Lonavala from Dadar, Bandra, Powai, or Navi Mumbai takes well under two hours. Your reunion begins the moment your car hits the open expressway.</p>
   </div>
 </section>
 
@@ -1097,36 +1109,48 @@ include 'includes/header.php';
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
           <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
-            How fast and reliable is the internet for video conferences?
+            How far is the villa from Mumbai?
           </span>
           <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
-          All our villas are fitted with dual-band 300+ Mbps optical fiber mesh networks with generator backup, ensuring zero jitter on Zoom, Meet, and Teams calls.
+          Our villas are located in Lonavala, just 80-90 km from Navi Mumbai and approximately 90-105 minutes drive from BKC and Dadar via the Mumbai-Pune Expressway.
         </div>
       </div>
       <!-- FAQ 2 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
           <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
-            Are food and housekeeping included for long stays?
+            Can we bring outside alcohol for the reunion party?
           </span>
           <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
-          Yes! Our in-house cooks prepare daily fresh meals according to your preferences, and daily housekeeping ensures clean rooms and refreshed linens.
+          Yes, you can bring your own beverages with zero corkage fees. We provide refrigerators and ice buckets.
         </div>
       </div>
       <!-- FAQ 3 -->
       <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
         <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
           <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
-            What are the savings on weekly and monthly stays?
+            Is parking available for multiple vehicles?
           </span>
           <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
         </button>
         <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
-          We offer substantial percentage discounts on stays of 7 days, 14 days, and 30 days compared to weekend rack rates.
+          Yes, our gated estates offer private secure parking for 4 to 6 SUVs/cars.
+        </div>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-base sm:text-lg font-display group-hover:text-amber-600 transition-colors">
+            Do you accommodate large reunion groups over 20 guests?
+          </span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 text-sm leading-relaxed">
+          Yes, our 4BHK villas can host up to 20-25 guests with extra rollaway mattresses and bedding setups.
         </div>
       </div>
     </div>

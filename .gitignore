@@ -4,3 +4,18 @@ whatsapp_leads.log
 /node_modules
 /claude-seo
 gsc-credentials.json
+lead_log.txt
+__pycache__/
+*.pyc
+
+# Local Agent & Planning directories
+.agent/
+.agents/
+.gemini/
+.gsd/
+.planning/
+adapters/
+model_capabilities.yaml
+GSD-STYLE.md
+PROJECT_RULES.md
+VERSION

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Retrofusion Website updated with CAPTCHA and SEO improvements",
   "scripts": {
-    "dev": "php -S localhost:8000"
+    "dev": "php -S localhost:8080 router.php"
   },
   "keywords": [
     "php",
