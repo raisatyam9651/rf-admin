@@ -105,16 +105,46 @@ $email_message = "
 </html>
 ";
 
-// Email headers
+// Email headers (for fallback)
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-$headers .= "From: Website WhatsApp Form <{$from_email}>" . "\r\n";
-$headers .= "Reply-To: {$from_email}" . "\r\n";
+$headers .= "From: Retrofusion WhatsApp Lead <websiteleads@dencespot.com>" . "\r\n";
+$headers .= "Reply-To: websiteleads@dencespot.com" . "\r\n";
 $headers .= "X-Mailer: PHP/" . phpversion();
 
-// Send email to multiple recipients in one call for better performance
+// Send email notification via PHPMailer (Zoho SMTP)
 $recipients = "satyamrai374@gmail.com, jitendrarora@gmail.com";
-$email_sent = mail($recipients, $subject, $email_message, $headers);
+$email_sent = false;
+
+try {
+    require_once __DIR__ . '/PHPMailer/PHPMailer.php';
+    require_once __DIR__ . '/PHPMailer/SMTP.php';
+    require_once __DIR__ . '/PHPMailer/Exception.php';
+
+    $mail = new \PHPMailer\PHPMailer\PHPMailer(true);
+    $mail->isSMTP();
+    $mail->Host = 'smtp.zoho.in';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'websiteleads@dencespot.com';
+    $mail->Password = 'a*Yt-h9*a-GKa8S';
+    $mail->SMTPSecure = \PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port = 465;
+    $mail->CharSet = 'UTF-8';
+
+    $mail->setFrom('websiteleads@dencespot.com', 'Retrofusion WhatsApp Lead');
+    $mail->addAddress('satyamrai374@gmail.com', 'Satyam Rai');
+    $mail->addAddress('jitendrarora@gmail.com', 'Jitendra Arora');
+
+    $mail->Subject = $subject;
+    $mail->MsgHTML($email_message);
+    $mail->IsHTML(true);
+
+    $mail->send();
+    $email_sent = true;
+} catch (\Exception $e) {
+    file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "WhatsApp SMTP Error: " . (isset($mail) ? $mail->ErrorInfo : '') . " | Exception: " . $e->getMessage() . "\n", FILE_APPEND);
+    $email_sent = @mail($recipients, $subject, $email_message, $headers);
+}
 
 // Google Sheets Webhook Integration
 // Instructions: Paste your deployed Google Apps Script Web App URL below

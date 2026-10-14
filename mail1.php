@@ -65,19 +65,23 @@ if (!empty($webhook_url)) {
 }
 
 try {
-    // SMTP Settings
+    // SMTP Settings (Zoho Mail)
     $mail->isSMTP();
-    $mail->Host = 'smtp.hostinger.com';
+    $mail->Host = 'smtp.zoho.in';
     $mail->SMTPAuth = true;
-    $mail->Username = 'contact@retrofusion.in';
-    $mail->Password = '#tORTx2j30';
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
+    $mail->Username = 'websiteleads@dencespot.com';
+    $mail->Password = 'a*Yt-h9*a-GKa8S';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port = 465;
+    $mail->CharSet = 'UTF-8';
 
     // Email Settings
-    $mail->setFrom('contact@retrofusion.in', $_POST['name'] ?? 'Website Visitor');
-    $mail->addAddress('satyamrai374@gmail.com', 'New Lead');
-    $mail->addAddress('jitendrarora@gmail.com', 'New Lead');
+    $mail->setFrom('websiteleads@dencespot.com', 'Retrofusion Website');
+    if (!empty($_POST['email'])) {
+        $mail->addReplyTo(filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL), strip_tags(trim($_POST['name'] ?? 'Website Visitor')));
+    }
+    $mail->addAddress('satyamrai374@gmail.com', 'Satyam Rai');
+    $mail->addAddress('jitendrarora@gmail.com', 'Jitendra Arora');
 
     $mail->Subject = 'New Lead Retrofusion Website';
     $mail->MsgHTML($body);
@@ -90,7 +94,7 @@ catch (Exception $e) {
     file_put_contents('lead_log.txt', date('[Y-m-d H:i:s] ') . "SMTP Error: " . $mail->ErrorInfo . " | Exception: " . $e->getMessage() . "\n", FILE_APPEND);
     
     // Optional fallback via standard mail()
-    $fallback_headers = "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: Retrofusion <contact@retrofusion.in>\r\n";
+    $fallback_headers = "MIME-Version: 1.0\r\nContent-type:text/html;charset=UTF-8\r\nFrom: Retrofusion <websiteleads@dencespot.com>\r\n";
     @mail('satyamrai374@gmail.com, jitendrarora@gmail.com', 'New Lead Retrofusion Website (Fallback)', $body, $fallback_headers);
 }
 
