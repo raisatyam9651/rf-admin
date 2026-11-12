@@ -1,21 +1,17 @@
 <?php
 $pageTitle = "Private Pool Homestay Near Mumbai with WiFi for Workation | 300 Mbps Fiber Internet & Private Pool";
-$pageDescription = "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, power backup, private pool, comfortable work desks & hot meals on demand.";
+$pageDescription = "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, 100% power backup, private pool, comfortable work desks & hot meals on demand.";
 $pageKeywords = "private pool homestay near mumbai with wifi for workation, workation villa lonavala, work from home villa near mumbai, homestay with wifi lonavala, remote work homestay near pune";
-$pageRobots = "index, follow";
+$pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+$pageAuthor = "Retrofusion Boutique Homestays";
+$pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation";
 $ogTitle = "Private Pool Homestay Near Mumbai with WiFi for Workation | 300 Mbps Fiber Internet & Private Pool";
-$ogDescription = "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, power backup, private pool, comfortable work desks & hot meals on demand.";
-$ogImage = "https://retrofusion.in/images/v1773566229_for_neo_and_viswa_laptop_s58iv5.webp";
-
+$ogImage = "https://retrofusion.in/images/v1770226533_N34_stewru.webp";
 include 'includes/header.php';
-
-$num1 = rand(1, 9);
-$num2 = rand(1, 9);
-$_SESSION['captcha_answer'] = $num1 + $num2;
 ?>
 
-<!-- JSON-LD Structured Data -->
+<!-- JSON-LD Schema Markup -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -23,27 +19,39 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
     {
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation#lodging",
-      "name": "Retrofusion Luxury Homestays & Private Villas",
+      "name": "Private Pool Homestay Near Mumbai with WiFi for Workation - Retrofusion",
+      "description": "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, 100% power backup, private pool, comfortable work desks & hot meals on demand.",
       "url": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation",
+      "image": [
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
+        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp"
+      ],
       "telephone": "+91 8999036644",
-      "priceRange": "₹₹₹",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Old Mumbai Pune Highway, Near Karla Caves & Wax Museum",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
+      "priceRange": "$$$",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 18.7557,
-        "longitude": 73.4091
-      },
-      "description": "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, power backup, private pool, comfortable work desks & hot meals on demand."
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -60,11 +68,46 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
       ]
     },
     {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation#villas",
+      "name": "Available 4BHK Luxury Villas in Lonavala",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa",
+            "url": "https://retrofusion.in/neo-retro"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        }
+      ]
+    },
+    {
       "@type": "FAQPage",
+      "@id": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How fast and reliable is the internet at the villa?",
+          "name": "How fast and reliable is the internet connection?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "We provide high-speed 300 Mbps fiber Wi-Fi with dual-band routers providing full coverage across all bedrooms, living rooms, and garden terraces. Complete power backup ensures zero connection drops."
@@ -72,7 +115,7 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
         },
         {
           "@type": "Question",
-          "name": "Is the environment quiet enough for professional video conference calls?",
+          "name": "Is the environment quiet enough for video conference calls?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes! Our estates are located in tranquil residential and nature-surrounded pockets of Lonavala, far from highway honking, making them ideal for high-stakes video meetings."
@@ -95,250 +138,483 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
           }
         }
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation#webpage",
+      "url": "https://retrofusion.in/private-pool-homestay-near-mumbai-with-wifi-for-workation",
+      "name": "Private Pool Homestay Near Mumbai with WiFi for Workation | 300 Mbps Fiber Internet & Private Pool",
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
 </script>
 
-<!-- Hero Section -->
-<section class="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-luxury-black text-white overflow-hidden">
-    <div class="absolute inset-0 z-0">
-        <img src="images/v1773566229_for_neo_and_viswa_laptop_s58iv5.webp" alt="Private Pool Homestay Near Mumbai with WiFi for Workation" class="w-full h-full object-cover opacity-35 filter brightness-75 scale-105 transition-transform duration-1000">
-        <div class="absolute inset-0 bg-gradient-to-t from-luxury-black via-luxury-black/70 to-transparent"></div>
+<!-- ===== HERO SECTION ===== -->
+<section class="relative h-screen overflow-hidden">
+  <img src="images/v1770226533_N34_stewru.webp"
+    class="absolute inset-0 w-full h-full object-cover" alt="Private Pool Homestay Near Mumbai with WiFi for Workation" title="Private Pool Homestay Near Mumbai with WiFi for Workation" />
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-6 font-display leading-tight">
+        Private Pool Homestay Near Mumbai <br>with WiFi for Workation</h1>
+      <p class="text-lg sm:text-2xl text-white/90 font-light mb-10 max-w-2xl mx-auto">
+        Swap cramped home offices for breathtaking hill views. Enjoy seamless Zoom calls on 300 Mbps fiber internet, 100% power backup, and private pool relaxation.</p>
+      <a href="#villas"
+        class="bg-white text-[#0F2A24] px-10 py-4 rounded-full text-lg font-bold transition-all hover:bg-amber-600 hover:text-white shadow-2xl">
+        Book Your Workation
+      </a>
     </div>
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 max-w-5xl text-center">
-        <span class="inline-block px-4 py-1.5 rounded-full bg-gold/20 border border-gold/40 text-gold text-xs uppercase tracking-widest font-medium mb-4">
-            300 Mbps Fiber Wi-Fi • Scenic Hillside Workation in Lonavala
-        </span>
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
-            Private Pool Homestay Near Mumbai with <span class="text-gold">WiFi</span> for Workation
-        </h1>
-        <p class="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto mb-8 font-light leading-relaxed">
-            Swap cramped home offices for breathtaking Western Ghats views. Enjoy seamless Zoom calls with 300 Mbps high-speed fiber internet, 100% power backup, quiet ergonomic workspaces, private swimming pool, and freshly prepared hot meals.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#inquiry-form" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-gold text-luxury-black font-semibold text-sm hover:bg-gold-light transition duration-300 shadow-lg shadow-gold/20">
-                Check Availability & Rates
-            </a>
-            <a href="https://wa.me/918999036644?text=Hi%2C%20I%20am%20inquiring%20about%20villa%20availability%20for%20private-pool-homestay-near-mumbai-with-wifi-for-workation." target="_blank" class="w-full sm:w-auto px-8 py-3.5 rounded-full border border-white/30 text-white font-medium text-sm hover:bg-white/10 transition duration-300 flex items-center justify-center gap-2">
-                <span>WhatsApp Concierge</span>
-            </a>
-        </div>
-    </div>
+  </div>
 </section>
 
-<!-- Quick Facts / Stats Grid -->
-<section class="py-12 bg-luxury-charcoal/40 border-y border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Internet Speed</p>
-                <p class="text-xl sm:text-2xl font-bold text-gold">300 Mbps</p>
-                <p class="text-gray-400 text-xs mt-1">Dual-Band Fiber Wi-Fi</p>
-            </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Power Security</p>
-                <p class="text-xl sm:text-2xl font-bold text-gold">100% Backup</p>
-                <p class="text-gray-400 text-xs mt-1">Inverter & Generator</p>
-            </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Travel Time</p>
-                <p class="text-xl sm:text-2xl font-bold text-white">approx. 90 mins via Expressway</p>
-                <p class="text-gray-400 text-xs mt-1">Direct Expressway</p>
-            </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Chef & Meals</p>
-                <p class="text-xl sm:text-2xl font-bold text-white">Fresh & Hot</p>
-                <p class="text-gray-400 text-xs mt-1">Tea/Coffee & Home Food</p>
-            </div>
-        </div>
+<!-- ===== INTRO SECTION ===== -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-8 font-display">The Ultimate <span class="text-amber-600">Productive Workation in Lonavala</span></h2>
+      <p class="text-stone-600 text-lg leading-relaxed mb-12">
+        Remote work shouldn't mean staying trapped inside an apartment in Mumbai. Booking a <strong>private pool homestay near mumbai with wifi for workation</strong> gives you the perfect fusion of enterprise-grade connectivity and serene resort living. Take uninterrupted video meetings on 300 Mbps dual-band fiber internet, work from garden verandas, and unwind with an evening swim in your private pool.
+      </p>
     </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="group">
+        <div class="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-amber-600 transition-colors">
+          <svg class="w-10 h-10 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">300 Mbps Fiber Wi-Fi</h3>
+        <p class="text-stone-500 text-sm">Dual-band high-speed mesh routers across all bedrooms, living rooms, and poolside decks.</p>
+      </div>
+      <div class="group">
+        <div class="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-amber-600 transition-colors">
+          <svg class="w-10 h-10 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">100% Power Security</h3>
+        <p class="text-stone-500 text-sm">Heavy-duty inverter and generator backup guaranteeing zero drops during critical meetings.</p>
+      </div>
+      <div class="group">
+        <div class="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-amber-600 transition-colors">
+          <svg class="w-10 h-10 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Hot Meals on Demand</h3>
+        <p class="text-stone-500 text-sm">Fresh tea, coffee, breakfast, and home-cooked meals served on your work schedule.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- Editorial Section -->
-<section class="py-20 bg-luxury-black text-gray-300">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl leading-relaxed">
-        <div class="space-y-6">
-            <h2 class="text-2xl sm:text-4xl font-serif font-bold text-white tracking-wide">
-                The Ultimate Productive & Relaxing Workation Retreat in Lonavala
-            </h2>
-            <p>Remote work doesn't mean staying trapped inside four walls in Mumbai. At Retrofusion, we've designed our private pool villas for remote workers, startup founders, freelancers, and distributed tech teams who demand enterprise-grade connectivity alongside resort luxury.</p>
-            <p>Take uninterrupted video conferences on high-speed 300 Mbps dual-band fiber internet backed by inverter and generator systems. Set up your laptop on scenic balconies, garden patios, or spacious air-conditioned work desks.</p>
-            <p>When the workday ends, close your laptop and dive into your private swimming pool, relax with evening tea and pakodas on the lawn, or challenge colleagues to snooker and carrom.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-                <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-gold font-serif text-lg font-semibold mb-2">Zero Downtime Connectivity</h3>
-                    <p class="text-sm text-gray-400">300 Mbps dual-band fiber network with extensive mesh coverage reaching garden verandas and poolside cabanas, plus full generator backup.</p>
-                </div>
-                <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-gold font-serif text-lg font-semibold mb-2">Work-Life Balance Perks</h3>
-                    <p class="text-sm text-gray-400">Private swimming pool, snooker table, evening bonfire, and custom home-cooked breakfast, lunch, and dinner prepared fresh on your schedule.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Villa Showcase -->
-<section class="py-20 bg-luxury-charcoal/20 border-t border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
-        <div class="text-center mb-16">
-            <span class="text-gold text-xs uppercase tracking-widest font-semibold">Handpicked Private Estates</span>
-            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mt-2">Our Signature 4BHK Luxury Villas</h2>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-luxury-black rounded-2xl overflow-hidden border border-white/10 hover:border-gold/50 transition duration-300">
-                <img src="images/v1773076226_27_ipqwdd.webp" alt="Retro Visawa Villa" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-serif font-bold text-white mb-2">Retro Visawa (4BHK)</h3>
-                    <p class="text-gray-400 text-sm mb-4">Mountain-view infinity pool, indoor pool table, open garden, and spacious living areas.</p>
-                    <a href="/retro-viswa-lonavala" class="text-gold text-sm font-semibold hover:underline">Explore Retro Visawa &rarr;</a>
-                </div>
-            </div>
-            <div class="bg-luxury-black rounded-2xl overflow-hidden border border-white/10 hover:border-gold/50 transition duration-300">
-                <img src="images/v1774810269_12_lo4gpx.webp" alt="Neo Retro Villa" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-serif font-bold text-white mb-2">Neo Retro Villa (4BHK)</h3>
-                    <p class="text-gray-400 text-sm mb-4">Modern contemporary architecture, private pool, lavish dining room, and luxury suites.</p>
-                    <a href="/neo-retro" class="text-gold text-sm font-semibold hover:underline">Explore Neo Retro &rarr;</a>
-                </div>
-            </div>
-            <div class="bg-luxury-black rounded-2xl overflow-hidden border border-white/10 hover:border-gold/50 transition duration-300">
-                <img src="images/v1769868155_M08_qewdva.webp" alt="Retro Villa" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-serif font-bold text-white mb-2">Retro Villa (4BHK)</h3>
-                    <p class="text-gray-400 text-sm mb-4">Vintage warmth, sheltered garden, private pool, and traditional home-cooked cuisine.</p>
-                    <a href="/retro-villas" class="text-gold text-sm font-semibold hover:underline">Explore Retro Villa &rarr;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Accordion -->
-<section class="py-20 bg-luxury-black border-t border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-        <div class="text-center mb-12">
-            <span class="text-gold text-xs uppercase tracking-widest font-semibold">Got Questions?</span>
-            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mt-2">Frequently Asked Questions</h2>
-        </div>
+<!-- ===== HOW TO REACH SECTION (NEW) ===== -->
+<section class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-stone-100 flex flex-col md:flex-row">
+      <div class="md:w-1/3 bg-amber-600 p-8 text-white flex flex-col justify-center">
+        <h2 class="text-3xl font-bold mb-4 font-display">How to Reach</h2>
+        <p class="text-amber-100 mb-6">Traveling from Mumbai up to your tranquil workation haven is amazingly swift.</p>
         <div class="space-y-4">
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>How fast and reliable is the internet at the villa?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    We provide high-speed 300 Mbps fiber Wi-Fi with dual-band routers providing full coverage across all bedrooms, living rooms, and garden terraces. Complete power backup ensures zero connection drops.
-                </p>
-            </details>
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>Is the environment quiet enough for professional video conference calls?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    Yes! Our estates are located in tranquil residential and nature-surrounded pockets of Lonavala, far from highway honking, making them ideal for high-stakes video meetings.
-                </p>
-            </details>
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>Can we book long-term or weekly workations with discounted rates?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    Yes, we offer attractive weekly and monthly workation tariffs with inclusive housekeeping, high-speed Wi-Fi, and custom meal subscriptions.
-                </p>
-            </details>
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>What are the dining options during work hours?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    Our resident caretaker and chef serve piping hot tea, coffee, breakfast, and wholesome home-cooked meals right on your schedule so you never have to worry about cooking.
-                </p>
-            </details>
-        </div>
-    </div>
-</section>
-
-<!-- Inquiry Form -->
-<section id="inquiry-form" class="py-20 bg-luxury-charcoal/30 border-t border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
-        <div class="bg-luxury-black p-8 sm:p-12 rounded-3xl border border-white/10 shadow-2xl">
-            <div class="text-center mb-8">
-                <span class="text-gold text-xs uppercase tracking-widest font-semibold">Reserve Your Private Stay</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-2">Check Villa Availability</h2>
-                <p class="text-gray-400 text-sm mt-2">Get direct villa rates, seasonal offers, and instant date confirmation.</p>
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-white/20 p-2 rounded-lg">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
             </div>
-            <form action="mail1.php" method="POST" class="space-y-5">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Your Name *</label>
-                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Phone Number *</label>
-                        <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Email Address *</label>
-                        <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Number of Guests</label>
-                        <input type="number" name="guests" min="1" placeholder="e.g. 15 Guests" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Check-In Date *</label>
-                        <input type="date" name="checkIn" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Check-Out Date *</label>
-                        <input type="date" name="checkOut" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Select Preferred Villa</label>
-                    <select name="villa" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                        <option value="Any Villa" class="bg-luxury-black">Any Available 4BHK Villa</option>
-                        <option value="Retro Visawa" class="bg-luxury-black">Retro Visawa (Infinity Pool & Snooker)</option>
-                        <option value="Neo Retro Villa" class="bg-luxury-black">Neo Retro Villa (Ultra Luxury)</option>
-                        <option value="Retro Villa" class="bg-luxury-black">Retro Villa (Vintage Garden Retreat)</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Special Requests / Notes</label>
-                    <textarea name="message" rows="3" placeholder="Dietary preferences (Veg/Jain/Non-veg), event plans, or specific requirements..." class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition"></textarea>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Security Verification: <?php echo "$num1 + $num2 = ?"; ?> *</label>
-                    <input type="number" name="captcha" required placeholder="Enter total" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                </div>
-                <button type="submit" class="w-full py-4 rounded-xl bg-gold text-luxury-black font-bold uppercase tracking-wider text-sm hover:bg-gold-light transition duration-300 shadow-lg shadow-gold/20">
-                    Send Booking Inquiry
-                </button>
-            </form>
+            <div>
+              <p class="text-xs uppercase tracking-wider text-amber-200 font-semibold">Distance</p>
+              <p class="text-xl font-bold">~85 km</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-white/20 p-2 rounded-lg">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <p class="text-xs uppercase tracking-wider text-amber-200 font-semibold">Time Duration</p>
+              <p class="text-xl font-bold">approx. 1.5 - 2 Hours</p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="md:w-2/3 p-8 lg:p-12">
+        <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">The Optimal Route</h3>
+        <p class="text-stone-600 leading-relaxed mb-6">
+          Enjoy a smooth, stress-free drive directly to our private villa gates without entering congested internal market lanes.
+        </p>
+        <ol class="space-y-6">
+          <li class="flex gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">1</div>
+            <div>
+              <h4 class="font-bold text-[#0F2A24] text-lg">Easy Departure from Mumbai</h4>
+              <p class="text-stone-500 text-sm">Hop onto the Expressway corridor (via Mumbai-Pune Expressway).</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">2</div>
+            <div>
+              <h4 class="font-bold text-[#0F2A24] text-lg">Smooth Scenic Highway</h4>
+              <p class="text-stone-500 text-sm">Enjoy signal-free driving up the Western Ghats in under two hours.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">3</div>
+            <div>
+              <h4 class="font-bold text-[#0F2A24] text-lg">Fast Villa Arrival</h4>
+              <p class="text-stone-500 text-sm">Arrive directly at your private gated villa, connect to high-speed fiber Wi-Fi, and start working.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- ===== EXPLORE RELATED GETAWAYS ===== -->
-<section class="py-12 bg-stone-900 border-t border-white/10 text-white">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h3 class="text-xl font-bold font-display text-white mb-6">Explore More Curated Getaways</h3>
-    <div class="flex flex-wrap justify-center gap-3">
-      <a href="/homestay-in-lonavala-for-long-stay-workation" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Homestay in Lonavala for Long Stay Workation</a>
-      <a href="/villa-in-lonavala-for-remote-work" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Villa in Lonavala for Remote Work</a>
-      <a href="/work-from-villa-in-lonavala" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Work From Villa in Lonavala</a>
-      <a href="/homestay-near-mumbai" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Homestay Near Mumbai</a>
+<!-- ===== GALLERY SECTION ===== -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Workation Spaces <span class="text-amber-600">& Private Pool</span></h2>
+      <p class="text-stone-500 text-lg">Explore the tranquil desks, serene verandas, and luxury bedrooms waiting for your workation.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
+        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern villa architecture">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
+        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive outdoor relaxation decks">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside seating">
+      </div>
+      
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns at the villa">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private swimming pool">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening luxury ambiance">
+      </div>
+      
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive living room">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OUR VILLAS SECTION ===== -->
+<section id="villas" class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Select Your <span class="text-amber-600">Private Estate</span></h2>
+      <p class="text-stone-500 text-lg">Explore our signature 4BHK private pool properties in Lonavala.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Neo Retro Villa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro Villa Modern Estate">
+          <div class="absolute top-4 left-4 bg-cyan-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Modern & Accessible</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">A stunning modern build that offers incredibly smooth access right from the main grid, featuring beautiful open-plan architecture and a massive private pool.</p>
+          <a href="neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+        </div>
+      </div>
+
+      <!-- Retro Visawa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
+          <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Grand Proportions</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Colossal private pool villa with mountain views, snooker table, outdoor gazebo, private lawn, and spacious bedrooms with ensuite bathrooms.</p>
+          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+        </div>
+      </div>
+
+      <!-- Retro Villa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
+          <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Gated Privacy</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hidden behind green borders, offering a perfectly quiet and secluded sanctuary. Vintage charm, private pool, and delicious home-cooked meals.</p>
+          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SEO CONTENT & INTERNAL LINKING SECTION ===== -->
+<section class="py-16 md:py-24 bg-white border-b border-stone-100">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="prose prose-stone lg:prose-lg mx-auto">
+      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Why Book a Workation Villa in Lonavala with Retrofusion?</h2>
+      <p class="leading-relaxed text-stone-600 mb-6">Whether you are a solo entrepreneur, a startup team, or a family balancing work and vacation, our <strong>private pool homestay near mumbai with wifi for workation</strong> provides the ideal setup for sustained productivity.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">Take high-stakes client presentations with total confidence on our 300 Mbps fiber Wi-Fi backed by power generators. When your workday ends, step directly onto the sun deck, swim in your private pool, or enjoy quiet evening walks surrounded by mountain mist.</p>
+      <h3>Long-Stay Discounts & Housekeeping Support</h3>
+      <p class="leading-relaxed text-stone-600 mb-6">We offer attractive weekly and monthly workation tariffs with inclusive daily housekeeping, fresh linen changes, and customized meal subscriptions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Frequently Asked <span class="text-amber-600">Questions</span></h2>
+      <p class="text-stone-500 text-lg">Clear answers to help plan your getaway seamlessly.</p>
+    </div>
+
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">How fast and reliable is the internet connection?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          We provide high-speed 300 Mbps fiber Wi-Fi with dual-band routers providing full coverage across all bedrooms, living rooms, and garden terraces. Complete power backup ensures zero connection drops.
+        </div>
+      </div>
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the environment quiet enough for video conference calls?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes! Our estates are located in tranquil residential and nature-surrounded pockets of Lonavala, far from highway honking, making them ideal for high-stakes video meetings.
+        </div>
+      </div>
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we book long-term or weekly workations with discounted rates?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, we offer attractive weekly and monthly workation tariffs with inclusive housekeeping, high-speed Wi-Fi, and custom meal subscriptions.
+        </div>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What are the dining options during work hours?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our resident caretaker and chef serve piping hot tea, coffee, breakfast, and wholesome home-cooked meals right on your schedule so you never have to worry about cooking.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
+
+<!-- ===== CONTACT & BOOKING SECTION ===== -->
+<section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <div class="flex items-center justify-center space-x-2 mb-4">
+        <div class="w-8 h-[2px] bg-amber-600"></div>
+        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Your Getaway</span>
+        <div class="w-8 h-[2px] bg-amber-600"></div>
+      </div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
+        Reserve Your <span class="text-amber-600">Workation Estate</span></h2>
+      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Ready to elevate your work-from-home routine? Inquire below for availability and long-stay packages.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+      <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
+        <div class="mb-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
+          <p class="text-stone-500 text-sm">Our concierge team will get back to you promptly to confirm availability.</p>
+        </div>
+        <form action="mail1.php" method="POST" class="space-y-5">
+          <input type="hidden" name="villa" value="Private Pool Homestay Near Mumbai with WiFi for Workation">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
+              <input type="text" name="name" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Your name" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Email *</label>
+              <input type="email" name="email" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="your@email.com" />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Phone Number *</label>
+              <input type="tel" name="phone" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="+91 98765 43210" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Number of Guests</label>
+              <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white">
+                <option value="">Select guests</option>
+                <option value="2-4">2-4 Guests</option>
+                <option value="5-8">5-8 Guests</option>
+                <option value="9-12">9-12 Guests</option>
+                <option value="13-15">13-15 Guests</option>
+                <option value="16+">16+ Guests</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-in Date</label>
+              <input type="date" name="checkIn" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-out Date</label>
+              <input type="date" name="checkOut" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Message</label>
+            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Let us know if you need any special meal plans arranged!"></textarea>
+          </div>
+          
+          <?php
+          $num1 = rand(1, 10);
+          $num2 = rand(1, 10);
+          $_SESSION['captcha_answer'] = $num1 + $num2;
+          ?>
+          <div class="space-y-2">
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Verify you are human *</label>
+            <div class="flex items-center gap-4">
+              <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-300 rounded-xl font-bold text-stone-900 text-lg">
+                <?php echo $num1; ?> + <?php echo $num2; ?> =
+              </span>
+              <input type="number" name="captcha" required class="flex-1 px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="?" />
+            </div>
+          </div>
+
+          <button type="submit" class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-xl shadow-lg transition-all duration-300 uppercase tracking-wider">
+            Send Enquiry
+          </button>
+        </form>
+      </div>
+
+      <div class="space-y-6">
+        <div class="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 rounded-3xl p-8 shadow-2xl">
+          <h3 class="text-2xl font-bold text-white mb-6 font-display">Contact <span class="text-amber-400">Information</span></h3>
+          <div class="space-y-5">
+            <a href="tel:+918999036644" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Phone</p>
+                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">+91 89990 36644</p>
+              </div>
+            </a>
+            <a href="mailto:contact@retrofusion.in" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Email</p>
+                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
+              </div>
+            </a>
+            <a href="https://wa.me/918999036644" target="_blank" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
+              </div>
+              <div>
+                <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp</p>
+                <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">Chat with Us</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-amber-600 rounded-3xl p-8 shadow-2xl relative overflow-hidden group">
+          <div class="relative z-10">
+            <h3 class="text-2xl font-bold text-white mb-4 font-display">Need Directions?</h3>
+            <p class="text-amber-100 text-sm mb-6">Wondering exactly which route to take? Message our team for a location pin and fast routing assistance!</p>
+            <a href="https://wa.me/918999036644" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
+          </div>
+          <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
+            <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <?php include 'includes/footer.php'; ?>
+
+<!-- Lightbox Script -->
+<div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg">
+</div>
+
+<script>
+  window.galleryImages = [
+    'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
+    'images/v1769868155_M08_qewdva.webp',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
+    'images/v1773076342_23_wby8bv.webp'
+  ];
+
+  function openLightbox(index) {
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = window.galleryImages[index];
+    lb.classList.remove('hidden');
+    lb.classList.add('flex');
+    setTimeout(() => lb.style.opacity = '1', 10);
+  }
+
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    lb.style.opacity = '0';
+    setTimeout(() => {
+      lb.classList.remove('flex');
+      lb.classList.add('hidden');
+    }, 300);
+  }
+</script>

@@ -1,21 +1,17 @@
 <?php
 $pageTitle = "Homestay Near Kharadi for Family | Private Pool Villa Lonavala";
-$pageDescription = "Book the best homestay near Kharadi for family vacations. Just ~80 mins drive to Lonavala. 4BHK luxury private pool villa with senior-friendly rooms, kids lawn & fresh home food.";
+$pageDescription = "Looking for the best homestay near Kharadi for family? Escape the city chaos and book our massive 4BHK private pool villas in Lonavala just ~1.25 Hours away. Kid & senior friendly with private chef.";
 $pageKeywords = "homestay near kharadi for family, family homestay near kharadi, best homestay near kharadi for family, 4bhk homestay near kharadi for family, private pool villa for family kharadi";
-$pageRobots = "index, follow";
+$pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
+$pageAuthor = "Retrofusion Boutique Homestays";
+$pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/homestay-near-kharadi-for-family";
 $ogTitle = "Homestay Near Kharadi for Family | Private Pool Villa Lonavala";
-$ogDescription = "Book the best homestay near Kharadi for family vacations. Just ~80 mins drive to Lonavala. 4BHK luxury private pool villa with senior-friendly rooms, kids lawn & fresh home food.";
-$ogImage = "https://retrofusion.in/images/v1773076226_27_ipqwdd.webp";
-
+$ogImage = "https://retrofusion.in/images/v1772868264_1_wqosmq.webp";
 include 'includes/header.php';
-
-$num1 = rand(1, 9);
-$num2 = rand(1, 9);
-$_SESSION['captcha_answer'] = $num1 + $num2;
 ?>
 
-<!-- JSON-LD Structured Data -->
+<!-- JSON-LD Schema Markup -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -23,27 +19,39 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
     {
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/homestay-near-kharadi-for-family#lodging",
-      "name": "Retrofusion Luxury Homestays & Private Villas",
+      "name": "Homestay Near Kharadi for Family - Retrofusion",
+      "description": "Looking for the best homestay near Kharadi for family? Escape the city chaos and book our massive 4BHK private pool villas in Lonavala just ~1.25 Hours away. Kid & senior friendly with private chef.",
       "url": "https://retrofusion.in/homestay-near-kharadi-for-family",
+      "image": [
+        "https://retrofusion.in/images/v1772868264_1_wqosmq.webp",
+        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp"
+      ],
       "telephone": "+91 8999036644",
-      "priceRange": "₹₹₹",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Old Mumbai Pune Highway, Near Karla Caves & Wax Museum",
         "addressLocality": "Lonavala",
         "addressRegion": "Maharashtra",
         "postalCode": "410401",
         "addressCountry": "IN"
       },
+      "priceRange": "$$$",
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 18.7557,
-        "longitude": 73.4091
-      },
-      "description": "Book the best homestay near Kharadi for family vacations. Just ~80 mins drive to Lonavala. 4BHK luxury private pool villa with senior-friendly rooms, kids lawn & fresh home food."
+        "latitude": "18.7544",
+        "longitude": "73.4062"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/v1771665559_Retrofusion_logo__20260211_230238_0000_sufgcp.png"
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/homestay-near-kharadi-for-family#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -60,14 +68,49 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
       ]
     },
     {
+      "@type": "ItemList",
+      "@id": "https://retrofusion.in/homestay-near-kharadi-for-family#villas",
+      "name": "Available 4BHK Luxury Villas in Lonavala",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Neo Retro Villa",
+            "url": "https://retrofusion.in/neo-retro"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Visawa",
+            "url": "https://retrofusion.in/retro-viswa-lonavala"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Accommodation",
+            "name": "Retro Villa",
+            "url": "https://retrofusion.in/retro-villas"
+          }
+        }
+      ]
+    },
+    {
       "@type": "FAQPage",
+      "@id": "https://retrofusion.in/homestay-near-kharadi-for-family#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How far is the homestay from Kharadi and what is the best route?",
+          "name": "How far is the homestay from Kharadi and how long is the drive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our villas are in Lonavala, roughly ~80 km (~80 mins drive) from Kharadi via Pune Ring Road to Expressway. Access is smooth and direct with no steep mountain driving."
+            "text": "The property is located in Lonavala, roughly ~80 km (~1.25 Hours drive) from Kharadi. The drive is smooth and completely signal-free along the Expressway."
           }
         },
         {
@@ -75,7 +118,7 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
           "name": "Is the homestay suitable for elderly family members and toddlers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! Our villas feature spacious ground-floor bedrooms with step-free entrances, attached bathrooms, anti-skid pool decks, and fenced gardens safe for young kids and seniors."
+            "text": "Yes, absolutely! Our villas feature spacious ground-floor bedrooms with step-free entrances, attached bathrooms with anti-skid tiles, and fenced gardens safe for young kids and seniors."
           }
         },
         {
@@ -83,262 +126,498 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
           "name": "Can we get home-cooked pure veg or Jain meals for the family?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! Our in-house chefs specialize in pure vegetarian, Jain, and non-vegetarian home-style Maharashtrian, North Indian, and continental dishes prepared fresh with separate cookware."
+            "text": "Yes! Our in-house chefs specialize in pure vegetarian, Jain, and non-vegetarian home-style dishes prepared fresh with separate cookware."
           }
         },
         {
           "@type": "Question",
-          "name": "How many family members can sleep comfortably in this 4BHK homestay?",
+          "name": "How many family members can stay in a 4BHK villa?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "A 4BHK villa comfortably accommodates 12 to 20 family members with plush king beds, luxury extra rollaway mattresses, and spacious living spaces."
           }
         }
       ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://retrofusion.in/homestay-near-kharadi-for-family#webpage",
+      "url": "https://retrofusion.in/homestay-near-kharadi-for-family",
+      "name": "Homestay Near Kharadi for Family | Private Pool Villa Lonavala",
+      "isPartOf": {
+        "@id": "https://retrofusion.in/#website"
+      }
     }
   ]
 }
 </script>
 
-<!-- Hero Section -->
-<section class="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-luxury-black text-white overflow-hidden">
-    <div class="absolute inset-0 z-0">
-        <img src="images/v1773076226_27_ipqwdd.webp" alt="Homestay Near Kharadi for Family" class="w-full h-full object-cover opacity-35 filter brightness-75 scale-105 transition-transform duration-1000">
-        <div class="absolute inset-0 bg-gradient-to-t from-luxury-black via-luxury-black/70 to-transparent"></div>
+<!-- ===== HERO SECTION ===== -->
+<section class="relative h-screen overflow-hidden">
+  <img src="images/v1772868264_1_wqosmq.webp"
+    class="absolute inset-0 w-full h-full object-cover" alt="Homestay Near Kharadi for Family" title="Homestay Near Kharadi for Family" />
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10 h-full flex flex-col justify-center items-center px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-6 font-display leading-tight">
+        Homestay Near Kharadi <br>for Family</h1>
+      <p class="text-lg sm:text-2xl text-white/90 font-light mb-10 max-w-2xl mx-auto">
+        Escape the city chaos. Discover our massive 4BHK luxury pool estates waiting for your family just ~1.25 Hours away in Lonavala.</p>
+      <a href="#villas"
+        class="bg-white text-[#0F2A24] px-10 py-4 rounded-full text-lg font-bold transition-all hover:bg-amber-600 hover:text-white shadow-2xl">
+        Explore Family Escapes
+      </a>
     </div>
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 max-w-5xl text-center">
-        <span class="inline-block px-4 py-1.5 rounded-full bg-gold/20 border border-gold/40 text-gold text-xs uppercase tracking-widest font-medium mb-4">
-            Just ~80 mins from Kharadi • Multi-Generational Family Haven
-        </span>
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
-            Homestay Near <span class='text-gold'>Kharadi</span> for Family
-        </h1>
-        <p class="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto mb-8 font-light leading-relaxed">
-            Escape city noise and treat your loved ones to an exclusive 4BHK private pool homestay in Lonavala, located just ~80 mins from Kharadi. Senior-friendly ground-floor suites, clean private pool with kids' splash zone, expansive lawns, and warm home-cooked meals by a personal chef.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="#inquiry-form" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-gold text-luxury-black font-semibold text-sm hover:bg-gold-light transition duration-300 shadow-lg shadow-gold/20">
-                Check Availability & Rates
-            </a>
-            <a href="https://wa.me/918999036644?text=Hi%2C%20I%20am%20inquiring%20about%20villa%20availability%20for%20homestay-near-kharadi-for-family." target="_blank" class="w-full sm:w-auto px-8 py-3.5 rounded-full border border-white/30 text-white font-medium text-sm hover:bg-white/10 transition duration-300 flex items-center justify-center gap-2">
-                <span>WhatsApp Concierge</span>
-            </a>
-        </div>
-    </div>
+  </div>
 </section>
 
-<!-- Quick Facts / Stats Grid -->
-<section class="py-12 bg-luxury-charcoal/40 border-y border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">From Kharadi</p>
-                <p class="text-xl sm:text-2xl font-bold text-gold">~80 km</p>
-                <p class="text-gray-400 text-xs mt-1">~80 mins drive</p>
-            </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Family Capacity</p>
-                <p class="text-xl sm:text-2xl font-bold text-gold">12 – 20 Pax</p>
-                <p class="text-gray-400 text-xs mt-1">4 En-Suite Bedrooms</p>
-            </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Kid & Senior Friendly</p>
-                <p class="text-xl sm:text-2xl font-bold text-white">Safe & Secure</p>
-                <p class="text-gray-400 text-xs mt-1">Ground floor suites & lawn</p>
-            </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p class="text-gray-400 text-xs uppercase tracking-wider mb-1">Culinary Service</p>
-                <p class="text-xl sm:text-2xl font-bold text-white">Veg & Jain</p>
-                <p class="text-gray-400 text-xs mt-1">Fresh home-cooked meals</p>
-            </div>
-        </div>
+<!-- ===== INTRO SECTION ===== -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-8 font-display">The Ultimate <span class="text-amber-600">Family Getaway Near Kharadi</span></h2>
+      <p class="text-stone-600 text-lg leading-relaxed mb-12">
+        When the fast pace and traffic of Kharadi get overwhelming, your family deserves an authentic hill sanctuary. Our <strong>homestay near Kharadi for family</strong> offers the most refreshing escape without the fatigue of a long journey. By hopping onto the Expressway, you trade city concrete for the lush greenery, clean mountain air, and absolute seclusion of your own private 4BHK estate in Lonavala. Complete with senior-friendly ground floor bedrooms, a sparkling private swimming pool with shallow kids' lounge, and wholesome home-cooked meals by our in-house chef.
+      </p>
     </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="group">
+        <div class="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-amber-600 transition-colors">
+          <svg class="w-10 h-10 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Scenic Drive</h3>
+        <p class="text-stone-500 text-sm">Swap urban horns for breathtaking Western Ghats mountain views on an easy ~1.25 Hours drive.</p>
+      </div>
+      <div class="group">
+        <div class="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-amber-600 transition-colors">
+          <svg class="w-10 h-10 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">Kid & Senior Safe</h3>
+        <p class="text-stone-500 text-sm">Ground-floor suites with zero stairs, anti-skid bathrooms, and private fenced lawns where toddlers play freely.</p>
+      </div>
+      <div class="group">
+        <div class="w-20 h-20 bg-stone-100 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:bg-amber-600 transition-colors">
+          <svg class="w-10 h-10 text-amber-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
+        </div>
+        <h3 class="text-xl font-bold text-[#0F2A24] mb-3">100% Private Estate</h3>
+        <p class="text-stone-500 text-sm">Zero shared areas. Unwind in completely gated luxury estates featuring massive private pools and dedicated care.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- Editorial Section -->
-<section class="py-20 bg-luxury-black text-gray-300">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl leading-relaxed">
-        <div class="space-y-6">
-            <h2 class="text-2xl sm:text-4xl font-serif font-bold text-white tracking-wide">
-                The Ideal Family Sanctuary Near Kharadi in Lonavala
-            </h2>
-            <p>Planning a multi-generational family holiday from Kharadi with grandparents, parents, teenagers, and energetic toddlers often creates dilemmas. Standard commercial hotels separate family members into disconnected rooms, force everyone to adhere to strict restaurant buffet timings, and lack the privacy needed for true relaxation.</p>
-            <p>At <strong>Retrofusion Luxury Homestays</strong> in Lonavala, just ~80 km (~80 mins) from Kharadi, your family enjoys a private 4BHK estate entirely to yourselves. With zero shared areas, grandparents can relax peacefully on the garden veranda, children can swim safely in the private pool, and everyone gathers in the double-height living room for memorable evenings.</p>
-            <p>Our dedicated on-site chefs prepare customized, wholesome home-style meals — including strict Pure Jain, Pure Vegetarian, and kid-friendly mild food — tailored to your family's exact taste and schedule.</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-                <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-gold font-serif text-lg font-semibold mb-2">Senior & Child Friendly</h3>
-                    <p class="text-sm text-gray-400">Step-free ground-floor master bedrooms, anti-skid bathroom surfaces, and shallow pool ledges offer complete peace of mind for all generations.</p>
-                </div>
-                <div class="bg-white/5 p-6 rounded-2xl border border-white/10">
-                    <h3 class="text-gold font-serif text-lg font-semibold mb-2">Home-Cooked Culinary Care</h3>
-                    <p class="text-sm text-gray-400">Delicious multi-course meals prepared fresh using premium local ingredients. Custom breakfast, evening high tea, and live poolside BBQ on demand.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Villa Showcase -->
-<section class="py-20 bg-luxury-charcoal/20 border-t border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
-        <div class="text-center mb-16">
-            <span class="text-gold text-xs uppercase tracking-widest font-semibold">Handpicked Private Estates</span>
-            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mt-2">Our Signature 4BHK Luxury Villas</h2>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-luxury-black rounded-2xl overflow-hidden border border-white/10 hover:border-gold/50 transition duration-300">
-                <img src="images/v1773076226_27_ipqwdd.webp" alt="Retro Visawa Villa" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-serif font-bold text-white mb-2">Retro Visawa (4BHK)</h3>
-                    <p class="text-gray-400 text-sm mb-4">Mountain-view infinity pool, indoor pool table, open garden, and spacious living areas.</p>
-                    <a href="/retro-viswa-lonavala" class="text-gold text-sm font-semibold hover:underline">Explore Retro Visawa &rarr;</a>
-                </div>
-            </div>
-            <div class="bg-luxury-black rounded-2xl overflow-hidden border border-white/10 hover:border-gold/50 transition duration-300">
-                <img src="images/v1774810269_12_lo4gpx.webp" alt="Neo Retro Villa" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-serif font-bold text-white mb-2">Neo Retro Villa (4BHK)</h3>
-                    <p class="text-gray-400 text-sm mb-4">Modern contemporary architecture, private pool, lavish dining room, and luxury suites.</p>
-                    <a href="/neo-retro" class="text-gold text-sm font-semibold hover:underline">Explore Neo Retro &rarr;</a>
-                </div>
-            </div>
-            <div class="bg-luxury-black rounded-2xl overflow-hidden border border-white/10 hover:border-gold/50 transition duration-300">
-                <img src="images/v1769868155_M08_qewdva.webp" alt="Retro Villa" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-serif font-bold text-white mb-2">Retro Villa (4BHK)</h3>
-                    <p class="text-gray-400 text-sm mb-4">Vintage warmth, sheltered garden, private pool, and traditional home-cooked cuisine.</p>
-                    <a href="/retro-villas" class="text-gold text-sm font-semibold hover:underline">Explore Retro Villa &rarr;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- FAQ Accordion -->
-<section class="py-20 bg-luxury-black border-t border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-        <div class="text-center mb-12">
-            <span class="text-gold text-xs uppercase tracking-widest font-semibold">Got Questions?</span>
-            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mt-2">Frequently Asked Questions</h2>
-        </div>
+<!-- ===== HOW TO REACH SECTION (NEW) ===== -->
+<section class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-stone-100 flex flex-col md:flex-row">
+      <div class="md:w-1/3 bg-amber-600 p-8 text-white flex flex-col justify-center">
+        <h2 class="text-3xl font-bold mb-4 font-display">How to Reach</h2>
+        <p class="text-amber-100 mb-6">Transitioning from Kharadi to the pristine air of the Western Ghats is wonderfully swift.</p>
         <div class="space-y-4">
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>How far is the homestay from Kharadi and what is the best route?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    Our villas are in Lonavala, roughly ~80 km (~80 mins drive) from Kharadi via Pune Ring Road to Expressway. Access is smooth and direct with no steep mountain driving.
-                </p>
-            </details>
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>Is the homestay suitable for elderly family members and toddlers?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    Yes! Our villas feature spacious ground-floor bedrooms with step-free entrances, attached bathrooms, anti-skid pool decks, and fenced gardens safe for young kids and seniors.
-                </p>
-            </details>
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>Can we get home-cooked pure veg or Jain meals for the family?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    Yes! Our in-house chefs specialize in pure vegetarian, Jain, and non-vegetarian home-style Maharashtrian, North Indian, and continental dishes prepared fresh with separate cookware.
-                </p>
-            </details>
-            <details class="group bg-white/5 border border-white/10 rounded-xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-                <summary class="flex justify-between items-center text-white font-medium">
-                    <span>How many family members can sleep comfortably in this 4BHK homestay?</span>
-                    <span class="text-gold group-open:rotate-180 transition-transform duration-300">&darr;</span>
-                </summary>
-                <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-                    A 4BHK villa comfortably accommodates 12 to 20 family members with plush king beds, luxury extra rollaway mattresses, and spacious living spaces.
-                </p>
-            </details>
-        </div>
-    </div>
-</section>
-
-<!-- Inquiry Form -->
-<section id="inquiry-form" class="py-20 bg-luxury-charcoal/30 border-t border-white/5">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
-        <div class="bg-luxury-black p-8 sm:p-12 rounded-3xl border border-white/10 shadow-2xl">
-            <div class="text-center mb-8">
-                <span class="text-gold text-xs uppercase tracking-widest font-semibold">Reserve Your Private Stay</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-2">Check Villa Availability</h2>
-                <p class="text-gray-400 text-sm mt-2">Get direct villa rates, seasonal offers, and instant date confirmation.</p>
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-white/20 p-2 rounded-lg">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
             </div>
-            <form action="mail1.php" method="POST" class="space-y-5">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Your Name *</label>
-                        <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Phone Number *</label>
-                        <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Email Address *</label>
-                        <input type="email" name="email" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Number of Guests</label>
-                        <input type="number" name="guests" min="1" placeholder="e.g. 15 Guests" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Check-In Date *</label>
-                        <input type="date" name="checkIn" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                    <div>
-                        <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Check-Out Date *</label>
-                        <input type="date" name="checkOut" required class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                    </div>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Select Preferred Villa</label>
-                    <select name="villa" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                        <option value="Any Villa" class="bg-luxury-black">Any Available 4BHK Villa</option>
-                        <option value="Retro Visawa" class="bg-luxury-black">Retro Visawa (Infinity Pool & Snooker)</option>
-                        <option value="Neo Retro Villa" class="bg-luxury-black">Neo Retro Villa (Ultra Luxury)</option>
-                        <option value="Retro Villa" class="bg-luxury-black">Retro Villa (Vintage Garden Retreat)</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Special Requests / Notes</label>
-                    <textarea name="message" rows="3" placeholder="Dietary preferences (Veg/Jain/Non-veg), event plans, or specific requirements..." class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition"></textarea>
-                </div>
-                <div>
-                    <label class="block text-xs uppercase tracking-wider text-gray-400 mb-2">Security Verification: <?php echo "$num1 + $num2 = ?"; ?> *</label>
-                    <input type="number" name="captcha" required placeholder="Enter total" class="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:outline-none focus:border-gold transition">
-                </div>
-                <button type="submit" class="w-full py-4 rounded-xl bg-gold text-luxury-black font-bold uppercase tracking-wider text-sm hover:bg-gold-light transition duration-300 shadow-lg shadow-gold/20">
-                    Send Booking Inquiry
-                </button>
-            </form>
+            <div>
+              <p class="text-xs uppercase tracking-wider text-amber-200 font-semibold">Distance</p>
+              <p class="text-xl font-bold">~80 km</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="mt-1 bg-white/20 p-2 rounded-lg">
+              <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <div>
+              <p class="text-xs uppercase tracking-wider text-amber-200 font-semibold">Time Duration</p>
+              <p class="text-xl font-bold">~1.25 Hours</p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="md:w-2/3 p-8 lg:p-12">
+        <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">The Optimal Route</h3>
+        <p class="text-stone-600 leading-relaxed mb-6">
+          Enjoy a smooth, stress-free drive directly to our private villa gates without entering congested internal market lanes.
+        </p>
+        <ol class="space-y-6">
+          <li class="flex gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">1</div>
+            <div>
+              <h4 class="font-bold text-[#0F2A24] text-lg">Departing Kharadi</h4>
+              <p class="text-stone-500 text-sm">Head out via the direct arterial route onto the highway corridor (Fast commute via Pune Ring Road and Expressway bypass corridor).</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">2</div>
+            <div>
+              <h4 class="font-bold text-[#0F2A24] text-lg">Cruising the Expressway</h4>
+              <p class="text-stone-500 text-sm">Merge onto the Expressway for a completely signal-free, scenic drive ascending through the misty hills.</p>
+            </div>
+          </li>
+          <li class="flex gap-4">
+            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center font-bold">3</div>
+            <div>
+              <h4 class="font-bold text-[#0F2A24] text-lg">Direct Estate Arrival</h4>
+              <p class="text-stone-500 text-sm">Take the main Lonavala/Karla exit. Because our villas are just 10-15 minutes from the toll, you bypass crowded bazaar traffic entirely.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- ===== EXPLORE RELATED GETAWAYS ===== -->
-<section class="py-12 bg-stone-900 border-t border-white/10 text-white">
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h3 class="text-xl font-bold font-display text-white mb-6">Explore More Curated Getaways</h3>
-    <div class="flex flex-wrap justify-center gap-3">
-      <a href="/4bhk-villa-near-mumbai-for-family" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">4BHK Villa Near Mumbai for Family</a>
-      <a href="/best-4bhk-homestay-in-lonavala-for-family" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Best 4BHK Homestay in Lonavala for Family</a>
-      <a href="/homestay-near-mumbai" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Homestay Near Mumbai</a>
-      <a href="/pet-friendly-homestay-near-mumbai" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Pet Friendly Homestay Near Mumbai</a>
+<!-- ===== GALLERY SECTION ===== -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Family Luxury <span class="text-amber-600">Near Kharadi</span></h2>
+      <p class="text-stone-500 text-lg">Preview the serene family escapes and private pool spaces waiting just a short drive away.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(0)">
+        <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Modern villa architecture">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(1)">
+        <img src="images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive outdoor relaxation decks">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(2)">
+        <img src="images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Poolside seating">
+      </div>
+      
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(3)">
+        <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Lush green lawns at the villa">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(4)">
+        <img src="images/v1774807176_34_vpeqgv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private swimming pool">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(5)">
+        <img src="images/v1772868264_1_wqosmq.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening luxury ambiance">
+      </div>
+      
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(6)">
+        <img src="images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant dining area">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(7)">
+        <img src="images/v1774811620_30_1_eexljz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Comfortable indoor spaces">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(8)">
+        <img src="images/v1774809448_30_2_xtqtpb.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious lounge seating">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto" onclick="openLightbox(9)">
+        <img src="images/v1773076342_23_wby8bv.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Massive living room">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OUR VILLAS SECTION ===== -->
+<section id="villas" class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="mb-16 text-center">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Select Your <span class="text-amber-600">Private Estate</span></h2>
+      <p class="text-stone-500 text-lg">Explore our signature 4BHK private pool properties in Lonavala.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Neo Retro Villa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Neo Retro Villa Modern Estate">
+          <div class="absolute top-4 left-4 bg-cyan-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Modern & Accessible</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">A stunning modern build that offers incredibly smooth access right from the main grid, featuring beautiful open-plan architecture and a massive private pool.</p>
+          <a href="neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+        </div>
+      </div>
+
+      <!-- Retro Visawa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1774807173_04_y636xz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Visawa Massive Party Stay">
+          <div class="absolute top-4 left-4 bg-blue-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Grand Proportions</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Colossal private pool villa with mountain views, snooker table, outdoor gazebo, private lawn, and spacious bedrooms with ensuite bathrooms.</p>
+          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+        </div>
+      </div>
+
+      <!-- Retro Villa -->
+      <div class="group bg-white rounded-3xl overflow-hidden shadow-xl border border-stone-100 transition-all duration-500 hover:-translate-y-2">
+        <div class="relative h-64 overflow-hidden">
+          <img src="images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Retro Villa Private Stay">
+          <div class="absolute top-4 left-4 bg-indigo-500 text-white text-[10px] uppercase font-bold px-4 py-1 rounded-full">Gated Privacy</div>
+        </div>
+        <div class="p-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
+          <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hidden behind green borders, offering a perfectly quiet and secluded sanctuary. Vintage charm, private pool, and delicious home-cooked meals.</p>
+          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SEO CONTENT & INTERNAL LINKING SECTION ===== -->
+<section class="py-16 md:py-24 bg-white border-b border-stone-100">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="prose prose-stone lg:prose-lg mx-auto">
+      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Why Choose Our Homestay Near Kharadi for Your Family Vacation?</h2>
+      <p class="leading-relaxed text-stone-600 mb-6">Planning a family gathering with grandparents, parents, teenagers, and little children from Kharadi often means booking separate hotel rooms on different floors, fighting over buffet timings, and sharing public pools with strangers.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">At <strong>Retrofusion Luxury Homestays</strong>, you get an entire 4BHK private estate dedicated solely to your family. Grandparents can enjoy peaceful mornings on the garden veranda, kids can splash happily in the clean private pool, and everyone can bond over authentic, piping hot home-style meals prepared with love by our caretakers.</p>
+      <h3>Senior-Citizen and Toddler Friendly Living</h3>
+      <p class="leading-relaxed text-stone-600 mb-6">Our luxury villas feature step-free ground floor bedrooms, non-slip flooring, and expansive manicured gardens. Parents can relax knowing the private swimming pool is clean, hygienic, and includes a shallow ledge designed specifically for young kids.</p>
+      <h3>Authentic Home Dining & Pure Jain Food</h3>
+      <p class="leading-relaxed text-stone-600 mb-6">Say goodbye to standardized hotel buffets. Our resident private chef prepares fresh, wholesome meals tailored to your family's preferences — including strict Pure Jain, Pure Vegetarian, and mild food for toddlers.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">Book directly with Retrofusion to guarantee best rates, personalized concierge care, and an unforgettable retreat at the premier <strong>homestay near Kharadi for family</strong> vacations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ SECTION ===== -->
+<section class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Frequently Asked <span class="text-amber-600">Questions</span></h2>
+      <p class="text-stone-500 text-lg">Clear answers to help plan your getaway seamlessly.</p>
+    </div>
+
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">How far is the homestay from Kharadi and how long is the drive?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          The property is located in Lonavala, roughly ~80 km (~1.25 Hours drive) from Kharadi. The drive is smooth and completely signal-free along the Expressway.
+        </div>
+      </div>
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the homestay suitable for elderly family members and toddlers?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, absolutely! Our villas feature spacious ground-floor bedrooms with step-free entrances, attached bathrooms with anti-skid tiles, and fenced gardens safe for young kids and seniors.
+        </div>
+      </div>
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we get home-cooked pure veg or Jain meals for the family?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes! Our in-house chefs specialize in pure vegetarian, Jain, and non-vegetarian home-style dishes prepared fresh with separate cookware.
+        </div>
+      </div>
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">How many family members can stay in a 4BHK villa?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          A 4BHK villa comfortably accommodates 12 to 20 family members with plush king beds, luxury extra rollaway mattresses, and spacious living spaces.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
+</script>
+
+<!-- ===== CONTACT & BOOKING SECTION ===== -->
+<section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <div class="flex items-center justify-center space-x-2 mb-4">
+        <div class="w-8 h-[2px] bg-amber-600"></div>
+        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Your Getaway</span>
+        <div class="w-8 h-[2px] bg-amber-600"></div>
+      </div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
+        Reserve Your <span class="text-amber-600">Family Villa</span></h2>
+      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Ready to escape Kharadi for a memorable family weekend? Fill out the form below to check availability.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+      <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
+        <div class="mb-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
+          <p class="text-stone-500 text-sm">Our concierge team will get back to you promptly to confirm availability.</p>
+        </div>
+        <form action="mail1.php" method="POST" class="space-y-5">
+          <input type="hidden" name="villa" value="Homestay Near Kharadi for Family">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
+              <input type="text" name="name" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Your name" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Email *</label>
+              <input type="email" name="email" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="your@email.com" />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Phone Number *</label>
+              <input type="tel" name="phone" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="+91 98765 43210" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Number of Guests</label>
+              <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white">
+                <option value="">Select guests</option>
+                <option value="2-4">2-4 Guests</option>
+                <option value="5-8">5-8 Guests</option>
+                <option value="9-12">9-12 Guests</option>
+                <option value="13-15">13-15 Guests</option>
+                <option value="16+">16+ Guests</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-in Date</label>
+              <input type="date" name="checkIn" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-out Date</label>
+              <input type="date" name="checkOut" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Message</label>
+            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Let us know if you need any special meal plans arranged!"></textarea>
+          </div>
+          
+          <?php
+          $num1 = rand(1, 10);
+          $num2 = rand(1, 10);
+          $_SESSION['captcha_answer'] = $num1 + $num2;
+          ?>
+          <div class="space-y-2">
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Verify you are human *</label>
+            <div class="flex items-center gap-4">
+              <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-300 rounded-xl font-bold text-stone-900 text-lg">
+                <?php echo $num1; ?> + <?php echo $num2; ?> =
+              </span>
+              <input type="number" name="captcha" required class="flex-1 px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="?" />
+            </div>
+          </div>
+
+          <button type="submit" class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-xl shadow-lg transition-all duration-300 uppercase tracking-wider">
+            Send Enquiry
+          </button>
+        </form>
+      </div>
+
+      <div class="space-y-6">
+        <div class="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 rounded-3xl p-8 shadow-2xl">
+          <h3 class="text-2xl font-bold text-white mb-6 font-display">Contact <span class="text-amber-400">Information</span></h3>
+          <div class="space-y-5">
+            <a href="tel:+918999036644" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Phone</p>
+                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">+91 89990 36644</p>
+              </div>
+            </a>
+            <a href="mailto:contact@retrofusion.in" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Email</p>
+                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
+              </div>
+            </a>
+            <a href="https://wa.me/918999036644" target="_blank" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
+              </div>
+              <div>
+                <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp</p>
+                <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">Chat with Us</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="bg-amber-600 rounded-3xl p-8 shadow-2xl relative overflow-hidden group">
+          <div class="relative z-10">
+            <h3 class="text-2xl font-bold text-white mb-4 font-display">Need Directions?</h3>
+            <p class="text-amber-100 text-sm mb-6">Wondering exactly which route to take? Message our team for a location pin and fast routing assistance!</p>
+            <a href="https://wa.me/918999036644" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
+          </div>
+          <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
+            <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <?php include 'includes/footer.php'; ?>
+
+<!-- Lightbox Script -->
+<div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg">
+</div>
+
+<script>
+  window.galleryImages = [
+    'images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg',
+    'images/v1769868155_M08_qewdva.webp',
+    'images/v1774810269_12_lo4gpx.webp',
+    'images/v1770226533_N34_stewru.webp',
+    'images/v1774807176_34_vpeqgv.webp',
+    'images/v1772868264_1_wqosmq.webp',
+    'images/v1773076226_27_ipqwdd.webp',
+    'images/v1774811620_30_1_eexljz.webp',
+    'images/v1774809448_30_2_xtqtpb.webp',
+    'images/v1773076342_23_wby8bv.webp'
+  ];
+
+  function openLightbox(index) {
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = window.galleryImages[index];
+    lb.classList.remove('hidden');
+    lb.classList.add('flex');
+    setTimeout(() => lb.style.opacity = '1', 10);
+  }
+
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    lb.style.opacity = '0';
+    setTimeout(() => {
+      lb.classList.remove('flex');
+      lb.classList.add('hidden');
+    }, 300);
+  }
+</script>

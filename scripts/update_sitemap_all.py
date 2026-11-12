@@ -72,3 +72,4 @@ if entries_to_add:
         print("ERROR: </urlset> tag not found in sitemap.xml")
 else:
     print("All URLs already exist in sitemap.xml!")
+

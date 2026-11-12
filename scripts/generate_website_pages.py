@@ -324,3 +324,4 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(content)
     print(f"Created: {filename}")
+
