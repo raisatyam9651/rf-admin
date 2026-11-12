@@ -44,10 +44,10 @@ for loc_key, loc_name, dist, time_str, route_info, hero_img in family_locs:
     hero_btn_text = "Explore Family Escapes"
     
     intro_h2 = f"The Ultimate <span class=\"text-amber-600\">Family Getaway Near {loc_name}</span>"
-    intro_p = f"When the fast pace and traffic of {loc_name} get overwhelming, your family deserves an authentic hill sanctuary. Our <strong>homestay near {loc_name} for family</strong> offers the most refreshing escape without the fatigue of a long journey. By hopping onto the Expressway, you trade city concrete for the lush greenery, clean mountain air, and absolute seclusion of your own private 4BHK estate in Lonavala. Complete with senior-friendly ground floor bedrooms, a sparkling private swimming pool with shallow kids' lounge, and wholesome home-cooked meals by our in-house chef."
+    intro_p = f"When the fast pace and traffic of {loc_name} get overwhelming, your family deserves an authentic hill sanctuary. Our <strong>homestay near {loc_name} for family</strong> offers the most refreshing escape without the fatigue of a long journey. By hopping onto the Expressway, you trade city concrete for the lush greenery, clean mountain air, and absolute seclusion of your own private 4BHK estate in Lonavala. It is the premier choice for a relaxing <a href=\"/staycation-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">staycation in Lonavala</a>, milestone birthdays, and multi-generational reunions."
     
     intro_features = [
-        (icon1, "Scenic Drive", f"Swap urban horns for breathtaking Western Ghats mountain views on an easy {time_str} drive."),
+        (icon1, "Scenic Highway Run", f"Swap urban horns for breathtaking Western Ghats mountain views on an easy {time_str} drive."),
         (icon2, "Kid & Senior Safe", "Ground-floor suites with zero stairs, anti-skid bathrooms, and private fenced lawns where toddlers play freely."),
         (icon3, "100% Private Estate", "Zero shared areas. Unwind in completely gated luxury estates featuring massive private pools and dedicated care.")
     ]
@@ -67,12 +67,26 @@ for loc_key, loc_name, dist, time_str, route_info, hero_img in family_locs:
     seo_h2 = f"Why Choose Our Homestay Near {loc_name} for Your Family Vacation?"
     seo_content_paragraphs = [
         f"Planning a family gathering with grandparents, parents, teenagers, and little children from {loc_name} often means booking separate hotel rooms on different floors, fighting over buffet timings, and sharing public pools with strangers.",
-        f"At <strong>Retrofusion Luxury Homestays</strong>, you get an entire 4BHK private estate dedicated solely to your family. Grandparents can enjoy peaceful mornings on the garden veranda, kids can splash happily in the clean private pool, and everyone can bond over authentic, piping hot home-style meals prepared with love by our caretakers.",
+        f"At <strong>Retrofusion Luxury Homestays</strong>, you get an entire <a href=\"/4bhk-villa-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">luxury 4BHK villa in Lonavala</a> dedicated solely to your family. Grandparents can enjoy peaceful mornings on the garden veranda, kids can splash happily in our clean <a href=\"/private-pool-villas-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">private pool villas in Lonavala</a>, and everyone can bond over authentic, piping hot home-style meals prepared with love by our caretakers.",
         f"<h3>Senior-Citizen and Toddler Friendly Living</h3>",
-        "Our luxury villas feature step-free ground floor bedrooms, non-slip flooring, and expansive manicured gardens. Parents can relax knowing the private swimming pool is clean, hygienic, and includes a shallow ledge designed specifically for young kids.",
+        f"Our properties rank among the premier <a href=\"/villas-in-lonavala-for-family\" class=\"text-amber-600 font-semibold hover:underline\">villas in Lonavala for family</a> vacations because we prioritize generational comfort. Each estate features step-free ground floor bedrooms, non-slip flooring, and expansive manicured gardens. Parents can relax knowing the private swimming pool includes a shallow ledge designed specifically for young kids.",
         f"<h3>Authentic Home Dining & Pure Jain Food</h3>",
-        "Say goodbye to standardized hotel buffets. Our resident private chef prepares fresh, wholesome meals tailored to your family's preferences — including strict Pure Jain, Pure Vegetarian, and mild food for toddlers.",
-        f"Book directly with Retrofusion to guarantee best rates, personalized concierge care, and an unforgettable retreat at the premier <strong>homestay near {loc_name} for family</strong> vacations."
+        f"Say goodbye to standardized hotel buffets. Operating as premium <a href=\"/villas-in-lonavala-with-caretaker\" class=\"text-amber-600 font-semibold hover:underline\">villas with a caretaker in Lonavala</a>, our resident private chef prepares fresh, wholesome meals tailored to your family's preferences — including strict Pure Jain, Pure Vegetarian, and mild food for toddlers. In the evening, gather for a delicious feast with our <a href=\"/villas-in-lonavala-with-barbeque\" class=\"text-amber-600 font-semibold hover:underline\">villas with live barbeque in Lonavala</a> setups.",
+        f"<h3>Pet-Friendly Accommodation & Complete Seclusion</h3>",
+        f"Don't leave your four-legged family members behind in {loc_name}. Our secure gated compounds serve as high-end <a href=\"/pet-friendly-villas-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">pet-friendly villas in Lonavala</a> where your pets can run and explore safely."
+    ]
+    
+    rich_internal_links = [
+        ("/homestay-near-mumbai-for-family", "Homestay Near Mumbai for Family"),
+        ("/homestay-near-pune-for-family", "Homestay Near Pune for Family"),
+        ("/homestay-near-navi-mumbai-for-family", "Homestay Near Navi Mumbai for Family"),
+        ("/homestay-near-thane-for-family", "Homestay Near Thane for Family"),
+        ("/homestay-near-panvel-for-family", "Homestay Near Panvel for Family"),
+        ("/best-4bhk-homestay-in-lonavala-for-family", "Best 4BHK Homestay in Lonavala for Family"),
+        ("/4bhk-villa-near-mumbai-for-family", "4BHK Villa Near Mumbai for Family"),
+        ("/4bhk-villa-near-pune-for-family", "4BHK Villa Near Pune for Family"),
+        ("/villas-in-lonavala-for-family", "Villas in Lonavala for Family"),
+        ("/pet-friendly-homestay-near-mumbai", "Pet Friendly Homestay Near Mumbai")
     ]
     
     faqs = [
@@ -86,9 +100,9 @@ for loc_key, loc_name, dist, time_str, route_info, hero_img in family_locs:
     booking_subtext = f"Ready to escape {loc_name} for a memorable family weekend? Fill out the form below to check availability."
     booking_hidden_val = f"Homestay Near {loc_name} for Family"
     
-    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val)
+    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val, "Explore Related Family Stays & Top Locations", rich_internal_links)
 
-print("Finished generating Category 1 (Family Homestays)!")
+print("Finished generating Category 1 (Family Homestays) with rich anchor texts!")
 
 # -------------------------------------------------------------
 # CATEGORY 2: TEAM OUTING HOMESTAYS (8 LOCATIONS)
@@ -141,11 +155,22 @@ for loc_key, loc_name, dist, time_str, route_info in team_locs:
     seo_h2 = f"Why Companies Near {loc_name} Choose Retrofusion for Team Outings"
     seo_content_paragraphs = [
         f"Whether celebrating quarterly targets, welcoming new team members, or conducting annual strategy offsites, teams from {loc_name} deserve a private retreat that balances recreation and professional comfort.",
-        f"At <strong>Retrofusion</strong>, your group enjoys complete estate privacy with four massive air-conditioned bedrooms, presentation-ready living rooms with large 4K Smart TVs, and blazing 300 Mbps fiber internet for hybrid check-ins.",
-        f"<h3>Poolside Live BBQ & Chef Curated Buffets</h3>",
-        "Our on-site culinary team prepares hot breakfast, multi-cuisine lunch buffets, evening high tea with snacks, and lively poolside barbecue dinners.",
-        f"<h3>Official GST Corporate Invoicing</h3>",
-        "We support corporate finance requirements with formal GST tax invoicing for all bookings, meal plans, and customized event setups."
+        f"At <strong>Retrofusion</strong>, your group enjoys complete estate privacy in our <a href=\"/4bhk-villa-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">4BHK villas in Lonavala</a>, complete with four massive air-conditioned bedrooms, presentation-ready living rooms with large 4K Smart TVs, and blazing 300 Mbps fiber internet for hybrid check-ins.",
+        f"<h3>Spacious Lawns for Large Groups & Activities</h3>",
+        f"If you need <a href=\"/villas-in-lonavala-for-large-group\" class=\"text-amber-600 font-semibold hover:underline\">villas in Lonavala for large group</a> team building, our private lawns easily host activities like cricket, badminton, and outdoor workshops. Afterwards, celebrate with evening music and our signature <a href=\"/villas-in-lonavala-with-barbeque\" class=\"text-amber-600 font-semibold hover:underline\">villas with barbeque setups</a>.",
+        f"<h3>Official GST Corporate Invoicing & Dedicated Service</h3>",
+        f"We support corporate finance requirements with formal GST tax invoicing for all bookings. Compare our offerings with our specialized <a href=\"/homestay-near-mumbai-for-office-outing\" class=\"text-amber-600 font-semibold hover:underline\">homestay near Mumbai for office outing</a> and <a href=\"/4bhk-villa-near-mumbai-for-team-outing\" class=\"text-amber-600 font-semibold hover:underline\">4BHK villa near Mumbai for team outing</a> to choose the perfect package for your organization."
+    ]
+    
+    rich_internal_links = [
+        ("/homestay-near-mumbai-for-team-outing", "Homestay Near Mumbai for Team Outing"),
+        ("/homestay-near-pune-for-team-outing", "Homestay Near Pune for Team Outing"),
+        ("/homestay-near-navi-mumbai-for-team-outing", "Homestay Near Navi Mumbai for Team Outing"),
+        ("/homestay-near-thane-for-team-outing", "Homestay Near Thane for Team Outing"),
+        ("/homestay-near-mumbai-for-office-outing", "Homestay Near Mumbai for Office Outing"),
+        ("/4bhk-villa-near-mumbai-for-team-outing", "4BHK Villa Near Mumbai for Team Outing"),
+        ("/4bhk-villa-near-pune-for-team-outing", "4BHK Villa Near Pune for Team Outing"),
+        ("/4bhk-villa-near-mumbai-for-corporate-party", "4BHK Corporate Party Villa")
     ]
     
     faqs = [
@@ -159,9 +184,9 @@ for loc_key, loc_name, dist, time_str, route_info in team_locs:
     booking_subtext = f"Plan an unforgettable offsite for your colleagues from {loc_name}. Fill out the form below for corporate quotes."
     booking_hidden_val = f"Homestay Near {loc_name} for Team Outing"
     
-    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val)
+    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val, "Explore Corporate Offsites & Team Outings", rich_internal_links)
 
-print("Finished generating Category 2 (Team Outing Homestays)!")
+print("Finished generating Category 2 (Team Outing Homestays) with rich anchor texts!")
 
 # -------------------------------------------------------------
 # CATEGORY 3: WORKATION WITH WIFI (6 PAGES)
@@ -188,7 +213,7 @@ for slug, page_title, ref_city, dist_str, route_info in workation_pages:
     hero_btn_text = "Book Your Workation"
     
     intro_h2 = "The Ultimate <span class=\"text-amber-600\">Productive Workation in Lonavala</span>"
-    intro_p = f"Remote work shouldn't mean staying trapped inside an apartment in {ref_city}. Booking a <strong>{page_title.lower()}</strong> gives you the perfect fusion of enterprise-grade connectivity and serene resort living. Take uninterrupted video meetings on 300 Mbps dual-band fiber internet, work from garden verandas, and unwind with an evening swim in your private pool."
+    intro_p = f"Remote work shouldn't mean staying trapped inside an apartment in {ref_city}. Booking a <strong>{page_title.lower()}</strong> gives you the perfect fusion of enterprise-grade connectivity and serene resort living. Take uninterrupted video meetings on 300 Mbps dual-band fiber internet, work from garden verandas, and unwind with an evening swim in your private pool. It is the premier setting for an extended <a href=\"/staycation-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">staycation in Lonavala</a>."
     
     intro_features = [
         (icon1, "300 Mbps Fiber Wi-Fi", "Dual-band high-speed mesh routers across all bedrooms, living rooms, and poolside decks."),
@@ -210,10 +235,23 @@ for slug, page_title, ref_city, dist_str, route_info in workation_pages:
     
     seo_h2 = "Why Book a Workation Villa in Lonavala with Retrofusion?"
     seo_content_paragraphs = [
-        f"Whether you are a solo entrepreneur, a startup team, or a family balancing work and vacation, our <strong>{page_title.lower()}</strong> provides the ideal setup for sustained productivity.",
-        "Take high-stakes client presentations with total confidence on our 300 Mbps fiber Wi-Fi backed by power generators. When your workday ends, step directly onto the sun deck, swim in your private pool, or enjoy quiet evening walks surrounded by mountain mist.",
-        f"<h3>Long-Stay Discounts & Housekeeping Support</h3>",
-        "We offer attractive weekly and monthly workation tariffs with inclusive daily housekeeping, fresh linen changes, and customized meal subscriptions."
+        f"Whether you are a solo entrepreneur, a startup founder, or a tech professional, our <strong>{page_title.lower()}</strong> provides the ideal setup for sustained productivity.",
+        f"Take high-stakes client presentations with total confidence on our 300 Mbps fiber Wi-Fi backed by power generators. Explore our popular <a href=\"/homestay-in-lonavala-for-long-stay-workation\" class=\"text-amber-600 font-semibold hover:underline\">homestay in Lonavala for long stay workation</a> and dedicated <a href=\"/villa-in-lonavala-for-remote-work\" class=\"text-amber-600 font-semibold hover:underline\">villa in Lonavala for remote work</a> to find the ideal work setup.",
+        f"<h3>Work-Life Balance with Private Pool & Caretaker</h3>",
+        f"When your workday ends, step directly onto the sun deck, swim in your private pool at our <a href=\"/private-pool-villas-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">private pool villas in Lonavala</a>, or enjoy quiet evening walks. Our <a href=\"/villas-in-lonavala-with-caretaker\" class=\"text-amber-600 font-semibold hover:underline\">villas in Lonavala with caretaker</a> ensure fresh coffee, snacks, and wholesome meals arrive right on schedule.",
+        f"<h3>Weekly and Monthly Stays</h3>",
+        f"We offer attractive extended stay rates for our <a href=\"/work-from-villa-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">work from villa in Lonavala</a> and <a href=\"/monthly-stay-in-lonavala-for-workation\" class=\"text-amber-600 font-semibold hover:underline\">monthly stay in Lonavala for workation</a> packages."
+    ]
+    
+    rich_internal_links = [
+        ("/homestay-in-lonavala-with-wifi-for-workation", "Homestay in Lonavala with WiFi for Workation"),
+        ("/homestay-near-mumbai-with-wifi-for-workation", "Homestay Near Mumbai with WiFi for Workation"),
+        ("/homestay-near-pune-with-wifi-for-workation", "Homestay Near Pune with WiFi for Workation"),
+        ("/4bhk-villa-near-mumbai-with-wifi-for-workation", "4BHK Villa Near Mumbai with WiFi for Workation"),
+        ("/4bhk-villa-near-pune-with-wifi-for-workation", "4BHK Villa Near Pune with WiFi for Workation"),
+        ("/private-pool-homestay-near-mumbai-with-wifi-for-workation", "Private Pool Workation Homestay Near Mumbai"),
+        ("/homestay-in-lonavala-for-long-stay-workation", "Long Stay Workation in Lonavala"),
+        ("/villa-in-lonavala-for-remote-work", "Remote Work Villa in Lonavala")
     ]
     
     faqs = [
@@ -227,9 +265,9 @@ for slug, page_title, ref_city, dist_str, route_info in workation_pages:
     booking_subtext = "Ready to elevate your work-from-home routine? Inquire below for availability and long-stay packages."
     booking_hidden_val = page_title
     
-    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val)
+    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val, "Explore Workation & Remote Work Villas", rich_internal_links)
 
-print("Finished generating Category 3 (Workation with Wifi)!")
+print("Finished generating Category 3 (Workation with Wifi) with rich anchor texts!")
 
 # -------------------------------------------------------------
 # CATEGORY 4: REUNION PARTY WITH PRIVATE POOL (5 PAGES)
@@ -255,7 +293,7 @@ for slug, page_title, ref_city, dist_str, route_info in reunion_pages:
     hero_btn_text = "Plan Reunion Party"
     
     intro_h2 = f"Celebrate Lifelong Friendships <span class=\"text-amber-600\">in Complete Exclusivity</span>"
-    intro_p = f"Reunion parties deserve a special venue where you can laugh loudly, reminisce over nostalgic memories, and celebrate late into the night without noise complaints from hotel staff. Reserving a <strong>{page_title.lower()}</strong> gives you an entire 4-bedroom luxury villa reserved strictly for your group — with a private pool, lawn for music, live barbecue, and four lavish en-suite master suites."
+    intro_p = f"Reunion parties deserve a special venue where you can laugh loudly, reminisce over nostalgic memories, and celebrate late into the night without noise complaints from hotel staff. Reserving a <strong>{page_title.lower()}</strong> gives you an entire 4-bedroom luxury villa reserved strictly for your group — with a private pool, lawn for music, live barbecue, and four lavish en-suite master suites. It is the gold standard for an unforgettable <a href=\"/staycation-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">staycation in Lonavala</a>."
     
     intro_features = [
         (icon1, "100% Private Pool", "Crystal-clear, massive private swimming pool reserved strictly for your squad."),
@@ -278,9 +316,21 @@ for slug, page_title, ref_city, dist_str, route_info in reunion_pages:
     seo_h2 = "Why Retrofusion is the #1 Reunion Destination in Lonavala"
     seo_content_paragraphs = [
         f"When planning a school, college, or family reunion near {ref_city}, privacy is paramount. At Retrofusion, you don't share hallways, pools, or dining tables with strangers.",
-        "Challenge friends to snooker and carrom tournaments, splash in the private pool, play your favorite music, and chat around the evening lawn bonfire until the early morning hours.",
+        f"Our properties are purpose-built <a href=\"/villas-in-lonavala-for-large-group\" class=\"text-amber-600 font-semibold hover:underline\">villas in Lonavala for large groups</a>. Challenge friends to snooker and carrom tournaments, splash in your <a href=\"/private-pool-villas-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">private pool villa in Lonavala</a>, play your favorite music, and chat around the evening lawn bonfire until the early morning hours.",
         f"<h3>Custom Feast Buffets & Live Barbecue</h3>",
-        "Our in-house culinary crew prepares customized feast buffets — from smoky live barbecue chicken and paneer tikkas to authentic biryanis and late-night snacks."
+        f"Our in-house culinary crew prepares customized feast buffets — from smoky live barbecue chicken and paneer tikkas at our <a href=\"/villas-in-lonavala-with-barbeque\" class=\"text-amber-600 font-semibold hover:underline\">villas with barbeque in Lonavala</a> to authentic biryanis and late-night snacks.",
+        f"Also explore our specialized <a href=\"/4bhk-villa-in-lonavala-for-reunion-party\" class=\"text-amber-600 font-semibold hover:underline\">4BHK villa in Lonavala for reunion party</a> and <a href=\"/4bhk-villa-near-mumbai-for-reunion-party\" class=\"text-amber-600 font-semibold hover:underline\">4BHK villa near Mumbai for reunion party</a> to find the ideal layout."
+    ]
+    
+    rich_internal_links = [
+        ("/private-pool-homestay-in-lonavala-for-reunion-party", "Private Pool Homestay in Lonavala for Reunion Party"),
+        ("/private-pool-homestay-near-mumbai-for-reunion-party", "Private Pool Homestay Near Mumbai for Reunion Party"),
+        ("/private-pool-homestay-near-pune-for-reunion-party", "Private Pool Homestay Near Pune for Reunion Party"),
+        ("/private-pool-4bhk-villa-near-mumbai-for-reunion-party", "Private Pool 4BHK Villa Near Mumbai for Reunion Party"),
+        ("/private-pool-4bhk-villa-near-pune-for-reunion-party", "Private Pool 4BHK Villa Near Pune for Reunion Party"),
+        ("/4bhk-villa-in-lonavala-for-reunion-party", "4BHK Villa in Lonavala for Reunion Party"),
+        ("/4bhk-villa-near-mumbai-for-reunion-party", "4BHK Villa Near Mumbai for Reunion Party"),
+        ("/villas-in-lonavala-for-large-group", "Villas in Lonavala for Large Groups")
     ]
     
     faqs = [
@@ -294,9 +344,9 @@ for slug, page_title, ref_city, dist_str, route_info in reunion_pages:
     booking_subtext = "Get direct villa rates and reserve your dates for an epic reunion party."
     booking_hidden_val = page_title
     
-    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val)
+    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val, "Explore Reunion Parties & Large Group Villas", rich_internal_links)
 
-print("Finished generating Category 4 (Reunion Party)!")
+print("Finished generating Category 4 (Reunion Party) with rich anchor texts!")
 
 # -------------------------------------------------------------
 # CATEGORY 5: CORPORATE / OFFICE / TEAM OUTING 4BHK VILLAS (6 PAGES)
@@ -345,10 +395,23 @@ for slug, page_title, ref_city, event_type, dist_str in corp_pages:
     
     seo_h2 = f"Why Book a 4BHK Villa Near {ref_city} for Your {event_type}?"
     seo_content_paragraphs = [
-        f"Our luxury 4BHK private estates in Lonavala provide spacious double-height living rooms with plush seating and high-speed fiber Wi-Fi for presentations, coupled with outdoor lawns for team activities and a private swimming pool for relaxation.",
-        "We handle all corporate hospitality — from morning tea/coffee and custom breakfast buffets to live poolside barbecues and celebratory dinners.",
-        f"<h3>Full GST Corporate Tax Billing</h3>",
-        "We provide official GST invoices with your company's registered legal name and GSTIN for smooth accounting and corporate expense approval."
+        f"Our luxury <a href=\"/4bhk-villa-in-lonavala\" class=\"text-amber-600 font-semibold hover:underline\">4BHK villas in Lonavala</a> provide spacious double-height living rooms with plush seating and high-speed 300 Mbps fiber Wi-Fi for presentations, coupled with outdoor lawns for team activities and a private swimming pool for relaxation.",
+        f"If you're organizing an offsite from Mumbai or Pune, compare our specialized <a href=\"/homestay-near-mumbai-for-office-outing\" class=\"text-amber-600 font-semibold hover:underline\">homestay near Mumbai for office outing</a> and <a href=\"/4bhk-villa-near-mumbai-for-team-outing\" class=\"text-amber-600 font-semibold hover:underline\">4BHK villa near Mumbai for team outing</a> to review all available configurations.",
+        f"<h3>Gourmet Catering & Live Poolside BBQ</h3>",
+        f"We handle all corporate hospitality — from morning tea/coffee and custom breakfast buffets to live poolside barbecues at our <a href=\"/villas-in-lonavala-with-barbeque\" class=\"text-amber-600 font-semibold hover:underline\">villas with barbeque</a> and celebratory dinners.",
+        f"<h3>Official GST Corporate Tax Billing</h3>",
+        f"We provide official GST invoices with your company's registered legal name and GSTIN for smooth accounting and corporate expense approval for all <a href=\"/villas-in-lonavala-for-large-group\" class=\"text-amber-600 font-semibold hover:underline\">villas in Lonavala for large group</a> bookings."
+    ]
+    
+    rich_internal_links = [
+        ("/4bhk-villa-near-mumbai-for-corporate-party", "4BHK Villa Near Mumbai for Corporate Party"),
+        ("/4bhk-villa-near-pune-for-corporate-party", "4BHK Villa Near Pune for Corporate Party"),
+        ("/4bhk-villa-near-mumbai-for-office-outing", "4BHK Villa Near Mumbai for Office Outing"),
+        ("/4bhk-villa-near-pune-for-office-outing", "4BHK Villa Near Pune for Office Outing"),
+        ("/4bhk-villa-near-mumbai-for-team-outing", "4BHK Villa Near Mumbai for Team Outing"),
+        ("/4bhk-villa-near-pune-for-team-outing", "4BHK Villa Near Pune for Team Outing"),
+        ("/homestay-near-mumbai-for-office-outing", "Homestay Near Mumbai for Office Outing"),
+        ("/homestay-near-pune-for-office-outing", "Homestay Near Pune for Office Outing")
     ]
     
     faqs = [
@@ -362,7 +425,7 @@ for slug, page_title, ref_city, event_type, dist_str in corp_pages:
     booking_subtext = f"Plan an unforgettable {event_type.lower()} for your organization. Inquire below for dates and quotes."
     booking_hidden_val = page_title
     
-    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val)
+    create_official_location_page(slug, title, description, keywords, canonical_url, hero_img, hero_h1_line1, hero_h1_line2, hero_subtext, hero_btn_text, intro_h2, intro_p, intro_features, reach_dist, reach_time, reach_intro, reach_steps, gallery_h2, gallery_subtext, seo_h2, seo_content_paragraphs, faqs, booking_title, booking_subtext, booking_hidden_val, "Explore Corporate Villas & Offsites", rich_internal_links)
 
-print("Finished generating Category 5 (Corporate 4BHK Villas)!")
-print("ALL 41 OFFICIAL LOCATION PAGES SUCCESSFULLY GENERATED!")
+print("Finished generating Category 5 (Corporate 4BHK Villas) with rich anchor texts!")
+print("ALL 41 OFFICIAL LOCATION PAGES SUCCESSFULLY GENERATED WITH RICH ANCHOR TEXTS!")

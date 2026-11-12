@@ -177,7 +177,7 @@ include 'includes/header.php';
     <div class="max-w-3xl mx-auto">
       <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-8 font-display">Celebrate Lifelong Friendships <span class="text-amber-600">in Complete Exclusivity</span></h2>
       <p class="text-stone-600 text-lg leading-relaxed mb-12">
-        Reunion parties deserve a special venue where you can laugh loudly, reminisce over nostalgic memories, and celebrate late into the night without noise complaints from hotel staff. Reserving a <strong>private pool homestay near mumbai for reunion party</strong> gives you an entire 4-bedroom luxury villa reserved strictly for your group — with a private pool, lawn for music, live barbecue, and four lavish en-suite master suites.
+        Reunion parties deserve a special venue where you can laugh loudly, reminisce over nostalgic memories, and celebrate late into the night without noise complaints from hotel staff. Reserving a <strong>private pool homestay near mumbai for reunion party</strong> gives you an entire 4-bedroom luxury villa reserved strictly for your group — with a private pool, lawn for music, live barbecue, and four lavish en-suite master suites. It is the gold standard for an unforgettable <a href="/staycation-in-lonavala" class="text-amber-600 font-semibold hover:underline">staycation in Lonavala</a>.
       </p>
     </div>
     
@@ -331,7 +331,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">A stunning modern build that offers incredibly smooth access right from the main grid, featuring beautiful open-plan architecture and a massive private pool.</p>
-          <a href="neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
 
@@ -344,7 +344,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">Colossal private pool villa with mountain views, snooker table, outdoor gazebo, private lawn, and spacious bedrooms with ensuite bathrooms.</p>
-          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
 
@@ -357,7 +357,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hidden behind green borders, offering a perfectly quiet and secluded sanctuary. Vintage charm, private pool, and delicious home-cooked meals.</p>
-          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
     </div>
@@ -370,9 +370,26 @@ include 'includes/header.php';
     <div class="prose prose-stone lg:prose-lg mx-auto">
       <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Why Retrofusion is the #1 Reunion Destination in Lonavala</h2>
       <p class="leading-relaxed text-stone-600 mb-6">When planning a school, college, or family reunion near Mumbai, privacy is paramount. At Retrofusion, you don't share hallways, pools, or dining tables with strangers.</p>
-      <p class="leading-relaxed text-stone-600 mb-6">Challenge friends to snooker and carrom tournaments, splash in the private pool, play your favorite music, and chat around the evening lawn bonfire until the early morning hours.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">Our properties are purpose-built <a href="/villas-in-lonavala-for-large-group" class="text-amber-600 font-semibold hover:underline">villas in Lonavala for large groups</a>. Challenge friends to snooker and carrom tournaments, splash in your <a href="/private-pool-villas-in-lonavala" class="text-amber-600 font-semibold hover:underline">private pool villa in Lonavala</a>, play your favorite music, and chat around the evening lawn bonfire until the early morning hours.</p>
       <h3>Custom Feast Buffets & Live Barbecue</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">Our in-house culinary crew prepares customized feast buffets — from smoky live barbecue chicken and paneer tikkas to authentic biryanis and late-night snacks.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">Our in-house culinary crew prepares customized feast buffets — from smoky live barbecue chicken and paneer tikkas at our <a href="/villas-in-lonavala-with-barbeque" class="text-amber-600 font-semibold hover:underline">villas with barbeque in Lonavala</a> to authentic biryanis and late-night snacks.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">Also explore our specialized <a href="/4bhk-villa-in-lonavala-for-reunion-party" class="text-amber-600 font-semibold hover:underline">4BHK villa in Lonavala for reunion party</a> and <a href="/4bhk-villa-near-mumbai-for-reunion-party" class="text-amber-600 font-semibold hover:underline">4BHK villa near Mumbai for reunion party</a> to find the ideal layout.</p>
+
+      <!-- ===== RICH ANCHOR TEXT INTERNAL LINKING HUB ===== -->
+      <div class="mt-12 pt-8 border-t border-stone-200 not-prose">
+        <h3 class="text-xl font-bold text-[#0F2A24] font-display mb-4">Explore Reunion Parties & Large Group Villas</h3>
+        <div class="flex flex-wrap gap-2.5">
+          <a href="/private-pool-homestay-in-lonavala-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Private Pool Homestay in Lonavala for Reunion Party</a>
+          <a href="/private-pool-homestay-near-mumbai-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Private Pool Homestay Near Mumbai for Reunion Party</a>
+          <a href="/private-pool-homestay-near-pune-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Private Pool Homestay Near Pune for Reunion Party</a>
+          <a href="/private-pool-4bhk-villa-near-mumbai-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Private Pool 4BHK Villa Near Mumbai for Reunion Party</a>
+          <a href="/private-pool-4bhk-villa-near-pune-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Private Pool 4BHK Villa Near Pune for Reunion Party</a>
+          <a href="/4bhk-villa-in-lonavala-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa in Lonavala for Reunion Party</a>
+          <a href="/4bhk-villa-near-mumbai-for-reunion-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Mumbai for Reunion Party</a>
+          <a href="/villas-in-lonavala-for-large-group" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Villas in Lonavala for Large Groups</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

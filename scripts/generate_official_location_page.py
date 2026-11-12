@@ -4,6 +4,7 @@ import sys
 # Official Location Page Template Generator
 # Strictly replicates the exact structure, styles, colors, classes, and sections
 # of homestay-near-mumbai.php and 4bhk-villa-near-baner.php
+# with Rich Anchor Text Internal Linking
 
 def create_official_location_page(
     slug,
@@ -30,8 +31,13 @@ def create_official_location_page(
     faqs, # list of (q, a)
     booking_title,
     booking_subtext,
-    booking_hidden_val
+    booking_hidden_val,
+    internal_links_title="Explore Related Luxury Stays & Getaways",
+    rich_internal_links=None # list of (url, rich_anchor_text)
 ):
+    if rich_internal_links is None:
+        rich_internal_links = []
+
     # FAQ Schema
     faq_schema = ",\n".join([
         f"""        {{
@@ -70,6 +76,23 @@ def create_official_location_page(
 
     # SEO paragraphs
     seo_paragraphs_html = "\n".join([f"      <p class=\"leading-relaxed text-stone-600 mb-6\">{p}</p>" if not p.startswith("<h3") else f"      {p}" for p in seo_content_paragraphs])
+
+    # Rich Internal Links Pills in SEO section
+    rich_links_html = ""
+    if rich_internal_links:
+        pills_html = "\n".join([
+            f"""          <a href="{u}" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">{a_text}</a>"""
+            for u, a_text in rich_internal_links
+        ])
+        rich_links_html = f"""
+      <!-- ===== RICH ANCHOR TEXT INTERNAL LINKING HUB ===== -->
+      <div class="mt-12 pt-8 border-t border-stone-200 not-prose">
+        <h3 class="text-xl font-bold text-[#0F2A24] font-display mb-4">{internal_links_title}</h3>
+        <div class="flex flex-wrap gap-2.5">
+{pills_html}
+        </div>
+      </div>
+"""
 
     # FAQs HTML
     faqs_html = ""
@@ -346,7 +369,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">A stunning modern build that offers incredibly smooth access right from the main grid, featuring beautiful open-plan architecture and a massive private pool.</p>
-          <a href="neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
 
@@ -359,7 +382,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">Colossal private pool villa with mountain views, snooker table, outdoor gazebo, private lawn, and spacious bedrooms with ensuite bathrooms.</p>
-          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
 
@@ -372,7 +395,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hidden behind green borders, offering a perfectly quiet and secluded sanctuary. Vintage charm, private pool, and delicious home-cooked meals.</p>
-          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
     </div>
@@ -385,6 +408,7 @@ include 'includes/header.php';
     <div class="prose prose-stone lg:prose-lg mx-auto">
       <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">{seo_h2}</h2>
 {seo_paragraphs_html}
+{rich_links_html}
     </div>
   </div>
 </section>

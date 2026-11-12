@@ -331,7 +331,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Neo Retro Villa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">A stunning modern build that offers incredibly smooth access right from the main grid, featuring beautiful open-plan architecture and a massive private pool.</p>
-          <a href="neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/neo-retro" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
 
@@ -344,7 +344,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Visawa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">Colossal private pool villa with mountain views, snooker table, outdoor gazebo, private lawn, and spacious bedrooms with ensuite bathrooms.</p>
-          <a href="retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/retro-viswa-lonavala" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
 
@@ -357,7 +357,7 @@ include 'includes/header.php';
         <div class="p-8">
           <h3 class="text-2xl font-bold text-[#0F2A24] mb-4 font-display">Retro Villa</h3>
           <p class="text-stone-500 text-sm mb-6 leading-relaxed">Hidden behind green borders, offering a perfectly quiet and secluded sanctuary. Vintage charm, private pool, and delicious home-cooked meals.</p>
-          <a href="retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
+          <a href="/retro-villas" class="block text-center bg-[#0F2A24] text-white py-3 rounded-xl font-bold hover:bg-amber-600 transition-colors">View Villa Details</a>
         </div>
       </div>
     </div>
@@ -370,11 +370,27 @@ include 'includes/header.php';
     <div class="prose prose-stone lg:prose-lg mx-auto">
       <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Why Companies Near Kharghar Choose Retrofusion for Team Outings</h2>
       <p class="leading-relaxed text-stone-600 mb-6">Whether celebrating quarterly targets, welcoming new team members, or conducting annual strategy offsites, teams from Kharghar deserve a private retreat that balances recreation and professional comfort.</p>
-      <p class="leading-relaxed text-stone-600 mb-6">At <strong>Retrofusion</strong>, your group enjoys complete estate privacy with four massive air-conditioned bedrooms, presentation-ready living rooms with large 4K Smart TVs, and blazing 300 Mbps fiber internet for hybrid check-ins.</p>
-      <h3>Poolside Live BBQ & Chef Curated Buffets</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">Our on-site culinary team prepares hot breakfast, multi-cuisine lunch buffets, evening high tea with snacks, and lively poolside barbecue dinners.</p>
-      <h3>Official GST Corporate Invoicing</h3>
-      <p class="leading-relaxed text-stone-600 mb-6">We support corporate finance requirements with formal GST tax invoicing for all bookings, meal plans, and customized event setups.</p>
+      <p class="leading-relaxed text-stone-600 mb-6">At <strong>Retrofusion</strong>, your group enjoys complete estate privacy in our <a href="/4bhk-villa-in-lonavala" class="text-amber-600 font-semibold hover:underline">4BHK villas in Lonavala</a>, complete with four massive air-conditioned bedrooms, presentation-ready living rooms with large 4K Smart TVs, and blazing 300 Mbps fiber internet for hybrid check-ins.</p>
+      <h3>Spacious Lawns for Large Groups & Activities</h3>
+      <p class="leading-relaxed text-stone-600 mb-6">If you need <a href="/villas-in-lonavala-for-large-group" class="text-amber-600 font-semibold hover:underline">villas in Lonavala for large group</a> team building, our private lawns easily host activities like cricket, badminton, and outdoor workshops. Afterwards, celebrate with evening music and our signature <a href="/villas-in-lonavala-with-barbeque" class="text-amber-600 font-semibold hover:underline">villas with barbeque setups</a>.</p>
+      <h3>Official GST Corporate Invoicing & Dedicated Service</h3>
+      <p class="leading-relaxed text-stone-600 mb-6">We support corporate finance requirements with formal GST tax invoicing for all bookings. Compare our offerings with our specialized <a href="/homestay-near-mumbai-for-office-outing" class="text-amber-600 font-semibold hover:underline">homestay near Mumbai for office outing</a> and <a href="/4bhk-villa-near-mumbai-for-team-outing" class="text-amber-600 font-semibold hover:underline">4BHK villa near Mumbai for team outing</a> to choose the perfect package for your organization.</p>
+
+      <!-- ===== RICH ANCHOR TEXT INTERNAL LINKING HUB ===== -->
+      <div class="mt-12 pt-8 border-t border-stone-200 not-prose">
+        <h3 class="text-xl font-bold text-[#0F2A24] font-display mb-4">Explore Corporate Offsites & Team Outings</h3>
+        <div class="flex flex-wrap gap-2.5">
+          <a href="/homestay-near-mumbai-for-team-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Mumbai for Team Outing</a>
+          <a href="/homestay-near-pune-for-team-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Pune for Team Outing</a>
+          <a href="/homestay-near-navi-mumbai-for-team-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Navi Mumbai for Team Outing</a>
+          <a href="/homestay-near-thane-for-team-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Thane for Team Outing</a>
+          <a href="/homestay-near-mumbai-for-office-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Mumbai for Office Outing</a>
+          <a href="/4bhk-villa-near-mumbai-for-team-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Mumbai for Team Outing</a>
+          <a href="/4bhk-villa-near-pune-for-team-outing" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Pune for Team Outing</a>
+          <a href="/4bhk-villa-near-mumbai-for-corporate-party" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Corporate Party Villa</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
