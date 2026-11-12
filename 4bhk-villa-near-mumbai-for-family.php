@@ -322,4 +322,17 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
     </div>
 </section>
 
+<!-- ===== EXPLORE RELATED FAMILY GETAWAYS ===== -->
+<section class="py-12 bg-stone-900 border-t border-white/10 text-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h3 class="text-xl font-bold font-display text-white mb-6">Explore More Family Vacations Near Mumbai</h3>
+    <div class="flex flex-wrap justify-center gap-3">
+      <a href="/homestay-near-mumbai-for-family" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Homestay Near Mumbai For Family</a>
+      <a href="/best-4bhk-homestay-in-lonavala-for-family" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Best 4BHK Homestay in Lonavala For Family</a>
+      <a href="/homestay-near-mumbai" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Homestay Near Mumbai</a>
+      <a href="/pet-friendly-homestay-near-mumbai" class="px-5 py-2.5 rounded-full bg-white/10 hover:bg-gold hover:text-black transition text-sm font-medium">Pet Friendly Homestay Near Mumbai</a>
+    </div>
+  </div>
+</section>
+
 <?php include 'includes/footer.php'; ?>
