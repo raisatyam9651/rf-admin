@@ -746,34 +746,42 @@ include 'includes/header.php';
       <p class="text-stone-500 text-base sm:text-lg">Click any photo to explore our poolside decks, spacious bedrooms, and lush lawns in full resolution.</p>
     </div>
 
-    <!-- 10-Image Responsive Grid (Matches homestay-near-mumbai standard) -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="col-span-2 row-span-2 overflow-hidden rounded-3xl shadow-lg cursor-pointer group" onclick="openLightbox(0)">
-        <img loading="lazy" src="/images/v1769868140_B30_yc8rqu.webp" alt="4BHK Villa in Lonavala Private Pool and Sun Deck View" title="4BHK Villa Lonavala Private Pool" class="w-full h-full min-h-[300px] md:min-h-[460px] object-cover group-hover:scale-105 transition-transform duration-500" />
+    <!-- 10-Image Perfectly Aligned Grid (4 Columns Per Row) -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-auto md:h-[800px]">
+      <!-- Row 1: 2 cols + 1 col + 1 col -->
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(0)">
+        <img loading="lazy" src="/images/v1769868140_B30_yc8rqu.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="4BHK Villa in Lonavala Private Pool and Sun Deck View" title="4BHK Villa Lonavala Private Pool">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(1)">
-        <img loading="lazy" src="/images/v1770226533_N34_stewru.webp" alt="4BHK Villa in Lonavala Exterior Architectural View" title="4BHK Villa Exterior" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(1)">
+        <img loading="lazy" src="/images/v1770226533_N34_stewru.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="4BHK Villa in Lonavala Exterior Architectural View" title="4BHK Villa Exterior">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(2)">
-        <img loading="lazy" src="/images/v1769868140_C26_j6pstx.webp" alt="4BHK Villa Master Bedroom Suite with King Bed" title="4BHK Villa Master Bedroom" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(2)">
+        <img loading="lazy" src="/images/v1769868140_C26_j6pstx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="4BHK Villa Master Bedroom Suite with King Bed" title="4BHK Villa Master Bedroom">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(3)">
-        <img loading="lazy" src="/images/v1769868140_05_ivb2yz.webp" alt="Private Swimming Pool View at 4BHK Villa Lonavala" title="4BHK Villa Private Pool" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+
+      <!-- Row 2: 2 cols + 1 col + 1 col -->
+      <div class="md:col-span-2 relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(3)">
+        <img loading="lazy" src="/images/v1769868155_M08_qewdva.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Evening Lawn Party Setup at 4BHK Villa Lonavala" title="4BHK Villa Lawn Party">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(4)">
-        <img loading="lazy" src="/images/v1770226534_N36_om6t9d.webp" alt="Spacious 4BHK Villa Living Lounge with Smart TV" title="4BHK Villa Living Hall" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(4)">
+        <img loading="lazy" src="/images/v1769868140_05_ivb2yz.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Swimming Pool View at 4BHK Villa Lonavala" title="4BHK Villa Private Pool">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(5)">
-        <img loading="lazy" src="/images/v1769868155_M08_qewdva.webp" alt="Evening Lawn Party Setup at 4BHK Villa Lonavala" title="4BHK Villa Lawn Party" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(5)">
+        <img loading="lazy" src="/images/v1770226534_N36_om6t9d.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Spacious 4BHK Villa Living Lounge with Smart TV" title="4BHK Villa Living Hall">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(6)">
-        <img loading="lazy" src="/images/v1769868143_M01_jjmwdw.webp" alt="Luxury Ensuite Bathroom with Hot Geyser" title="4BHK Villa Bathroom" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+
+      <!-- Row 3: 1 col + 1 col + 1 col + 1 col -->
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(6)">
+        <img loading="lazy" src="/images/v1773076226_27_ipqwdd.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Elegant Indoor Dining Setup at 4BHK Villa" title="4BHK Villa Dining Area">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(7)">
-        <img loading="lazy" src="/images/v1769868142_G31_mdlfjh.webp" alt="First Floor Mountain View Sitout Balcony" title="4BHK Villa Balcony" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(7)">
+        <img loading="lazy" src="/images/v1769868143_M01_jjmwdw.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Luxury Ensuite Bathroom with Hot Geyser" title="4BHK Villa Bathroom">
       </div>
-      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(8)">
-        <img loading="lazy" src="/images/v1774810269_12_lo4gpx.webp" alt="Private Garden Gazebo and Outdoor Dining" title="4BHK Villa Gazebo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(8)">
+        <img loading="lazy" src="/images/v1769868142_G31_mdlfjh.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="First Floor Mountain View Sitout Balcony" title="4BHK Villa Balcony">
+      </div>
+      <div class="relative overflow-hidden rounded-3xl group cursor-pointer h-64 md:h-auto shadow-lg" onclick="openLightbox(9)">
+        <img loading="lazy" src="/images/v1774810269_12_lo4gpx.webp" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Private Garden Gazebo and Outdoor Dining" title="4BHK Villa Gazebo">
       </div>
     </div>
   </div>
@@ -880,113 +888,144 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- ===== CONTACT & BOOKING FORM SECTION ===== -->
-<section id="booking" class="py-16 md:py-24 bg-[#0F2A24] text-white relative overflow-hidden">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-      
-      <!-- Left Column: Form -->
-      <div class="lg:col-span-7 bg-white text-stone-800 p-8 sm:p-12 rounded-3xl shadow-2xl">
-        <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Direct Villa Booking</span>
-        <h3 class="text-3xl sm:text-4xl font-bold text-[#0F2A24] font-display mb-4">
-          Reserve Your <span class="text-amber-600">4BHK Villa</span> in Lonavala
-        </h3>
-        <p class="text-stone-500 text-sm mb-8">
-          Fill out the enquiry form below. Our villa manager will immediately share availability, photos, and exclusive direct booking rates.
-        </p>
-
-        <form action="mail1.php" method="POST" class="space-y-4">
-          <input type="hidden" name="lead_source" value="4BHK Villa in Lonavala Page" />
-          
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- ===== CONTACT & BOOKING SECTION ===== -->
+<section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <div class="flex items-center justify-center space-x-2 mb-4">
+        <div class="w-8 h-[2px] bg-amber-600"></div>
+        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Now</span>
+        <div class="w-8 h-[2px] bg-amber-600"></div>
+      </div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
+        Reserve Your <span class="text-amber-600">4BHK Villa</span></h2>
+      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Experience the finest 4BHK villa Lonavala has to offer. Fill out the form below to secure your dates.</p>
+    </div>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+      <!-- Left Column: Form Card -->
+      <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
+        <div class="mb-8">
+          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
+          <p class="text-stone-500 text-sm">Our team will get back to you with availability and details.</p>
+        </div>
+        <form action="mail1.php" method="POST" class="space-y-5">
+          <input type="hidden" name="villa" value="4BHK Villa in Lonavala" />
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Full Name *</label>
-              <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="Enter your name" />
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
+              <input type="text" name="name" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Your name" />
             </div>
             <div>
-              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Phone Number *</label>
-              <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="10-digit mobile number" />
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Email *</label>
+              <input type="email" name="email" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="your@email.com" />
             </div>
           </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Check-In Date *</label>
-              <input type="date" name="checkIn" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" />
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Phone Number *</label>
+              <input type="tel" name="phone" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="+91 98765 43210" />
             </div>
             <div>
-              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Check-Out Date *</label>
-              <input type="date" name="checkOut" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" />
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Guests *</label>
-              <select name="guests" class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all">
-                <option value="10-12 Guests">10–12 Guests</option>
-                <option value="13-16 Guests" selected>13–16 Guests</option>
-                <option value="17-20 Guests">17–20 Guests</option>
-                <option value="20+ Guests">20+ Guests</option>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Number of Guests</label>
+              <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white">
+                <option value="">Select guests</option>
+                <option value="2-4">2-4 Guests</option>
+                <option value="5-8">5-8 Guests</option>
+                <option value="9-12">9-12 Guests</option>
+                <option value="13-16" selected>13-16 Guests</option>
+                <option value="17+">17+ Guests</option>
               </select>
             </div>
           </div>
-
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-in Date</label>
+              <input type="date" name="checkIn" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-out Date</label>
+              <input type="date" name="checkOut" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
+            </div>
+          </div>
           <div>
-            <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Special Requests / Occasion</label>
-            <textarea name="message" rows="3" class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="Tell us if you require Pure Jain food, live BBQ, birthday cake, or corporate setup..."></textarea>
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Message</label>
+            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Tell us about your requirements (e.g. food, occasion, early check-in)..."></textarea>
           </div>
-
-          <!-- Anti-Spam Captcha -->
+          
           <?php
-            $c_num1 = rand(1, 9);
-            $c_num2 = rand(1, 9);
-            $_SESSION['captcha_answer'] = $c_num1 + $c_num2;
+          $num1 = rand(1, 10);
+          $num2 = rand(1, 10);
+          $_SESSION['captcha_answer'] = $num1 + $num2;
           ?>
-          <div class="p-3 bg-stone-50 rounded-xl border border-stone-200 flex items-center gap-3">
-            <span class="text-xs font-bold text-stone-600">Verification: <?php echo $c_num1; ?> + <?php echo $c_num2; ?> =</span>
-            <input type="number" name="captcha" required class="w-20 px-3 py-1.5 rounded-lg border border-stone-300 text-sm outline-none focus:border-amber-500" placeholder="?" />
+          <div class="space-y-2">
+            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Verify you are human *</label>
+            <div class="flex items-center gap-4">
+              <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-300 rounded-xl font-bold text-stone-900 text-lg">
+                <?php echo $num1; ?> + <?php echo $num2; ?> =
+              </span>
+              <input type="number" name="captcha" required class="flex-1 px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="?" />
+            </div>
           </div>
 
-          <button type="submit" class="w-full py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-xl transition-all shadow-lg text-sm uppercase tracking-wider">
-            Submit Reservation Request
+          <button type="submit" class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-xl shadow-lg transition-all duration-300 uppercase tracking-wider">
+            Send Enquiry
           </button>
         </form>
       </div>
 
-      <!-- Right Column: Quick WhatsApp & Direct Help -->
-      <div class="lg:col-span-5 space-y-6">
-        <div>
-          <h3 class="text-3xl font-bold font-display mb-4 text-white">Prefer Instant Booking via WhatsApp?</h3>
-          <p class="text-stone-300 text-sm leading-relaxed mb-6 font-light">
-            Skip filling forms! Connect directly with our on-ground manager on WhatsApp to view live villa video walkthroughs, check dates, and receive special weekend discounts.
-          </p>
-          
-          <div class="space-y-4">
-            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="flex items-center gap-4 group">
-              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
-              </div>
-              <div>
-                <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp Chat</p>
-                <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">+91 89990 36644</p>
-              </div>
-            </a>
-
+      <!-- Right Column: Contact Information Cards -->
+      <div class="space-y-6">
+        <div class="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 rounded-3xl p-8 shadow-2xl">
+          <h3 class="text-2xl font-bold text-white mb-6 font-display">Contact <span class="text-amber-400">Information</span></h3>
+          <div class="space-y-5">
             <a href="tel:+918999036644" class="flex items-center gap-4 group">
               <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
               </div>
               <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Call Reservations</p>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Phone</p>
                 <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">+91 89990 36644</p>
               </div>
             </a>
+            <a href="mailto:contact@retrofusion.in" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Email</p>
+                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
+              </div>
+            </a>
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
+              </div>
+              <div>
+                <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp</p>
+                <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">Chat with Us</p>
+              </div>
+            </a>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <div>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Address</p>
+                <p class="text-white font-medium text-lg">Lonavala, Maharashtra, India</p>
+              </div>
+            </div>
           </div>
         </div>
-
+        
         <div class="bg-amber-600 rounded-3xl p-8 shadow-2xl relative overflow-hidden group">
           <div class="relative z-10">
-            <h4 class="text-2xl font-bold text-white mb-2 font-display">Special Group Discounts</h4>
-            <p class="text-amber-100 text-sm mb-6">Planning a stay for 15+ guests or multi-night bookings? Get customized package rates with chef-inclusive meals.</p>
-            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
+            <h3 class="text-2xl font-bold text-white mb-4 font-display">Special Group Discounts</h3>
+            <p class="text-amber-100 text-sm mb-6">Planning a stay for 12+ guests or multi-night bookings? Connect directly with our on-ground manager on WhatsApp for custom packages and instant discounts.</p>
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message on WhatsApp</a>
+          </div>
+          <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
+            <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
           </div>
         </div>
       </div>
@@ -1013,13 +1052,13 @@ include 'includes/header.php';
     '/images/v1769868140_B30_yc8rqu.webp',
     '/images/v1770226533_N34_stewru.webp',
     '/images/v1769868140_C26_j6pstx.webp',
+    '/images/v1769868155_M08_qewdva.webp',
     '/images/v1769868140_05_ivb2yz.webp',
     '/images/v1770226534_N36_om6t9d.webp',
-    '/images/v1769868155_M08_qewdva.webp',
+    '/images/v1773076226_27_ipqwdd.webp',
     '/images/v1769868143_M01_jjmwdw.webp',
     '/images/v1769868142_G31_mdlfjh.webp',
-    '/images/v1774810269_12_lo4gpx.webp',
-    '/images/v1774807176_34_vpeqgv.webp'
+    '/images/v1774810269_12_lo4gpx.webp'
   ];
 
   let currentLbIndex = 0;
