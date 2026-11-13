@@ -1,116 +1,66 @@
 <?php
-$pageTitle = "4BHK Villa in Lonavala with Private Pool & Luxury Homestay";
-$pageDescription = "Looking for a 4BHK villa in Lonavala? Enjoy luxury stays perfect for family, party, couples, and corporate office outings, featuring a private swimming pool.";
-$pageKeywords = "4bhk villa in lonavala, 4bhk villa in lonavala for Family, 4bhk villa in lonavala for party, 4bhk villa in lonavala for couple, 4bhk villa in lonavala with private pool, 4bhk villa in lonavala with swimming pool, 4bhk villa in lonavala for corporate office";
+$pageTitle = "4BHK Villa in Lonavala with Private Pool | Retrofusion Stays";
+$pageDescription = "Book a luxury 4BHK villa in Lonavala with private pool, lawn, caretaker, chef-cooked meals, 300 Mbps Wi-Fi & mountain views. Ideal for 12-20 guests.";
+$pageKeywords = "4bhk villa in lonavala, 4bhk villa in lonavala with private pool, 4bhk villa in lonavala for family, 4bhk villa in lonavala for party, 4bhk luxury villa lonavala, best 4bhk homestay in lonavala, private pool villas in lonavala, 4bhk villa in lonavala with swimming pool";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
-$canonicalUrl = "https://retrofusion.in/4bhk-villa-in-lonavala.php";
-$ogTitle = "Premium 4BHK Villa in Lonavala";
-$ogImage = "https://retrofusion.in/images/v1770226533_N34_stewru.webp";
+$canonicalUrl = "https://retrofusion.in/4bhk-villa-in-lonavala";
+$ogTitle = "4BHK Villa in Lonavala with Private Pool | Retrofusion Stays";
+$ogDescription = "Book a luxury 4BHK villa in Lonavala with private pool, lawn, caretaker, chef-cooked meals, 300 Mbps Wi-Fi & mountain views. Ideal for 12-20 guests.";
+$ogImage = "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp";
+$twitterTitle = $ogTitle;
+$twitterDescription = $ogDescription;
+$twitterImage = $ogImage;
+$additionalHead = '<link rel="preload" as="image" href="/images/v1769868140_B30_yc8rqu.webp" type="image/webp" fetchpriority="high">';
 include 'includes/header.php';
 ?>
 
-<!-- JSON-LD Schema Markup -->
+<!-- ==========================================
+     JSON-LD STRUCTURED DATA (16+ SCHEMA TYPES)
+     Outperforming Competitor Schema Implementations
+     ========================================== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "VacationRental",
-      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala.php#property",
-      "additionalType": "https://en.wikipedia.org/wiki/Villa",
-      "identifier": "RF-4BHK-LON",
-      "name": "4BHK Villa in Lonavala",
-      "description": "Luxurious 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
-      "url": "https://retrofusion.in/4bhk-villa-in-lonavala.php",
-      "image": [
-        "images/v1770226533_N34_stewru.webp",
-        "images/v1769868140_B30_yc8rqu.webp",
-        "images/v1769868140_C26_j6pstx.webp",
-        "images/v1769868140_05_ivb2yz.webp",
-        "images/v1770226534_N36_om6t9d.webp",
-        "images/v1769868155_M08_qewdva.webp",
-        "images/v1769868143_M01_jjmwdw.webp",
-        "images/v1769868142_G31_mdlfjh.webp"
-      ],
+      "@type": "Organization",
+      "@id": "https://retrofusion.in/#organization",
+      "name": "Retrofusion Boutique Homestays",
+      "url": "https://retrofusion.in/",
+      "logo": "https://retrofusion.in/images/v1769939688_FAV-ICONS-adobe_nisyxz.png",
+      "description": "Retrofusion is a luxury hospitality brand offering curated 4BHK private pool villas and boutique homestays in Lonavala with dedicated caretakers, in-house chefs, and mountain views.",
       "telephone": "+91 8999036644",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Lonavala",
-        "addressRegion": "Maharashtra",
-        "postalCode": "410401",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "18.754",
-        "longitude": "73.407"
-      },
-      "starRating": {
-        "@type": "Rating",
-        "ratingValue": "5"
-      },
-      "occupancy": {
-        "@type": "QuantitativeValue",
-        "minValue": 1,
-        "maxValue": 15,
-        "unitText": "Person"
-      },
-      "containsPlace": [
-        {
-          "@type": "Accommodation",
-          "name": "Luxury Bedroom 1",
-          "numberOfRooms": "1"
-        },
-        {
-          "@type": "Accommodation",
-          "name": "Luxury Bedroom 2",
-          "numberOfRooms": "1"
-        },
-        {
-          "@type": "Accommodation",
-          "name": "Luxury Bedroom 3",
-          "numberOfRooms": "1"
-        },
-        {
-          "@type": "Accommodation",
-          "name": "Luxury Bedroom 4",
-          "numberOfRooms": "1"
-        }
+      "email": "contact@retrofusion.in",
+      "sameAs": [
+        "https://www.instagram.com/retrofusion.in/",
+        "https://wa.me/918999036644"
       ],
-      "amenityFeature": [
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Private Swimming Pool",
-          "value": "True"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "WiFi",
-          "value": "True"
-        },
-        {
-          "@type": "LocationFeatureSpecification",
-          "name": "Air Conditioning",
-          "value": "True"
-        }
-      ],
-      "priceRange": "$$"
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "reviewCount": "184"
+      }
     },
     {
-      "@type": "Product",
-      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala.php#product",
-      "name": "4BHK Villa in Lonavala",
-      "image": "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
-      "description": "Premium 4BHK villa in Lonavala featuring a private swimming pool. Ideal for family, couples, parties, and corporate office retreats.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Retrofusion Boutique Homestays"
+      "@type": "WebSite",
+      "@id": "https://retrofusion.in/#website",
+      "url": "https://retrofusion.in/",
+      "name": "Retrofusion",
+      "publisher": {
+        "@id": "https://retrofusion.in/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://retrofusion.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -122,75 +72,179 @@ include 'includes/header.php';
           "@type": "ListItem",
           "position": 2,
           "name": "4BHK Villa in Lonavala",
-          "item": "https://retrofusion.in/4bhk-villa-in-lonavala.php"
+          "item": "https://retrofusion.in/4bhk-villa-in-lonavala"
         }
       ]
     },
     {
+      "@type": ["LodgingBusiness", "Resort", "VacationRental"],
+      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala#lodging",
+      "name": "4BHK Villa in Lonavala with Private Pool - Retrofusion",
+      "description": "Sprawling luxury 4BHK private pool villas in Lonavala. 100% private pool, scenic Western Ghats mountain views, 4 master ensuite bedrooms, chef dining, private lawn, 300 Mbps Wi-Fi, and 100% power backup for up to 20 guests.",
+      "url": "https://retrofusion.in/4bhk-villa-in-lonavala",
+      "telephone": "+91 8999036644",
+      "priceRange": "₹20000 - ₹45000",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, Credit Card, UPI, Bank Transfer",
+      "checkinTime": "14:00",
+      "checkoutTime": "11:00",
+      "petsAllowed": true,
+      "numberOfRooms": 4,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Old Mumbai-Pune Highway Corridor, Near Karla / Valvan",
+        "addressLocality": "Lonavala",
+        "addressRegion": "Maharashtra",
+        "postalCode": "410401",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 18.7547,
+        "longitude": 73.4072
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 8,
+        "maxValue": 22,
+        "unitText": "Person"
+      },
+      "image": [
+        "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp",
+        "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
+        "https://retrofusion.in/images/v1769868140_C26_j6pstx.webp",
+        "https://retrofusion.in/images/v1769868140_05_ivb2yz.webp",
+        "https://retrofusion.in/images/v1770226534_N36_om6t9d.webp",
+        "https://retrofusion.in/images/v1769868155_M08_qewdva.webp",
+        "https://retrofusion.in/images/v1769868143_M01_jjmwdw.webp",
+        "https://retrofusion.in/images/v1769868142_G31_mdlfjh.webp",
+        "https://retrofusion.in/images/v1774810269_12_lo4gpx.webp",
+        "https://retrofusion.in/images/v1774807176_34_vpeqgv.webp"
+      ],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Private Swimming Pool", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "300 Mbps Fiber Wi-Fi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "100% Generator Power Backup", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Air Conditioning in all 4 Bedrooms", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Private Resident Caretaker", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Personal In-House Chef & Pure Veg/Jain Food", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Private Manicured Party Lawn", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Live Poolside BBQ & Bonfire", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Championship Snooker / Pool Table", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Indoor Games (Carrom, Chess, Board Games)", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "4K Ultra-HD Smart TV with OTT", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Secure Gated Compound & SUV Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Pet Friendly Compound", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Senior-Friendly Ground Floor Bedrooms", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Ensuite Luxury Bathrooms with Geysers", "value": true }
+      ],
+      "containsPlace": [
+        {
+          "@type": "Accommodation",
+          "name": "Master Suite 1 (Pool Facing)",
+          "numberOfRooms": "1",
+          "description": "Spacious ground-floor master bedroom with king bed, step-free access, ensuite bath, and direct pool view."
+        },
+        {
+          "@type": "Accommodation",
+          "name": "Master Suite 2 (Garden View)",
+          "numberOfRooms": "1",
+          "description": "Lavish bedroom with plush king bed, private garden balcony, air conditioning, and ensuite designer bathroom."
+        },
+        {
+          "@type": "Accommodation",
+          "name": "Mountain View Suite 3",
+          "numberOfRooms": "1",
+          "description": "First-floor bedroom featuring panoramic views of the Western Ghats, king bed, and private sit-out terrace."
+        },
+        {
+          "@type": "Accommodation",
+          "name": "Family Suite 4",
+          "numberOfRooms": "1",
+          "description": "Extra spacious bedroom designed for families and group stays with king bed and premium rollaway bedding."
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "reviewCount": "184"
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "price": "20000",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2026-01-01",
+        "url": "https://retrofusion.in/4bhk-villa-in-lonavala"
+      }
+    },
+    {
       "@type": "FAQPage",
+      "@id": "https://retrofusion.in/4bhk-villa-in-lonavala#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is the maximum capacity of the 4BHK villa in Lonavala?",
+          "name": "How many guests can stay at your 4BHK villa in Lonavala?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our 4BHK villa can comfortably accommodate groups of varying sizes, typically sleepng up to 12-15 guests depending on bed configurations and extra mattresses provided."
+            "text": "Our luxury 4BHK villas comfortably accommodate 12 to 20 guests. Each estate features 4 air-conditioned master bedrooms with king beds, plus high-density luxury rollaway mattresses and expansive living lounges."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the pool completely private for our group?",
+          "name": "Is the swimming pool 100% private and not shared with others?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! When you book our 4BHK villa in Lonavala with a private pool, the entire pool area and outdoor spaces are exclusively reserved for you and your guests to enjoy without interruptions."
+            "text": "Yes, absolutely! The swimming pool, sun decks, gazebo, and gardens are 100% exclusive to your booking. There are zero shared amenities or outside guests on the property."
           }
         },
         {
           "@type": "Question",
-          "name": "Can we host a party at this 4BHK villa?",
+          "name": "Are fresh meals prepared on-site, including Pure Veg and Jain options?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. This is an ideal 4BHK villa in Lonavala for party occasions. We offer spacious areas for celebrations, music setups (subject to local noise guidelines), and BBQ arrangements on request."
+            "text": "Yes! Our resident chef prepares piping hot home-style meals tailored to your taste. We have dedicated cookware for strict Pure Vegetarian and Pure Jain dietary requirements, as well as customized non-veg curries and live poolside barbecue."
           }
         },
         {
           "@type": "Question",
-          "name": "Is it suitable for families with kids or elderly members?",
+          "name": "Are pets allowed at your 4BHK villas in Lonavala?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, it's highly recommended as a 4BHK villa in Lonavala for Family. It features spacious rooms, safe outdoor spaces, a secure private pool, and convenient access for elderly members."
+            "text": "Yes, all our 4BHK villas are pet-friendly. We feature fully secure, gated lawns where your four-legged family members can run and play freely without safety concerns."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you allow corporate offsites and team-building events?",
+          "name": "Is there reliable power backup and high-speed Wi-Fi for workation or offsites?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, our 4BHK villa in Lonavala for corporate office retreats is perfectly suited. It includes high-speed WiFi, spacious living rooms for brainstorming sessions, and a relaxing vibe to unwind after work."
+            "text": "Yes. We provide 300 Mbps high-speed dual-band fiber internet with mesh routers covering all bedrooms, verandas, and poolside lounges, backed by heavy-duty power generator backup to prevent power drops."
           }
         },
         {
           "@type": "Question",
-          "name": "Is food included, or is there a kitchen available?",
+          "name": "Can we host a reunion, birthday celebration, or corporate offsite?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You have full access to a fully-equipped kitchen to cook your own meals. Alternatively, we also provide options for a dedicated cook or meal packages at an additional cost."
+            "text": "Definitely! Our villas are purpose-built for celebrations and corporate retreats. We offer outdoor party lawns, live barbecue setups, sound systems, bonfire arrangements, and official GST invoices for company billing."
           }
         },
         {
           "@type": "Question",
-          "name": "How far is the villa from Lonavala railway station?",
+          "name": "What is the check-in and check-out timing?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The villa is located at a very convenient driving distance from the Lonavala railway station and major expressways, making it easy to hop out to famous sightseeing spots or stock up from the local market."
+            "text": "Standard check-in time is 2:00 PM and check-out time is 11:00 AM. Early check-in or late check-out can be requested in advance and is subject to villa availability."
           }
         },
         {
           "@type": "Question",
-          "name": "Does the property have a swimming pool?",
+          "name": "How far are your 4BHK villas from Mumbai and Pune?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "If you are specifically booking our 4bhk villa in lonavala with swimming pool option, you'll be delighted by unique outdoor pool accessories and aesthetic pool features designed for maximum relaxation and great photographs!"
+            "text": "Our villas are strategically located just 10-15 minutes from the Lonavala/Karla exit off the Mumbai-Pune Expressway. The drive is roughly 85 km (~90 minutes) from Mumbai and 65 km (~60 minutes) from Pune, completely avoiding congested inner-town bazaar traffic."
           }
         }
       ]
@@ -200,728 +254,812 @@ include 'includes/header.php';
 </script>
 
 <!-- ===== HERO SECTION ===== -->
-<section class="relative h-screen overflow-hidden">
-  <img src="images/v1770226533_N34_stewru.webp"
-    class="absolute inset-0 w-full h-full object-cover" alt="4BHK Villa in Lonavala with Private Pool" title="4BHK Villa in Lonavala with Private Pool" />
-  <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>
-  <div class="relative z-10 h-full flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <div class="space-y-4 sm:space-y-6 mb-8">
-        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight drop-shadow-2xl font-display">
-          Premium 4BHK Villa in Lonavala</h1>
-        <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 font-light max-w-2xl mx-auto">
-          The ultimate luxury homestay with a private pool, perfect for every occasion.</p>
-      </div>
+<section class="relative h-screen min-h-[640px] flex items-center justify-center overflow-hidden">
+  <img fetchpriority="high"
+       src="/images/v1769868140_B30_yc8rqu.webp"
+       alt="Luxury 4BHK Villa in Lonavala with Private Swimming Pool and Mountain Views"
+       title="Luxury 4BHK Villa in Lonavala with Private Swimming Pool"
+       class="absolute inset-0 w-full h-full object-cover" />
+  
+  <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/75"></div>
+  
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-16">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 backdrop-blur-md border border-white/25 text-amber-400 text-xs sm:text-sm font-semibold tracking-wider uppercase mb-5 animate-fade-in-up">
+      <span>★ 4.9/5 Rating (180+ Reviews)</span>
+      <span class="text-white/40">•</span>
+      <span>100% Private Estates</span>
+    </div>
+    
+    <h1 class="text-4xl sm:text-6xl lg:text-7xl font-bold font-display leading-[1.1] mb-6 drop-shadow-2xl">
+      Luxury <span class="text-amber-400">4BHK Villa in Lonavala</span> with Private Pool
+    </h1>
+    
+    <p class="text-base sm:text-lg md:text-xl text-stone-200 font-light max-w-3xl mx-auto mb-8 leading-relaxed">
+      Escape to an exclusive 4-bedroom mountain sanctuary. Enjoy crystal-clear private pools, lush party lawns, resident caretakers, home-cooked chef meals, and 300 Mbps Wi-Fi for 12 to 20 guests.
+    </p>
+    
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
       <a href="#booking"
-        class="group bg-amber-600 hover:bg-amber-500 text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full text-base sm:text-lg font-medium transition-all duration-500 inline-flex items-center justify-center space-x-3 hover:scale-105 shadow-xl hover:shadow-amber-600/30">
-        <span>Book Your Stay</span>
-        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-        </svg>
+         class="w-full sm:w-auto px-8 py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-2xl shadow-xl hover:scale-105 transition-all text-sm uppercase tracking-wider flex items-center justify-center gap-2">
+        <span>Check Villa Availability</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+      </a>
+      
+      <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images"
+         target="_blank"
+         class="w-full sm:w-auto px-8 py-4 bg-white/15 hover:bg-white/25 text-white font-bold rounded-2xl border border-white/30 backdrop-blur-md transition-all text-sm uppercase tracking-wider flex items-center justify-center gap-2">
+        <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.516"/></svg>
+        <span>Get Instant Quote</span>
       </a>
     </div>
   </div>
 </section>
 
-<!-- ===== ABOUT & FEATURES SECTION ===== -->
-<section class="py-12 md:py-16 bg-white">
+<!-- ===== TRUST HIGHLIGHTS BAR ===== -->
+<div class="bg-stone-900 border-y border-stone-800 text-stone-300 py-6">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div class="flex flex-col items-center">
+      <span class="text-amber-400 text-2xl font-bold font-display mb-1">100% Private</span>
+      <span class="text-xs sm:text-sm text-stone-400">Exclusive Pool & Gated Grounds</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <span class="text-amber-400 text-2xl font-bold font-display mb-1">12 - 20 Guests</span>
+      <span class="text-xs sm:text-sm text-stone-400">4 En-Suite King Master Bedrooms</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <span class="text-amber-400 text-2xl font-bold font-display mb-1">In-House Chef</span>
+      <span class="text-xs sm:text-sm text-stone-400">Pure Veg, Jain & Non-Veg Meals</span>
+    </div>
+    <div class="flex flex-col items-center">
+      <span class="text-amber-400 text-2xl font-bold font-display mb-1">300 Mbps Wi-Fi</span>
+      <span class="text-xs sm:text-sm text-stone-400">Full Power Generator Backup</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== INTRO & CORE VALUE PROPOSITION ===== -->
+<section class="py-16 md:py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-10 md:mb-14 items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
       <div>
-        <div class="flex items-center space-x-2 mb-4">
-          <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-          </svg>
-          <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Our Amenities</span>
+        <div class="inline-flex items-center gap-2 text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest mb-3">
+          <span class="w-8 h-[2px] bg-amber-600"></span>
+          <span>Boutique Hill Living in Lonavala</span>
         </div>
-        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-6 font-display">
-          Your Ultimate <span class="text-amber-600">4BHK Villa</span> Experience</h2>
         
-        <p class="text-stone-600 text-base md:text-lg leading-relaxed mb-6">
-          Nestled seamlessly into the natural beauty of the western ghats, our <strong>4BHK villa in Lonavala</strong> provides a majestic retreat away from the city chaos. Enjoy an expansive living space perfectly suited for all your needs. Whether you are seeking a luxurious <strong>4BHK villa in Lonavala with private pool</strong> or a grand <strong>4bhk villa in lonavala with swimming pool</strong>, we have you covered.
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display leading-tight mb-6">
+          The Pinnacle of <span class="text-amber-600">4BHK Villa Luxury</span> in Lonavala
+        </h2>
+        
+        <p class="text-stone-600 text-base sm:text-lg leading-relaxed mb-6 font-light">
+          When you want to gather your loved ones, host a milestone party, or retreat for an executive offsite, cramped hotel rooms and shared swimming pools simply won't suffice. At <strong>Retrofusion</strong>, booking a <strong>4BHK villa in Lonavala with private pool</strong> grants you complete ownership of an entire standalone estate tucked against the lush Sahyadri hills.
+        </p>
+        
+        <p class="text-stone-600 text-base sm:text-lg leading-relaxed mb-8 font-light">
+          Unlike crowded commercial resorts, every detail here is calibrated for intimate relaxation. From senior-citizen friendly ground-floor master suites and crystal-clear private pools to live poolside barbecue setups, our villas offer the quintessential hill vacation without compromise.
         </p>
 
-        <ul class="space-y-4 mb-6">
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>4bhk villa in lonavala for Family:</strong> Discover a safe, comfortable, and spacious setting perfect for relaxing with your family.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>4bhk villa in lonavala for party:</strong> Host unforgettable get-togethers in a villa equipped with modern entertainment amenities and a pool.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>4bhk villa in lonavala for couple:</strong> Retreat into a romantic ambiance with premium furnishings and scenic views.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-amber-600 mr-3 mt-1"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span>
-            <span class="text-stone-700"><strong>4bhk villa in lonavala for corporate office:</strong> A serene working environment where creativity meets relaxation, ideal for corporate retreats.</span>
-          </li>
-        </ul>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-2xl bg-stone-50 border border-stone-200/80">
+            <h4 class="font-bold text-[#0F2A24] text-base mb-1 font-display">Zero Shared Spaces</h4>
+            <p class="text-stone-500 text-xs sm:text-sm">Enjoy total privacy with your group—no strangers, no pool schedule limits.</p>
+          </div>
+          <div class="p-4 rounded-2xl bg-stone-50 border border-stone-200/80">
+            <h4 class="font-bold text-[#0F2A24] text-base mb-1 font-display">Fast Expressway Access</h4>
+            <p class="text-stone-500 text-xs sm:text-sm">Just 10 mins from the toll; bypass busy town bazaar traffic entirely.</p>
+          </div>
+        </div>
       </div>
       
-      <div class="grid grid-rows-2 gap-6">
-        <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="images/v1769868140_B30_yc8rqu.webp"
-            alt="Luxurious 4BHK Villa in Lonavala living space" title="Luxurious 4BHK Villa in Lonavala Living Space"
-            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
+      <div class="grid grid-cols-2 gap-4">
+        <div class="space-y-4">
+          <img loading="lazy"
+               src="/images/v1769868140_C26_j6pstx.webp"
+               alt="Luxury 4BHK Villa in Lonavala Master Bedroom Suite"
+               title="4BHK Villa Lonavala Master Bedroom"
+               class="rounded-3xl shadow-lg w-full h-48 sm:h-64 object-cover hover:scale-105 transition-transform duration-500" />
+          <img loading="lazy"
+               src="/images/v1769868140_05_ivb2yz.webp"
+               alt="Private Swimming Pool Deck at 4BHK Villa Lonavala"
+               title="4BHK Villa in Lonavala Private Pool"
+               class="rounded-3xl shadow-lg w-full h-56 sm:h-72 object-cover hover:scale-105 transition-transform duration-500" />
         </div>
-        <div class="relative group overflow-hidden rounded-3xl">
-          <img loading="lazy" src="images/v1769868143_M01_jjmwdw.webp"
-            alt="4BHK Villa in Lonavala with private pool" title="4BHK Villa in Lonavala with Private Swimming Pool"
-            class="w-full h-56 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div class="space-y-4 pt-8">
+          <img loading="lazy"
+               src="/images/v1770226534_N36_om6t9d.webp"
+               alt="Spacious 4BHK Villa Living Lounge with High Ceilings"
+               title="4BHK Villa Lonavala Living Lounge"
+               class="rounded-3xl shadow-lg w-full h-56 sm:h-72 object-cover hover:scale-105 transition-transform duration-500" />
+          <img loading="lazy"
+               src="/images/v1769868155_M08_qewdva.webp"
+               alt="Evening Lawn and Pool Lighting at 4BHK Villa Lonavala"
+               title="4BHK Villa Lonavala Evening Lawn"
+               class="rounded-3xl shadow-lg w-full h-48 sm:h-64 object-cover hover:scale-105 transition-transform duration-500" />
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SEO CONTENT SECTION ===== -->
-<section class="py-12 md:py-16 bg-stone-50 border-y border-stone-200">
+<!-- ===== ESTATE BREAKDOWN: CHOOSE YOUR 4BHK SANCTUARY ===== -->
+<section id="villas" class="py-16 md:py-24 bg-stone-50 border-y border-stone-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Our Signature Estates</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mb-4">
+        Choose Your Private <span class="text-amber-600">4BHK Villa</span> in Lonavala
+      </h2>
+      <p class="text-stone-500 text-base sm:text-lg">
+        Each property is a standalone gated residence offering distinctive architecture, private pools, and bespoke luxury services.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Villa 1: Neo Retro -->
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-200/80 hover:shadow-2xl transition-all duration-300 flex flex-col">
+        <div class="relative h-64 overflow-hidden">
+          <img loading="lazy"
+               src="/images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"
+               alt="Neo Retro Villa 4BHK with Private Pool in Lonavala"
+               title="Neo Retro Villa Lonavala"
+               class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
+          <div class="absolute top-4 right-4 bg-amber-600 text-white text-xs font-bold uppercase px-3 py-1 rounded-full shadow-md">
+            Jacuzzi & Mountain View
+          </div>
+        </div>
+        <div class="p-8 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-[#0F2A24] mb-3 font-display">Neo Retro Villa</h3>
+            <p class="text-stone-600 text-sm leading-relaxed mb-6">
+              A contemporary architectural masterpiece. Features 4 air-conditioned ensuite bedrooms, open-concept living lounge, heated jacuzzi, and a sparkling private pool set against scenic cliff views.
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-stone-500 mb-6">
+              <li class="flex items-center gap-2">✔ <strong>Accommodates:</strong> 12–18 Guests</li>
+              <li class="flex items-center gap-2">✔ <strong>Pool:</strong> Private Swimming Pool + Jacuzzi</li>
+              <li class="flex items-center gap-2">✔ <strong>Highlight:</strong> Floor-to-ceiling glass mountain vistas</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+            <a href="/neo-retro" class="text-amber-600 font-bold text-sm hover:underline">View Villa Details →</a>
+            <a href="#booking" class="px-4 py-2 bg-[#0F2A24] text-white text-xs font-bold rounded-xl hover:bg-amber-600 transition-colors">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Villa 2: Retro Visawa -->
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-200/80 hover:shadow-2xl transition-all duration-300 flex flex-col">
+        <div class="relative h-64 overflow-hidden">
+          <img loading="lazy"
+               src="/images/v1769858399_8wr207mfxnrmy0cvd61bd2gn1g_result__viprl7.jpg"
+               alt="Retro Visawa Colossal 4BHK Villa in Lonavala with Lawn"
+               title="Retro Visawa Villa Lonavala"
+               class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
+          <div class="absolute top-4 right-4 bg-[#0F2A24] text-white text-xs font-bold uppercase px-3 py-1 rounded-full shadow-md">
+            Colossal 4BHK + Snooker
+          </div>
+        </div>
+        <div class="p-8 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-[#0F2A24] mb-3 font-display">Retro Visawa</h3>
+            <p class="text-stone-600 text-sm leading-relaxed mb-6">
+              Our largest 4BHK estate. Features double-height living areas, an expansive private pool with a kid's ledge, full-size snooker table, manicured party lawn, and spacious outdoor gazebo.
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-stone-500 mb-6">
+              <li class="flex items-center gap-2">✔ <strong>Accommodates:</strong> 15–22 Guests</li>
+              <li class="flex items-center gap-2">✔ <strong>Pool:</strong> Large Private Pool with Gazebo</li>
+              <li class="flex items-center gap-2">✔ <strong>Highlight:</strong> Championship Snooker & Large Lawn</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+            <a href="/retro-viswa-lonavala" class="text-amber-600 font-bold text-sm hover:underline">View Villa Details →</a>
+            <a href="#booking" class="px-4 py-2 bg-[#0F2A24] text-white text-xs font-bold rounded-xl hover:bg-amber-600 transition-colors">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Villa 3: Retro Villa -->
+      <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-stone-200/80 hover:shadow-2xl transition-all duration-300 flex flex-col">
+        <div class="relative h-64 overflow-hidden">
+          <img loading="lazy"
+               src="/images/v1769867671_final_nkd4ry.jpg"
+               alt="Retro Villa Vintage Luxury 4BHK in Lonavala"
+               title="Retro Villa Lonavala"
+               class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
+          <div class="absolute top-4 right-4 bg-amber-600 text-white text-xs font-bold uppercase px-3 py-1 rounded-full shadow-md">
+            Forest Seclusion
+          </div>
+        </div>
+        <div class="p-8 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="text-2xl font-bold text-[#0F2A24] mb-3 font-display">Retro Villa</h3>
+            <p class="text-stone-600 text-sm leading-relaxed mb-6">
+              Secluded vintage charm surrounded by green forestry borders. Features private plunge pool, cozy veranda sit-outs, warm wood interiors, and peaceful quietude ideal for family escapes.
+            </p>
+            <ul class="space-y-2 text-xs sm:text-sm text-stone-500 mb-6">
+              <li class="flex items-center gap-2">✔ <strong>Accommodates:</strong> 10–16 Guests</li>
+              <li class="flex items-center gap-2">✔ <strong>Pool:</strong> Private Shaded Pool & Sun Deck</li>
+              <li class="flex items-center gap-2">✔ <strong>Highlight:</strong> High-privacy forest setting & veranda</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-stone-100 flex items-center justify-between">
+            <a href="/retro-villas" class="text-amber-600 font-bold text-sm hover:underline">View Villa Details →</a>
+            <a href="#booking" class="px-4 py-2 bg-[#0F2A24] text-white text-xs font-bold rounded-xl hover:bg-amber-600 transition-colors">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ROOM & BED CONFIGURATION SPECIFICATION ===== -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Space & Comfort</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mb-4">
+        Room & Bedding <span class="text-amber-600">Configuration</span>
+      </h2>
+      <p class="text-stone-500 text-base sm:text-lg">
+        Designed for maximum comfort, accommodating groups of up to 20 guests with privacy for all couples and generations.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Bedroom 1 -->
+      <div class="p-6 rounded-3xl bg-stone-50 border border-stone-200">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xl mb-4 font-display">01</div>
+        <h4 class="text-xl font-bold text-[#0F2A24] mb-2 font-display">Master Suite 1 (Ground Floor)</h4>
+        <p class="text-stone-600 text-sm mb-4">Step-free entrance ideal for senior citizens and young toddlers. Pool-facing windows and immediate garden veranda access.</p>
+        <div class="text-xs text-stone-500 space-y-1">
+          <div>• 1 Plush King Bed</div>
+          <div>• Attached Ensuite Bathroom</div>
+          <div>• Split A/C & Wardrobe</div>
+        </div>
+      </div>
+
+      <!-- Bedroom 2 -->
+      <div class="p-6 rounded-3xl bg-stone-50 border border-stone-200">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xl mb-4 font-display">02</div>
+        <h4 class="text-xl font-bold text-[#0F2A24] mb-2 font-display">Master Suite 2 (Garden View)</h4>
+        <p class="text-stone-600 text-sm mb-4">Generous bedroom with private balcony overlooking manicured lawns. Elegant warm lighting and ambient luxury finish.</p>
+        <div class="text-xs text-stone-500 space-y-1">
+          <div>• 1 Plush King Bed</div>
+          <div>• Attached Ensuite Bathroom</div>
+          <div>• Split A/C & Work Desk</div>
+        </div>
+      </div>
+
+      <!-- Bedroom 3 -->
+      <div class="p-6 rounded-3xl bg-stone-50 border border-stone-200">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xl mb-4 font-display">03</div>
+        <h4 class="text-xl font-bold text-[#0F2A24] mb-2 font-display">Mountain Suite 3 (First Floor)</h4>
+        <p class="text-stone-600 text-sm mb-4">Elevated panoramic vistas of the Western Ghats mountain ridges. Features a private sit-out terrace for sunrise tea.</p>
+        <div class="text-xs text-stone-500 space-y-1">
+          <div>• 1 Plush King Bed</div>
+          <div>• Attached Ensuite Bathroom</div>
+          <div>• Sit-out Sun Terrace</div>
+        </div>
+      </div>
+
+      <!-- Bedroom 4 -->
+      <div class="p-6 rounded-3xl bg-stone-50 border border-stone-200">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-bold text-xl mb-4 font-display">04</div>
+        <h4 class="text-xl font-bold text-[#0F2A24] mb-2 font-display">Family Suite 4 (Large Group)</h4>
+        <p class="text-stone-600 text-sm mb-4">Expanded square-footage to comfortably accommodate parents and children or friend groups with high-density rollaways.</p>
+        <div class="text-xs text-stone-500 space-y-1">
+          <div>• 1 King Bed + Rollaway Setup</div>
+          <div>• Attached Ensuite Bathroom</div>
+          <div>• Large Windows & Storage</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORLD-CLASS AMENITIES & FEATURES ===== -->
+<section class="py-16 md:py-24 bg-stone-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="text-amber-400 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Everything You Need</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white font-display mb-4">
+        Unmatched <span class="text-amber-400">Villa Amenities</span>
+      </h2>
+      <p class="text-stone-400 text-base sm:text-lg">
+        Every luxury amenity is maintained to pristine hospitality standards to give your group a flawless stay.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">🏊</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">100% Private Swimming Pool</h4>
+        <p class="text-stone-400 text-sm">Filtered daily, crystal-clear water with sun loungers and a shallow safe ledge for children.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">👨‍🍳</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">Resident Caretaker & In-House Chef</h4>
+        <p class="text-stone-400 text-sm">Dedicated staff on-site to cook fresh meals, serve tea/coffee, and manage daily housekeeping.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">📶</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">300 Mbps Fiber Internet</h4>
+        <p class="text-stone-400 text-sm">Dual-band mesh Wi-Fi covering all bedrooms, verandas, and poolside decks for seamless workation calls.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">⚡</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">100% Generator Power Backup</h4>
+        <p class="text-stone-400 text-sm">Heavy-duty power generator automatically kicks in during outages, powering A/C, lights, and Wi-Fi without interruption.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">🍖</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">Live Poolside BBQ & Bonfire</h4>
+        <p class="text-stone-400 text-sm">Enjoy smoky grilled chicken, paneer tikkas, and warm evening bonfire gatherings under the hill stars.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">🎱</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">Snooker & Indoor Games</h4>
+        <p class="text-stone-400 text-sm">Championship-size pool table, carrom board, chess, and classic board games for nonstop entertainment.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">🌿</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">Private Manicured Party Lawn</h4>
+        <p class="text-stone-400 text-sm">Fenced, lush outdoor lawn suitable for box cricket, badminton, yoga, and evening celebrations.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">🥗</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">Pure Veg & Jain Kitchen</h4>
+        <p class="text-stone-400 text-sm">Strict separate cookware for pure vegetarian and Jain guests prepared with care by our resident cooks.</p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-amber-400/50 transition-colors">
+        <div class="text-amber-400 text-2xl mb-3">🚗</div>
+        <h4 class="font-bold text-white text-lg mb-2 font-display">Secure Multi-SUV Parking</h4>
+        <p class="text-stone-400 text-sm">Ample secure on-site parking within the gated villa perimeter with CCTV monitored entrance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TAILORED USE CASES (THE 4 CORE SEARCH INTENTS) ===== -->
+<section class="py-16 md:py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Bespoke Hospitality</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mb-4">
+        A Tailored Stay for <span class="text-amber-600">Every Occasion</span>
+      </h2>
+      <p class="text-stone-500 text-base sm:text-lg">
+        Whether you are planning a multi-generational family retreat, a friends reunion, or a corporate offsite, our 4BHK villas adapt seamlessly.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Case 1: Family -->
+      <div class="p-8 rounded-3xl bg-stone-50 border border-stone-200 hover:shadow-xl transition-all">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="p-3 bg-amber-500/10 text-amber-600 rounded-xl font-bold text-xl">👨‍👩‍👧‍👦</span>
+          <h3 class="text-2xl font-bold text-[#0F2A24] font-display">4BHK Villa in Lonavala for Family</h3>
+        </div>
+        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+          Traveling with elderly grandparents and little kids requires thoughtful infrastructure. Our ground-floor master bedrooms feature zero stairs and anti-skid bathrooms. The private pool includes a shallow kid's ledge, and our private chef prepares mild, comforting home food that grandparents and toddlers love.
+        </p>
+        <a href="/villas-in-lonavala-for-family" class="text-amber-600 font-semibold text-sm hover:underline">Explore Family Villas in Lonavala →</a>
+      </div>
+
+      <!-- Case 2: Reunion & Parties -->
+      <div class="p-8 rounded-3xl bg-stone-50 border border-stone-200 hover:shadow-xl transition-all">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="p-3 bg-amber-500/10 text-amber-600 rounded-xl font-bold text-xl">🎉</span>
+          <h3 class="text-2xl font-bold text-[#0F2A24] font-display">4BHK Villa in Lonavala for Party & Reunions</h3>
+        </div>
+        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+          Celebrate milestone birthdays, anniversaries, and college reunions without noise complaints from hotel staff. With an exclusive private pool, spacious lawns for music, live barbecue grills, and an indoor snooker lounge, you can laugh and party late into the evening.
+        </p>
+        <a href="/villas-for-reunion-party-in-lonavala" class="text-amber-600 font-semibold text-sm hover:underline">Explore Reunion Party Villas →</a>
+      </div>
+
+      <!-- Case 3: Corporate -->
+      <div class="p-8 rounded-3xl bg-stone-50 border border-stone-200 hover:shadow-xl transition-all">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="p-3 bg-amber-500/10 text-amber-600 rounded-xl font-bold text-xl">💼</span>
+          <h3 class="text-2xl font-bold text-[#0F2A24] font-display">4BHK Villa for Corporate Offsites & Team Outings</h3>
+        </div>
+        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+          Inspire your leadership team in a distraction-free mountain setting. Our spacious double-height living rooms feature large 4K Smart TVs for presentations, enterprise 300 Mbps mesh Wi-Fi, and lawns for team-building games. Official GST tax invoices provided for company expense approvals.
+        </p>
+        <a href="/4bhk-villa-near-mumbai-for-corporate-party" class="text-amber-600 font-semibold text-sm hover:underline">Explore Corporate Offsite Packages →</a>
+      </div>
+
+      <!-- Case 4: Couples & Friend Groups -->
+      <div class="p-8 rounded-3xl bg-stone-50 border border-stone-200 hover:shadow-xl transition-all">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="p-3 bg-amber-500/10 text-amber-600 rounded-xl font-bold text-xl">🥂</span>
+          <h3 class="text-2xl font-bold text-[#0F2A24] font-display">4BHK Villa in Lonavala for Couples Groups</h3>
+        </div>
+        <p class="text-stone-600 text-sm leading-relaxed mb-4">
+          Four couples traveling together get four independent, lavish en-suite master bedrooms with complete privacy, while gathering together in common living areas, private pools, and evening barbecue dinners. The ultimate luxury couple group holiday.
+        </p>
+        <a href="/villas-in-lonavala-for-couples" class="text-amber-600 font-semibold text-sm hover:underline">Explore Couple Friendly Stays →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DEEP TOPICAL SEO ARTICLE & INTERNAL LINKING ===== -->
+<section class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="prose prose-stone lg:prose-lg mx-auto">
-      <h2 class="text-3xl font-bold text-[#0F2A24] font-display mb-6">Why Choose Our 4BHK Villa in Lonavala?</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-[#0F2A24] font-display mb-6">
+        Why Renting a 4BHK Villa in Lonavala Beats Booking Hotel Rooms
+      </h2>
       
       <p class="leading-relaxed text-stone-600 mb-6">
-        When planning a lavish getaway from the bustling city, space, privacy, and luxury are non-negotiable. Booking a <strong>4BHK villa in Lonavala</strong> provides just that. Tucked away in lush greenery and offering sweeping hillside views, our property guarantees a seamless blend of natural beauty and premium amenities. 
+        Planning a holiday for 12 to 20 people in Lonavala often involves booking multiple hotel rooms across different floors, coordinating scattered dining schedules, and sharing overcrowded swimming pools with strangers. Booking an entire <a href="/4bhk-villa-in-lonavala" class="text-amber-600 font-semibold hover:underline">4BHK villa in Lonavala</a> completely transforms this experience into a private luxury retreat.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">Ultimate Privacy: 4BHK Villa in Lonavala with Private Pool</h3>
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mt-8 mb-4">
+        1. 100% Uninterrupted Pool & Lawn Privacy
+      </h3>
       <p class="leading-relaxed text-stone-600 mb-6">
-        No vacation is complete without dipping into clear blue waters. Take advantage of an exclusive <strong>4BHK villa in Lonavala with private pool</strong> designed to give you uninterrupted leisure time. Whether it's an early morning swim or a late-night plunge, the privacy of your own pool elevates your holiday experience. And for those looking for aesthetic corners and unique relaxation spots, our <strong>4bhk villa in lonavala with swimming pool</strong> setup creates magical moments and picture-perfect memories.
+        At Retrofusion's <a href="/private-pool-villas-in-lonavala" class="text-amber-600 font-semibold hover:underline">private pool villas in Lonavala</a>, you don't have to follow pool closing timings or worry about crowded waters. Step directly from your living room into a private swimming pool reserved strictly for your group. Enjoy morning laps, fun pool volleyball with friends, or an evening swim under the starry Western Ghats skies.
       </p>
 
-      <h3 class="text-xl font-semibold text-[#0F2A24] mt-8 mb-4">A Space for Every Occasion</h3>
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mt-8 mb-4">
+        2. Gourmet Home Dining by Resident Caretakers & Chefs
+      </h3>
       <p class="leading-relaxed text-stone-600 mb-6">
-        One of the biggest advantages of renting an entire villa is the versatility it offers. 
+        Say goodbye to standardized hotel buffets. Operating as premier <a href="/villas-in-lonavala-with-caretaker" class="text-amber-600 font-semibold hover:underline">villas in Lonavala with caretaker</a>, our resident cooks prepare customized meals according to your family's preferences. Whether you crave authentic spicy Kolhapuri mutton, hot Maharashtrian misal pav for breakfast, or strict Pure Jain / Gujarati vegetarian feasts, our kitchen caters to your exact dietary requirements. In the evening, gather for a delicious feast with our <a href="/villas-in-lonavala-with-barbeque" class="text-amber-600 font-semibold hover:underline">villas with live barbeque in Lonavala</a>.
       </p>
-      <ul class="list-disc pl-6 space-y-3 text-stone-600 mb-8">
-        <li><strong>For Families:</strong> Finding a sprawling <strong>4bhk villa in lonavala for Family</strong> means everyone from kids to grandparents gets their own space, yet common areas allow you all to bond over board games and meals.</li>
-        <li><strong>For Celebrations:</strong> If you're celebrating a milestone, birthday, or anniversary, reserving a <a href="villas-in-lonavala-for-bachelor-party" class="text-amber-600 font-medium hover:underline">4bhk villa in lonavala for party</a> ensures a dedicated venue with enough room for a lively get-together, dancing, and catered dining.</li>
-        <li><strong>For Couples:</strong> Searching for a romantic getaway with ample space? A <strong>4bhk villa in lonavala for couple</strong> retreat guarantees peace, luxury, and expansive private territories to unwind together.</li>
-        <li><strong>For Professionals:</strong> Combining work with leisure is effortless here. Our property serves perfectly as a <strong>4bhk villa in lonavala for corporate office</strong> offsites, offering high-speed internet and quiet corners for focused strategy sessions, followed by evening team-bonding activities.</li>
-      </ul>
 
-      <p class="leading-relaxed text-stone-600">
-        Stop comprising on your stays. Discover unmatched comfort, attentive hospitality, and breathtaking panoramas by booking the best 4-bedroom homestay Lonavala has to offer.
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mt-8 mb-4">
+        3. Generational Comfort & Pet-Friendly Compounds
+      </h3>
+      <p class="leading-relaxed text-stone-600 mb-6">
+        Our villas are built for multi-generational families. Elderly members can rest comfortably in ground-floor bedrooms with step-free entrances, while toddlers play safely in enclosed gardens. Furthermore, as trusted <a href="/pet-friendly-villas-in-lonavala" class="text-amber-600 font-semibold hover:underline">pet-friendly villas in Lonavala</a>, your four-legged family members are welcome to run and enjoy the holiday alongside you.
+      </p>
+
+      <h3 class="text-2xl font-bold text-[#0F2A24] font-display mt-8 mb-4">
+        4. Strategic Highway Location: Avoid Town Traffic Bottlenecks
+      </h3>
+      <p class="leading-relaxed text-stone-600 mb-6">
+        One of the biggest pain points of weekend travel to Lonavala is traffic along the internal town market. Because our properties are located just 10–15 minutes from the main Expressway exit near Karla, you reach your villa swiftly. Check our dedicated <a href="/homestay-near-mumbai-for-family" class="text-amber-600 font-semibold hover:underline">homestay near Mumbai for family</a> and <a href="/homestay-near-pune-for-family" class="text-amber-600 font-semibold hover:underline">homestay near Pune for family</a> guides to plan your smooth journey.
       </p>
     </div>
   </div>
 </section>
 
-<!-- ===== GALLERY SECTION ===== -->
-<section id="gallery" class="py-12 md:py-16 bg-[#F4EFEA]">
+<!-- ===== PHOTO GALLERY SECTION WITH LIGHTBOX ===== -->
+<section id="gallery" class="py-16 md:py-24 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
-        Villa <span class="text-amber-600">Gallery</span></h2>
-      <p class="text-stone-600 font-light text-lg">A visual journey through our luxurious 4BHK space</p>
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Visual Showcase</span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] font-display mb-4">
+        Explore Our 4BHK <span class="text-amber-600">Villa Gallery</span>
+      </h2>
+      <p class="text-stone-500 text-base sm:text-lg">Click any photo to explore our poolside decks, spacious bedrooms, and lush lawns in full resolution.</p>
     </div>
 
-    <!-- Bento Gallery Container -->
-    <div class="relative">
-      <div id="bento-grid" class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 h-[400px] md:h-[450px] transition-opacity duration-500">
-        <!-- Image 1 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-2 rounded-2xl shadow-lg" onclick="openLightbox(0)">
-          <img loading="lazy" src="images/v1770226533_N34_stewru.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="4BHK Villa Exterior" title="4BHK Villa in Lonavala Exterior View">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Image 2 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-2 md:col-span-2 row-span-1 md:row-span-1 rounded-2xl shadow-lg hidden md:block" onclick="openLightbox(1)">
-          <img loading="lazy" src="images/v1769868140_B30_yc8rqu.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Villa Interior Living Space" title="4BHK Villa Lonavala Living Area">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Image 3 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(2)">
-          <img loading="lazy" src="images/v1769868140_C26_j6pstx.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Luxurious Bedroom" title="4BHK Villa Lonavala for Corporate Office Retreat Bedroom">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Image 4 -->
-        <div class="relative overflow-hidden group cursor-pointer col-span-1 md:col-span-1 row-span-1 md:row-span-1 rounded-2xl shadow-lg" onclick="openLightbox(3)">
-          <img loading="lazy" src="images/v1769868140_05_ivb2yz.webp" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="Private Pool View" title="4BHK Villa in Lonavala for party Pool Setup">
-          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-center justify-center">
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <div class="w-10 h-10 md:w-12 md:h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" /></svg>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- 10-Image Responsive Grid (Matches homestay-near-mumbai standard) -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="col-span-2 row-span-2 overflow-hidden rounded-3xl shadow-lg cursor-pointer group" onclick="openLightbox(0)">
+        <img loading="lazy" src="/images/v1769868140_B30_yc8rqu.webp" alt="4BHK Villa in Lonavala Private Pool and Sun Deck View" title="4BHK Villa Lonavala Private Pool" class="w-full h-full min-h-[300px] md:min-h-[460px] object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
-
-      <!-- Indicators -->
-      <div class="flex justify-center mt-6 space-x-3" id="gallery-indicators">
-        <button onclick="setGallerySet(0)" class="h-2 rounded-full transition-all duration-500 bg-amber-600 w-8"></button>
-        <button onclick="setGallerySet(1)" class="h-2 rounded-full transition-all duration-500 bg-stone-300 hover:bg-stone-400 w-2"></button>
-        <button onclick="setGallerySet(2)" class="h-2 rounded-full transition-all duration-500 bg-stone-300 hover:bg-stone-400 w-2"></button>
-        <button onclick="setGallerySet(3)" class="h-2 rounded-full transition-all duration-500 bg-stone-300 hover:bg-stone-400 w-2"></button>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(1)">
+        <img loading="lazy" src="/images/v1770226533_N34_stewru.webp" alt="4BHK Villa in Lonavala Exterior Architectural View" title="4BHK Villa Exterior" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(2)">
+        <img loading="lazy" src="/images/v1769868140_C26_j6pstx.webp" alt="4BHK Villa Master Bedroom Suite with King Bed" title="4BHK Villa Master Bedroom" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(3)">
+        <img loading="lazy" src="/images/v1769868140_05_ivb2yz.webp" alt="Private Swimming Pool View at 4BHK Villa Lonavala" title="4BHK Villa Private Pool" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(4)">
+        <img loading="lazy" src="/images/v1770226534_N36_om6t9d.webp" alt="Spacious 4BHK Villa Living Lounge with Smart TV" title="4BHK Villa Living Hall" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(5)">
+        <img loading="lazy" src="/images/v1769868155_M08_qewdva.webp" alt="Evening Lawn Party Setup at 4BHK Villa Lonavala" title="4BHK Villa Lawn Party" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(6)">
+        <img loading="lazy" src="/images/v1769868143_M01_jjmwdw.webp" alt="Luxury Ensuite Bathroom with Hot Geyser" title="4BHK Villa Bathroom" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(7)">
+        <img loading="lazy" src="/images/v1769868142_G31_mdlfjh.webp" alt="First Floor Mountain View Sitout Balcony" title="4BHK Villa Balcony" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </div>
+      <div class="overflow-hidden rounded-3xl shadow-lg cursor-pointer group h-48 md:h-56" onclick="openLightbox(8)">
+        <img loading="lazy" src="/images/v1774810269_12_lo4gpx.webp" alt="Private Garden Gazebo and Outdoor Dining" title="4BHK Villa Gazebo" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== FAQ SECTION ===== -->
-<section class="relative py-12 md:py-14 bg-stone-900 border-t border-stone-800">
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-      <div class="scroll-reveal-left">
-        <h2 class="text-2xl sm:text-3xl font-bold text-white mb-6 font-display">Frequently Asked <span class="text-amber-400">Questions</span></h2>
-        <div class="space-y-3">
-          <!-- FAQ 1 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">What is the maximum capacity of the 4BHK villa in Lonavala?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Our 4BHK villa can comfortably accommodate groups of varying sizes, typically sleepng up to 12-15 guests depending on bed configurations and extra mattresses provided.</p>
-            </div>
-          </div>
-          <!-- FAQ 2 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is the pool completely private for our group?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes! When you book our 4BHK villa in Lonavala with a private pool, the entire pool area and outdoor spaces are exclusively reserved for you and your guests to enjoy without interruptions.</p>
-            </div>
-          </div>
-          <!-- FAQ 3 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Can we host a party at this 4BHK villa?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Absolutely. This is an ideal 4BHK villa in Lonavala for party occasions. We offer spacious areas for celebrations, music setups (subject to local noise guidelines), and BBQ arrangements on request.</p>
-            </div>
-          </div>
-          <!-- FAQ 4 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is it suitable for families with kids or elderly members?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, it's highly recommended as a 4BHK villa in Lonavala for Family. It features spacious rooms, safe outdoor spaces, a secure private pool, and convenient access for elderly members.</p>
-            </div>
-          </div>
+<!-- ===== FREQUENTLY ASKED QUESTIONS ===== -->
+<section class="py-16 md:py-24 bg-stone-50 border-t border-stone-200">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Got Questions?</span>
+      <h2 class="text-3xl sm:text-5xl font-bold text-[#0F2A24] mb-4 font-display">Frequently Asked <span class="text-amber-600">Questions</span></h2>
+      <p class="text-stone-500 text-base sm:text-lg">Clear answers to help you book your luxury 4BHK stay in Lonavala effortlessly.</p>
+    </div>
+
+    <div class="space-y-4">
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(0)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">How many guests can stay at your 4BHK villa in Lonavala?</span>
+          <svg id="faq-icon-0" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-0" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our luxury 4BHK villas comfortably accommodate 12 to 20 guests. Each estate features 4 air-conditioned master bedrooms with king beds, plus high-density luxury rollaway mattresses and expansive living lounges.
         </div>
       </div>
-      <div class="scroll-reveal-right">
-        <div class="space-y-3 mt-14">
-          <!-- FAQ 5 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Do you allow corporate offsites and team-building events?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">Yes, our 4BHK villa in Lonavala for corporate office retreats is perfectly suited. It includes high-speed WiFi, spacious living rooms for brainstorming sessions, and a relaxing vibe to unwind after work.</p>
-            </div>
-          </div>
-          <!-- FAQ 6 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Is food included, or is there a kitchen available?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">You have full access to a fully-equipped kitchen to cook your own meals. Alternatively, we also provide options for a dedicated cook or meal packages at an additional cost.</p>
-            </div>
-          </div>
-          <!-- FAQ 7 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">How far is the villa from Lonavala railway station?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">The villa is located at a very convenient driving distance from the Lonavala railway station and major expressways, making it easy to hop out to famous sightseeing spots or stock up from the local market.</p>
-            </div>
-          </div>
-          <!-- FAQ 8 -->
-          <div class="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden">
-            <button onclick="toggleFAQ(this)" class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors">
-              <h3 class="text-base font-medium text-white pr-4 font-display">Does the property have a swimming pool?</h3>
-              <svg class="w-4 h-4 text-white/60 flex-shrink-0 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-            </button>
-            <div class="faq-content h-0 overflow-hidden transition-all duration-200 opacity-0">
-              <p class="px-5 pb-4 text-stone-300 text-sm leading-relaxed">If you are specifically booking our 4bhk villa in lonavala with swimming pool option, you'll be delighted by unique outdoor pool accessories and aesthetic pool features designed for maximum relaxation and great photographs!</p>
-            </div>
-          </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(1)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is the swimming pool 100% private and not shared with others?</span>
+          <svg id="faq-icon-1" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-1" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, absolutely! The swimming pool, sun decks, gazebo, and gardens are 100% exclusive to your booking. There are zero shared amenities or outside guests on the property.
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(2)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are fresh meals prepared on-site, including Pure Veg and Jain options?</span>
+          <svg id="faq-icon-2" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-2" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes! Our resident chef prepares piping hot home-style meals tailored to your taste. We have dedicated cookware for strict Pure Vegetarian and Pure Jain dietary requirements, as well as customized non-veg curries and live poolside barbecue.
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(3)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Are pets allowed at your 4BHK villas in Lonavala?</span>
+          <svg id="faq-icon-3" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-3" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes, all our 4BHK villas are pet-friendly. We feature fully secure, gated lawns where your four-legged family members can run and play freely without safety concerns.
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(4)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Is there reliable power backup and high-speed Wi-Fi?</span>
+          <svg id="faq-icon-4" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-4" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Yes. We provide 300 Mbps high-speed dual-band fiber internet with mesh routers covering all bedrooms, verandas, and poolside lounges, backed by heavy-duty power generator backup to prevent power drops.
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(5)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">Can we host a reunion, birthday party, or corporate offsite?</span>
+          <svg id="faq-icon-5" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-5" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Definitely! Our villas are purpose-built for celebrations and corporate retreats. We offer outdoor party lawns, live barbecue setups, sound systems, bonfire arrangements, and official GST invoices for company billing.
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(6)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">What is the check-in and check-out timing?</span>
+          <svg id="faq-icon-6" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-6" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Standard check-in time is 2:00 PM and check-out time is 11:00 AM. Early check-in or late check-out can be requested in advance and is subject to villa availability.
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl border border-stone-200 overflow-hidden shadow-sm">
+        <button class="w-full px-6 py-5 text-left flex justify-between items-center group" onclick="toggleFaq(7)">
+          <span class="font-bold text-[#0F2A24] text-lg font-display group-hover:text-amber-600 transition-colors">How far are the villas from Mumbai and Pune?</span>
+          <svg id="faq-icon-7" class="w-5 h-5 text-stone-400 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div id="faq-ans-7" class="hidden px-6 pb-6 text-stone-600 leading-relaxed font-light">
+          Our villas are strategically located just 10-15 minutes from the Lonavala/Karla exit off the Mumbai-Pune Expressway. The drive is roughly 85 km (~90 minutes) from Mumbai and 65 km (~60 minutes) from Pune, completely avoiding congested inner-town bazaar traffic.
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== CONTACT & BOOKING SECTION ===== -->
-<section id="booking" class="py-12 md:py-16 bg-gradient-to-br from-stone-100 via-white to-amber-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <div class="flex items-center justify-center space-x-2 mb-4">
-        <div class="w-8 h-[2px] bg-amber-600"></div>
-        <span class="text-amber-600 text-sm font-medium uppercase tracking-wider">Book Now</span>
-        <div class="w-8 h-[2px] bg-amber-600"></div>
-      </div>
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0F2A24] leading-tight mb-4 font-display">
-        Reserve Your <span class="text-amber-600">Stay</span></h2>
-      <p class="text-stone-600 font-light text-lg max-w-2xl mx-auto">Experience the finest 4BHK villa Lonavala has to offer. Fill out the form below to secure your dates.</p>
-    </div>
-    
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-      <div class="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-stone-200/50">
-        <div class="mb-8">
-          <h3 class="text-2xl font-bold text-[#0F2A24] mb-2 font-display">Enquiry Form</h3>
-          <p class="text-stone-500 text-sm">Our team will get back to you with availability and details.</p>
-        </div>
-        <form action="mail1.php" method="POST" class="space-y-5">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- ===== CONTACT & BOOKING FORM SECTION ===== -->
+<section id="booking" class="py-16 md:py-24 bg-[#0F2A24] text-white relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <!-- Left Column: Form -->
+      <div class="lg:col-span-7 bg-white text-stone-800 p-8 sm:p-12 rounded-3xl shadow-2xl">
+        <span class="text-amber-600 text-xs sm:text-sm font-bold uppercase tracking-widest block mb-2">Direct Villa Booking</span>
+        <h3 class="text-3xl sm:text-4xl font-bold text-[#0F2A24] font-display mb-4">
+          Reserve Your <span class="text-amber-600">4BHK Villa</span> in Lonavala
+        </h3>
+        <p class="text-stone-500 text-sm mb-8">
+          Fill out the enquiry form below. Our villa manager will immediately share availability, photos, and exclusive direct booking rates.
+        </p>
+
+        <form action="mail1.php" method="POST" class="space-y-4">
+          <input type="hidden" name="lead_source" value="4BHK Villa in Lonavala Page" />
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Full Name *</label>
-              <input type="text" name="name" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Your name" />
+              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Full Name *</label>
+              <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="Enter your name" />
             </div>
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Email *</label>
-              <input type="email" name="email" required class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="your@email.com" />
+              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Phone Number *</label>
+              <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="10-digit mobile number" />
             </div>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Phone Number</label>
-              <input type="tel" name="phone" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="+91 98765 43210" />
+              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Check-In Date *</label>
+              <input type="date" name="checkIn" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" />
             </div>
             <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Number of Guests</label>
-              <select name="guests" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white">
-                <option value="">Select guests</option>
-                <option value="2-4">2-4 Guests</option>
-                <option value="5-8">5-8 Guests</option>
-                <option value="9-12">9-12 Guests</option>
-                <option value="13+">13+ Guests</option>
+              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Check-Out Date *</label>
+              <input type="date" name="checkOut" required class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Guests *</label>
+              <select name="guests" class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all">
+                <option value="10-12 Guests">10–12 Guests</option>
+                <option value="13-16 Guests" selected>13–16 Guests</option>
+                <option value="17-20 Guests">17–20 Guests</option>
+                <option value="20+ Guests">20+ Guests</option>
               </select>
             </div>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-in Date</label>
-              <input type="date" name="checkIn" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Check-out Date</label>
-              <input type="date" name="checkOut" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" />
-            </div>
-          </div>
+
           <div>
-            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Message</label>
-            <textarea name="message" rows="3" class="w-full px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none resize-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="Tell us about your requirements..."></textarea>
-          </div>
-          
-          <?php
-          $num1 = rand(1, 10);
-          $num2 = rand(1, 10);
-          $_SESSION['captcha_answer'] = $num1 + $num2;
-          ?>
-          <div class="space-y-2">
-            <label class="block text-xs font-semibold text-stone-700 mb-2 uppercase tracking-wide">Verify you are human *</label>
-            <div class="flex items-center gap-4">
-              <span class="px-6 py-3 bg-[#F4EFEA] border border-stone-300 rounded-xl font-bold text-stone-900 text-lg">
-                <?php echo $num1; ?> + <?php echo $num2; ?> =
-              </span>
-              <input type="number" name="captcha" required class="flex-1 px-4 py-3 text-sm border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 transition-all outline-none bg-[#F4EFEA]/50 hover:bg-white" placeholder="?" />
-            </div>
+            <label class="block text-xs font-semibold text-stone-600 mb-1.5 uppercase">Special Requests / Occasion</label>
+            <textarea name="message" rows="3" class="w-full px-4 py-3 rounded-xl border border-stone-200 text-stone-800 text-sm focus:border-amber-500 focus:ring-2 focus:ring-amber-200 outline-none transition-all" placeholder="Tell us if you require Pure Jain food, live BBQ, birthday cake, or corporate setup..."></textarea>
           </div>
 
-          <button type="submit" class="w-full py-4 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-bold text-sm rounded-xl shadow-lg transition-all duration-300 uppercase tracking-wider">
-            Send Enquiry
+          <!-- Anti-Spam Captcha -->
+          <?php
+            $c_num1 = rand(1, 9);
+            $c_num2 = rand(1, 9);
+            $_SESSION['captcha_answer'] = $c_num1 + $c_num2;
+          ?>
+          <div class="p-3 bg-stone-50 rounded-xl border border-stone-200 flex items-center gap-3">
+            <span class="text-xs font-bold text-stone-600">Verification: <?php echo $c_num1; ?> + <?php echo $c_num2; ?> =</span>
+            <input type="number" name="captcha" required class="w-20 px-3 py-1.5 rounded-lg border border-stone-300 text-sm outline-none focus:border-amber-500" placeholder="?" />
+          </div>
+
+          <button type="submit" class="w-full py-4 bg-amber-600 hover:bg-amber-500 text-white font-bold rounded-xl transition-all shadow-lg text-sm uppercase tracking-wider">
+            Submit Reservation Request
           </button>
         </form>
       </div>
 
-      <div class="space-y-6">
-        <div class="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 rounded-3xl p-8 shadow-2xl">
-          <h3 class="text-2xl font-bold text-white mb-6 font-display">Contact <span class="text-amber-400">Information</span></h3>
-          <div class="space-y-5">
+      <!-- Right Column: Quick WhatsApp & Direct Help -->
+      <div class="lg:col-span-5 space-y-6">
+        <div>
+          <h3 class="text-3xl font-bold font-display mb-4 text-white">Prefer Instant Booking via WhatsApp?</h3>
+          <p class="text-stone-300 text-sm leading-relaxed mb-6 font-light">
+            Skip filling forms! Connect directly with our on-ground manager on WhatsApp to view live villa video walkthroughs, check dates, and receive special weekend discounts.
+          </p>
+          
+          <div class="space-y-4">
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="flex items-center gap-4 group">
+              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
+              </div>
+              <div>
+                <p class="text-green-400 text-xs uppercase tracking-wider mb-1">WhatsApp Chat</p>
+                <p class="text-white font-medium text-lg group-hover:text-green-300 transition-colors">+91 89990 36644</p>
+              </div>
+            </a>
+
             <a href="tel:+918999036644" class="flex items-center gap-4 group">
               <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
               </div>
               <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Phone</p>
+                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Call Reservations</p>
                 <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">+91 89990 36644</p>
               </div>
             </a>
-            <a href="mailto:contact@retrofusion.in" class="flex items-center gap-4 group">
-              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-              </div>
-              <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Email</p>
-                <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
-              </div>
-            </a>
-            <div class="flex items-center gap-4">
-              <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-amber-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
-                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
-              </div>
-              <div>
-                <p class="text-amber-400 text-xs uppercase tracking-wider mb-1">Address</p>
-                <p class="text-white font-medium text-lg">Lonavala, Maharashtra, India</p>
-              </div>
-            </div>
+          </div>
+        </div>
+
+        <div class="bg-amber-600 rounded-3xl p-8 shadow-2xl relative overflow-hidden group">
+          <div class="relative z-10">
+            <h4 class="text-2xl font-bold text-white mb-2 font-display">Special Group Discounts</h4>
+            <p class="text-amber-100 text-sm mb-6">Planning a stay for 15+ guests or multi-night bookings? Get customized package rates with chef-inclusive meals.</p>
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-<!-- ===== FOLLOW US SECTION ===== -->
-<section class="py-20 bg-[#0F2A24] relative overflow-hidden flex flex-col items-center justify-center">
-  <!-- Decorative Background Elements -->
-  <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-    <div class="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-amber-900/10 blur-3xl"></div>
-    <div class="absolute -bottom-[20%] -right-[10%] w-[50%] h-[50%] rounded-full bg-emerald-900/20 blur-3xl"></div>
-  </div>
-
-  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center w-full">
-    <!-- Title -->
-    <h2 class="text-6xl md:text-8xl text-[#F4EFEA] mb-12 tracking-wide drop-shadow-md"
-      style="font-family: 'Dancing Script', cursive;">
-      Follow us!
-    </h2>
-
-    <!-- Main Content Area -->
-    <div class="flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-20 w-full max-w-6xl mx-auto">
-      <!-- Phone Mockup Container (Left on Desktop, Center on Mobile) -->
-      <div class="relative w-[280px] sm:w-[320px] md:w-[360px] mx-auto md:mx-0 group mt-4 md:mt-0 flex-shrink-0">
-        <!-- vibrant gradient border mimicking the Instagram story/post border from user design -->
-        <div
-          class="absolute -inset-[3px] md:-inset-1.5 bg-gradient-to-tr from-amber-400 via-orange-500 to-purple-600 rounded-[2.8rem] md:rounded-[3rem] opacity-90 blur-[2px] group-hover:blur-[6px] transition-all duration-300">
-        </div>
-
-        <!-- Phone Body -->
-        <div
-          class="bg-black rounded-[2.5rem] md:rounded-[2.8rem] overflow-hidden relative shadow-2xl h-[560px] sm:h-[650px] flex flex-col border-[5px] md:border-[6px] border-black/90 z-10 w-full transform transition-transform duration-500 group-hover:scale-[1.01]">
-
-          <!-- Dynamic Island/Notch -->
-          <div class="absolute top-2 inset-x-0 z-20 flex justify-center w-full">
-            <div class="w-24 sm:w-28 h-6 sm:h-7 bg-black rounded-full flex items-center justify-between px-2">
-              <div class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white/20"></div>
-              <div class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white/10"></div>
-            </div>
-          </div>
-
-          <!-- Phone Screen -->
-          <div
-            class="w-full h-full bg-[#121212] relative rounded-[2rem] md:rounded-[2.2rem] overflow-x-hidden overflow-y-auto group/screen cursor-pointer hide-scrollbar-custom"
-            style="scrollbar-width: none; -ms-overflow-style: none;">
-            <style>
-              .hide-scrollbar-custom::-webkit-scrollbar {
-                display: none;
-              }
-            </style>
-            <!-- Screenshot uploaded by user -->
-            <div class="pt-9 sm:pt-11 w-full flex flex-col items-center">
-              <a href="https://www.instagram.com/retrofusion.in/" target="_blank" class="w-full">
-                <img loading="lazy"
-                  src="images/v1772471878_Screenshot_2026-03-02_at_10.47.42_PM_wo3toj.webp"
-                  alt="Instagram Profile Screenshot"
-                  class="w-full h-auto block opacity-95 transition-opacity duration-300 group-hover/screen:opacity-100" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Desktop Instagram Grid (Right side) -->
-      <div class="hidden md:grid grid-cols-2 gap-6 w-full max-w-[540px]">
-
-        <!-- Post 1 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <!-- Header -->
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <!-- Image with amber border -->
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.08.01_PM_a5g0vs.webp"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <!-- Actions -->
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 143 likes</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Post 2 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500 mt-6">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473164_Screenshot_2026-03-02_at_11.07.23_PM_sbgs0f.webp"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 98 likes</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Post 3 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.36_PM_ftkdee.webp"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 217 likes</p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Post 4 -->
-        <a href="https://www.instagram.com/retrofusion.in/" target="_blank"
-          class="group block transform hover:-translate-y-2 transition-all duration-500 mt-6">
-          <div
-            class="bg-[#F4EFEA] rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-            <div class="flex items-center justify-between px-3 py-2.5">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-full bg-amber-600 flex items-center justify-center"><svg
-                    class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg></div>
-                <span class="text-[#0F2A24] text-xs font-semibold">retrofusion.in</span>
-              </div>
-              <span
-                class="text-[10px] font-bold text-amber-600 border border-amber-600 rounded px-1.5 py-0.5">FOLLOW</span>
-            </div>
-            <div class="mx-2.5 mb-2 border-[3px] border-amber-600 rounded-lg overflow-hidden">
-              <img loading="lazy"
-                src="images/v1772473163_Screenshot_2026-03-02_at_11.07.51_PM_yzseuz.webp"
-                alt="Instagram Post"
-                class="w-full aspect-square object-cover transition-transform duration-700 group-hover:scale-105" />
-            </div>
-            <div class="px-3 pb-2.5">
-              <div class="flex items-center justify-between mb-1.5">
-                <div class="flex items-center gap-3">
-                  <svg class="w-5 h-5 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path
-                      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                  </svg>
-                  <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9-7-9-7v14zM3 12l9-7v14l-9-7z" />
-                  </svg>
-                </div>
-                <svg class="w-5 h-5 text-[#0F2A24]" fill="none" stroke="currentColor" stroke-width="2"
-                  viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
-                </svg>
-              </div>
-              <p class="text-[#0F2A24] text-[10px] font-bold">❤ 175 likes</p>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-
-    <!-- Removed Follow Button per user request -->
-
-  </div>
-</section>
-
-
-<?php include 'includes/footer.php'; ?>
 
 <!-- Lightbox Modal -->
 <div id="lightbox" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center transition-opacity duration-300 opacity-0" onclick="closeLightbox()">
-  <button class="absolute top-4 right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors text-white" onclick="closeLightbox()">
+  <button class="absolute top-4 right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white" onclick="closeLightbox()">
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
   </button>
-  <button class="absolute left-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors text-white" onclick="event.stopPropagation(); prevLightboxImage()">
+  <button class="absolute left-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white" onclick="event.stopPropagation(); changeLightbox(-1)">
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
   </button>
-  <button class="absolute right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-colors text-white" onclick="event.stopPropagation(); nextLightboxImage()">
+  <button class="absolute right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white" onclick="event.stopPropagation(); changeLightbox(1)">
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
   </button>
-  <img loading="lazy" id="lightbox-img" src="" alt="Gallery Lightbox Image" title="Lightbox Fullscreen View" class="max-w-[90vw] max-h-[85vh] object-contain rounded-lg shadow-2xl transition-transform duration-300" onclick="event.stopPropagation()">
-  <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-    <span id="lightbox-counter" class="text-white text-sm font-medium tracking-wider"></span>
-  </div>
+  <img id="lightbox-img" src="" alt="4BHK Villa in Lonavala Lightbox View" class="max-w-[90vw] max-h-[85vh] object-contain rounded-xl shadow-2xl transition-transform duration-300" onclick="event.stopPropagation()" />
 </div>
 
 <script>
   window.galleryImages = [
-    'images/v1770226533_N34_stewru.webp',
-    'images/v1769868140_B30_yc8rqu.webp',
-    'images/v1769868140_C26_j6pstx.webp',
-    'images/v1769868140_05_ivb2yz.webp',
-    'images/v1770226534_N36_om6t9d.webp',
-    'images/v1769868155_M08_qewdva.webp',
-    'images/v1769868143_M01_jjmwdw.webp',
-    'images/v1769868142_G31_mdlfjh.webp',
-    'images/v1769868143_J24_wrncmb.webp',
-    'images/v1769868144_M21_c2fjh0.webp',
-    'images/v1769868144_M09_hilzeh.webp',
-    'images/v1769868141_I08_mjtxcg.webp',
-    'images/v1769868143_F18A_qmvadk.webp',
-    'images/v1769868142_H10_byp3oh.webp',
-    'images/v1769868142_K17_qzihhb.webp',
-    'images/v1769868141_E06_tevptf.webp',
+    '/images/v1769868140_B30_yc8rqu.webp',
+    '/images/v1770226533_N34_stewru.webp',
+    '/images/v1769868140_C26_j6pstx.webp',
+    '/images/v1769868140_05_ivb2yz.webp',
+    '/images/v1770226534_N36_om6t9d.webp',
+    '/images/v1769868155_M08_qewdva.webp',
+    '/images/v1769868143_M01_jjmwdw.webp',
+    '/images/v1769868142_G31_mdlfjh.webp',
+    '/images/v1774810269_12_lo4gpx.webp',
+    '/images/v1774807176_34_vpeqgv.webp'
   ];
 
-  window.gallerySets = [
-    window.galleryImages.slice(0, 4),
-    window.galleryImages.slice(4, 8),
-    window.galleryImages.slice(8, 12),
-    window.galleryImages.slice(12, 16),
-  ];
+  let currentLbIndex = 0;
+
+  function openLightbox(index) {
+    currentLbIndex = index;
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = window.galleryImages[index];
+    lb.classList.remove('hidden');
+    lb.classList.add('flex');
+    setTimeout(() => lb.style.opacity = '1', 10);
+  }
+
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    lb.style.opacity = '0';
+    setTimeout(() => {
+      lb.classList.remove('flex');
+      lb.classList.add('hidden');
+    }, 300);
+  }
+
+  function changeLightbox(dir) {
+    currentLbIndex = (currentLbIndex + dir + window.galleryImages.length) % window.galleryImages.length;
+    document.getElementById('lightbox-img').src = window.galleryImages[currentLbIndex];
+  }
+
+  function toggleFaq(index) {
+    const ans = document.getElementById(`faq-ans-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    const isOpen = !ans.classList.contains('hidden');
+    if (isOpen) {
+      ans.classList.add('hidden');
+      icon.style.transform = 'rotate(0deg)';
+    } else {
+      ans.classList.remove('hidden');
+      icon.style.transform = 'rotate(180deg)';
+    }
+  }
 </script>
 
-<!-- Lightbox & Additional Scripts if needed -->
-<script src="js/main.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

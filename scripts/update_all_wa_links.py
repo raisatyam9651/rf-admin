@@ -31,3 +31,4 @@ for p in php_files:
         updated_files.append(p)
 
 print(f"Updated WhatsApp links in {len(updated_files)} files.")
+
