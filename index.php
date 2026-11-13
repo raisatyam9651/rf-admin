@@ -1,13 +1,13 @@
 <?php
 $pageTitle = "Best Homestay in Lonavala with Private Pool | Retrofusion";
-$pageDescription = "Looking for the best homestay in Lonavala? Book Retrofusion for private pool villas, 4BHK stays, in-house food, mountain views, and pet-friendly options.";
+$pageDescription = "Book Retrofusion for the best homestay in Lonavala with private pool, luxury 4BHK villas, home food, mountain views & pet-friendly stays.";
 $pageKeywords = "homestay in Lonavala, best homestay in lonavala, boutique homestay in Lonavala, private pool homestay in Lonavala, luxury homestay in Lonavala, 4BHK homestay in Lonavala, villas in Lonavala with swimming pool, homestay in Lonavala with food, pet friendly homestay Lonavala, family homestay in Lonavala, group stay in Lonavala, Lonavala villa with caretaker, mountain view villa Lonavala";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
 $pagePublisher = "Retrofusion Boutique Homestays";
 $canonicalUrl = "https://retrofusion.in/";
 $ogTitle = "Best Homestay in Lonavala with Private Pool | Retrofusion";
-$ogDescription = "Looking for the best homestay in Lonavala? Book Retrofusion for private pool villas, 4BHK stays, in-house food, mountain views, and pet-friendly options.";
+$ogDescription = "Book Retrofusion for the best homestay in Lonavala with private pool, luxury 4BHK villas, home food, mountain views & pet-friendly stays.";
 $ogImage = "https://retrofusion.in/images/v1769868140_B30_yc8rqu.webp";
 $twitterTitle = $ogTitle;
 $twitterDescription = $ogDescription;
@@ -1876,7 +1876,7 @@ include 'includes/header.php';
               </svg>
               <span>Send Enquiry</span>
             </a>
-            <a href="https://wa.me/919011016791" target="_blank"
+            <a href="https://wa.me/919011016791?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank"
               class="px-6 py-3 bg-emerald-600/80 hover:bg-emerald-600 text-white font-semibold text-sm rounded-xl border border-emerald-500/30 transition-all duration-300 flex items-center justify-center space-x-2">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path

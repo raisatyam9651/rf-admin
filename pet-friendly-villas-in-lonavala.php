@@ -744,7 +744,7 @@ include 'includes/header.php';
             <h4 class="text-xl font-bold text-[#0F2A24]">Pet Stay Specials</h4>
           </div>
           <p class="text-stone-600 text-sm mb-6 leading-relaxed">Book directly via WhatsApp to skip the pet fee and get a complimentary pet-treat box on arrival!</p>
-          <a href="https://wa.me/918999036644" target="_blank" class="flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl transition-all shadow-lg">
+          <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl transition-all shadow-lg">
             <span>Enquire on WhatsApp</span>
           </a>
         </div>

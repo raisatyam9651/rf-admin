@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Homestay Near Pune with WiFi for Workation | 300 Mbps Fiber Internet & Private Pool";
-$pageDescription = "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, 100% power backup, private pool, comfortable work desks & hot meals on demand.";
+$pageDescription = "Work remotely from Lonavala with 300 Mbps fiber Wi-Fi, 100% power backup, private pool, peaceful desks & chef meals on demand at Retrofusion.";
 $pageKeywords = "homestay near pune with wifi for workation, workation villa lonavala, work from home villa near mumbai, homestay with wifi lonavala, remote work homestay near pune";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
@@ -20,7 +20,7 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/homestay-near-pune-with-wifi-for-workation#lodging",
       "name": "Homestay Near Pune with WiFi for Workation - Retrofusion",
-      "description": "Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, 100% power backup, private pool, comfortable work desks & hot meals on demand.",
+      "description": "Work remotely from Lonavala with 300 Mbps fiber Wi-Fi, 100% power backup, private pool, peaceful desks & chef meals on demand at Retrofusion.",
       "url": "https://retrofusion.in/homestay-near-pune-with-wifi-for-workation",
       "image": [
         "https://retrofusion.in/images/v1770226533_N34_stewru.webp",
@@ -375,22 +375,6 @@ include 'includes/header.php';
       <p class="leading-relaxed text-stone-600 mb-6">When your workday ends, step directly onto the sun deck, swim in your private pool at our <a href="/private-pool-villas-in-lonavala" class="text-amber-600 font-semibold hover:underline">private pool villas in Lonavala</a>, or enjoy quiet evening walks. Our <a href="/villas-in-lonavala-with-caretaker" class="text-amber-600 font-semibold hover:underline">villas in Lonavala with caretaker</a> ensure fresh coffee, snacks, and wholesome meals arrive right on schedule.</p>
       <h3>Weekly and Monthly Stays</h3>
       <p class="leading-relaxed text-stone-600 mb-6">We offer attractive extended stay rates for our <a href="/work-from-villa-in-lonavala" class="text-amber-600 font-semibold hover:underline">work from villa in Lonavala</a> and <a href="/monthly-stay-in-lonavala-for-workation" class="text-amber-600 font-semibold hover:underline">monthly stay in Lonavala for workation</a> packages.</p>
-
-      <!-- ===== RICH ANCHOR TEXT INTERNAL LINKING HUB ===== -->
-      <div class="mt-12 pt-8 border-t border-stone-200 not-prose">
-        <h3 class="text-xl font-bold text-[#0F2A24] font-display mb-4">Explore Workation & Remote Work Villas</h3>
-        <div class="flex flex-wrap gap-2.5">
-          <a href="/homestay-in-lonavala-with-wifi-for-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay in Lonavala with WiFi for Workation</a>
-          <a href="/homestay-near-mumbai-with-wifi-for-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Mumbai with WiFi for Workation</a>
-          <a href="/homestay-near-pune-with-wifi-for-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Pune with WiFi for Workation</a>
-          <a href="/4bhk-villa-near-mumbai-with-wifi-for-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Mumbai with WiFi for Workation</a>
-          <a href="/4bhk-villa-near-pune-with-wifi-for-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Pune with WiFi for Workation</a>
-          <a href="/private-pool-homestay-near-mumbai-with-wifi-for-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Private Pool Workation Homestay Near Mumbai</a>
-          <a href="/homestay-in-lonavala-for-long-stay-workation" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Long Stay Workation in Lonavala</a>
-          <a href="/villa-in-lonavala-for-remote-work" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Remote Work Villa in Lonavala</a>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -570,7 +554,7 @@ include 'includes/header.php';
                 <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
               </div>
             </a>
-            <a href="https://wa.me/918999036644" target="_blank" class="flex items-center gap-4 group">
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="flex items-center gap-4 group">
               <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
               </div>
@@ -586,7 +570,7 @@ include 'includes/header.php';
           <div class="relative z-10">
             <h3 class="text-2xl font-bold text-white mb-4 font-display">Need Directions?</h3>
             <p class="text-amber-100 text-sm mb-6">Wondering exactly which route to take? Message our team for a location pin and fast routing assistance!</p>
-            <a href="https://wa.me/918999036644" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
           </div>
           <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
             <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>

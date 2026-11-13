@@ -1,7 +1,14 @@
 <?php
+if (!headers_sent()) {
+  header('X-Robots-Tag: all, index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1');
+  if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
+    header('Strict-Transport-Security: max-age=31536000; includeSubDomains; preload');
+  }
+}
 if (session_status() === PHP_SESSION_NONE) {
   session_start();
 }
+$canonicalHref = $canonicalUrl ?? ($canonical_url ?? ('https://retrofusion.in' . (empty($_SERVER['REQUEST_URI']) || $_SERVER['REQUEST_URI'] === '/index.php' ? '/' : strtok($_SERVER['REQUEST_URI'], '?'))));
 ?>
 <!doctype html>
 <html lang="en">
@@ -11,6 +18,11 @@ if (session_status() === PHP_SESSION_NONE) {
   <link rel="icon" type="image/png"
     href="/images/v1769939688_FAV-ICONS-adobe_nisyxz.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Canonical & Hreflang SEO Tags -->
+  <link rel="canonical" href="<?php echo htmlspecialchars($canonicalHref); ?>" />
+  <link rel="alternate" hreflang="en-IN" href="<?php echo htmlspecialchars($canonicalHref); ?>" />
+  <link rel="alternate" hreflang="x-default" href="<?php echo htmlspecialchars($canonicalHref); ?>" />
 
   <!-- Meta Pixel Code (deferred to not block initial load) -->
   <script>
@@ -41,7 +53,7 @@ if (session_status() === PHP_SESSION_NONE) {
   <link rel="dns-prefetch" href="https://i.ytimg.com">
   <link rel="dns-prefetch" href="https://dbwx2z9xa7qt9.cloudfront.net">
   <link rel="preload" as="image"
-    href="/images/v1769868140_B30_yc8rqu.webp">
+    href="/images/v1769868140_B30_yc8rqu.webp" type="image/webp" fetchpriority="high">
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&family=Dancing+Script:wght@400..700&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'">
@@ -81,11 +93,7 @@ endif; ?>
   <meta property="og:image" content="<?php echo $ogImage; ?>" />
   <?php
 endif; ?>
-  <?php if (isset($canonicalUrl)): ?>
-  <link rel="canonical" href="<?php echo $canonicalUrl; ?>" />
-  <meta property="og:url" content="<?php echo $canonicalUrl; ?>" />
-  <?php
-endif; ?>
+  <meta property="og:url" content="<?php echo htmlspecialchars($canonicalHref); ?>" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="<?php echo $twitterCard ?? 'summary_large_image'; ?>" />
@@ -721,7 +729,7 @@ endif; ?>
 
       // Open WhatsApp directly
       function openWhatsAppDirectly() {
-        const message = "Hi, I'm interested in your services.";
+        const message = "Hi, I'm interested in your services. Please share images";
         const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B919011016791&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
         window.open(whatsappUrl, '_blank');
       }
@@ -784,7 +792,7 @@ endif; ?>
           });
 
         // Redirect to WhatsApp immediately
-        const message = `Hi, I'm ${name}. My phone number is ${phone}. I'm interested in your services.`;
+        const message = `Hi, I'm ${name}. My phone number is ${phone}. I'm interested in your services. Please share images`;
         const whatsappUrl = `https://api.whatsapp.com/send/?phone=%2B919011016791&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
         window.open(whatsappUrl, '_blank');
 
@@ -798,6 +806,32 @@ endif; ?>
         if (e.key === 'Escape') {
           closeWhatsAppPopup();
         }
+      });
+
+      // Global WhatsApp click handler across entire website
+      document.addEventListener('DOMContentLoaded', function () {
+        const defaultWaMsg = "Hi, I'm interested in your services. Please share images";
+        document.addEventListener('click', function (e) {
+          const target = e.target.closest('a[href*="wa.me"], a[href*="whatsapp.com"]');
+          if (target) {
+            let href = target.getAttribute('href');
+            if (href) {
+              try {
+                let urlObj = new URL(href, window.location.origin);
+                let currentText = urlObj.searchParams.get('text');
+                if (!currentText || !currentText.includes('share images')) {
+                  urlObj.searchParams.set('text', defaultWaMsg);
+                  target.setAttribute('href', urlObj.toString());
+                }
+              } catch (err) {
+                if (!href.includes('text=')) {
+                  let sep = href.includes('?') ? '&' : '?';
+                  target.setAttribute('href', href + sep + 'text=' + encodeURIComponent(defaultWaMsg));
+                }
+              }
+            }
+          }
+        }, true);
       });
     </script>
 

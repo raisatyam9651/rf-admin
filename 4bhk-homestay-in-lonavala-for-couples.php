@@ -379,7 +379,7 @@ include 'includes/header.php';
           </div>
           <div class="flex items-center space-x-4 group">
             <div class="w-12 h-12 bg-emerald-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg">💬</div>
-            <a href="https://wa.me/918999036644" target="_blank" class="text-white font-medium text-xl hover:text-emerald-400 transition-colors">Chat on WhatsApp</a>
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="text-white font-medium text-xl hover:text-emerald-400 transition-colors">Chat on WhatsApp</a>
           </div>
         </div>
       </div>

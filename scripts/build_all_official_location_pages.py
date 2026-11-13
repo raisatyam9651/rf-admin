@@ -34,7 +34,7 @@ family_locs = [
 for loc_key, loc_name, dist, time_str, route_info, hero_img in family_locs:
     slug = f"homestay-near-{loc_key}-for-family"
     title = f"Homestay Near {loc_name} for Family | Private Pool Villa Lonavala"
-    description = f"Looking for the best homestay near {loc_name} for family? Escape the city chaos and book our massive 4BHK private pool villas in Lonavala just {time_str} away. Kid & senior friendly with private chef."
+    description = f"Book a luxury 4BHK family homestay near {loc_name} in Lonavala. Private pool, senior-friendly ground suites, home food & games just {time_str} away."
     keywords = f"homestay near {loc_name.lower()} for family, family homestay near {loc_name.lower()}, best homestay near {loc_name.lower()} for family, 4bhk homestay near {loc_name.lower()} for family, private pool villa for family {loc_name.lower()}"
     canonical_url = f"https://retrofusion.in/{slug}"
     
@@ -121,7 +121,7 @@ team_locs = [
 for loc_key, loc_name, dist, time_str, route_info in team_locs:
     slug = f"homestay-near-{loc_key}-for-team-outing"
     title = f"Homestay Near {loc_name} for Team Outing | Corporate Offsite Villas"
-    description = f"Host an energetic team outing near {loc_name} at Retrofusion Lonavala. 4BHK private pool estate, lawn team building, poolside BBQ, 300 Mbps Wi-Fi & GST invoice billing."
+    description = f"Book a team outing homestay near {loc_name} in Lonavala. 4BHK private pool villa, lawn games, 300 Mbps Wi-Fi, BBQ & GST corporate billing."
     keywords = f"homestay near {loc_name.lower()} for team outing, team outing places near {loc_name.lower()}, corporate offsite villa {loc_name.lower()}, team building homestay lonavala, private pool villa for team outing {loc_name.lower()}"
     canonical_url = f"https://retrofusion.in/{slug}"
     hero_img = "images/v1774810269_12_lo4gpx.webp"
@@ -202,7 +202,7 @@ workation_pages = [
 
 for slug, page_title, ref_city, dist_str, route_info in workation_pages:
     title = f"{page_title} | 300 Mbps Fiber Internet & Private Pool"
-    description = f"Work remotely surrounded by Lonavala hill views. 300 Mbps dual-band fiber WiFi, 100% power backup, private pool, comfortable work desks & hot meals on demand."
+    description = f"Work remotely from Lonavala with 300 Mbps fiber Wi-Fi, 100% power backup, private pool, peaceful desks & chef meals on demand at Retrofusion."
     keywords = f"{slug.replace('-', ' ')}, workation villa lonavala, work from home villa near mumbai, homestay with wifi lonavala, remote work homestay near pune"
     canonical_url = f"https://retrofusion.in/{slug}"
     hero_img = "images/v1770226533_N34_stewru.webp"
@@ -282,7 +282,7 @@ reunion_pages = [
 
 for slug, page_title, ref_city, dist_str, route_info in reunion_pages:
     title = f"{page_title} | 4BHK Luxury Pool Estate"
-    description = f"Host an unforgettable reunion party at Retrofusion Lonavala. 100% private pool, spacious party lawn, live BBQ, bonfire, music sound system & luxury suites for 15-25 guests."
+    description = f"Host an epic reunion party at Retrofusion Lonavala. 4BHK private pool villa, party lawn, live BBQ, bonfire & luxury suites for 15-25 guests."
     keywords = f"{slug.replace('-', ' ')}, reunion party villa lonavala, private pool villa for reunion near mumbai, 4bhk party villa near pune, college reunion homestay lonavala"
     canonical_url = f"https://retrofusion.in/{slug}"
     hero_img = "images/v1769868155_M08_qewdva.webp"
@@ -362,7 +362,7 @@ corp_pages = [
 
 for slug, page_title, ref_city, event_type, dist_str in corp_pages:
     title = f"{page_title} | Private Pool & BBQ Estate"
-    description = f"Book an executive {page_title} in Lonavala. 4BHK luxury private pool estate, spacious presentation lounge, 300 Mbps Wi-Fi, chef-cooked buffet & GST billing."
+    description = f"Book {page_title} in Lonavala. 4BHK private pool estate, presentation lounge, 300 Mbps Wi-Fi, chef dining & official GST tax billing."
     keywords = f"{slug.replace('-', ' ')}, corporate villa lonavala, office outing villa near mumbai, executive retreat villa pune, private pool villa for company offsite"
     canonical_url = f"https://retrofusion.in/{slug}"
     hero_img = "images/v1768241694_1874704f-2b23-41a2-aa21-ca77ce4aaecd_ipao9k.jpg"

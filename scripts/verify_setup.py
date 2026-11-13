@@ -44,3 +44,4 @@ for s in all_slugs:
 
 print(f"Pages missing rich internal linking hub: {len(pages_without_rich_links)} {pages_without_rich_links}")
 print("ALL CHECKS PASSED!" if not (missing_sitemap or missing_files or pages_without_rich_links) else "SOME CHECKS FAILED!")
+

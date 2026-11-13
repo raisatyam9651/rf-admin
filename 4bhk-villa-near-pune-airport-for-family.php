@@ -120,7 +120,7 @@ $_SESSION['captcha_answer'] = $num1 + $num2;
             <a href="#inquiry-form" class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-gold text-luxury-black font-semibold text-sm hover:bg-gold-light transition duration-300 shadow-lg shadow-gold/20">
                 Reserve Family Dates
             </a>
-            <a href="https://wa.me/918999036644?text=Hi%2C%20our%20family%20is%20landing%20at%20Pune%20Airport%20and%20looking%20for%20a%204BHK%20villa." target="_blank" class="w-full sm:w-auto px-8 py-3.5 rounded-full border border-white/30 text-white font-medium text-sm hover:bg-white/10 transition duration-300 flex items-center justify-center gap-2">
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="w-full sm:w-auto px-8 py-3.5 rounded-full border border-white/30 text-white font-medium text-sm hover:bg-white/10 transition duration-300 flex items-center justify-center gap-2">
                 <span>WhatsApp Concierge</span>
             </a>
         </div>

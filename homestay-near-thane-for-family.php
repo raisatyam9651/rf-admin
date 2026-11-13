@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Homestay Near Thane for Family | Private Pool Villa Lonavala";
-$pageDescription = "Looking for the best homestay near Thane for family? Escape the city chaos and book our massive 4BHK private pool villas in Lonavala just ~1.5 Hours away. Kid & senior friendly with private chef.";
+$pageDescription = "Book a luxury 4BHK family homestay near Thane in Lonavala. Private pool, senior-friendly ground suites, home food & games just ~1.5 Hours away.";
 $pageKeywords = "homestay near thane for family, family homestay near thane, best homestay near thane for family, 4bhk homestay near thane for family, private pool villa for family thane";
 $pageRobots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";
 $pageAuthor = "Retrofusion Boutique Homestays";
@@ -20,7 +20,7 @@ include 'includes/header.php';
       "@type": "LodgingBusiness",
       "@id": "https://retrofusion.in/homestay-near-thane-for-family#lodging",
       "name": "Homestay Near Thane for Family - Retrofusion",
-      "description": "Looking for the best homestay near Thane for family? Escape the city chaos and book our massive 4BHK private pool villas in Lonavala just ~1.5 Hours away. Kid & senior friendly with private chef.",
+      "description": "Book a luxury 4BHK family homestay near Thane in Lonavala. Private pool, senior-friendly ground suites, home food & games just ~1.5 Hours away.",
       "url": "https://retrofusion.in/homestay-near-thane-for-family",
       "image": [
         "https://retrofusion.in/images/v1774807173_04_y636xz.webp",
@@ -377,24 +377,6 @@ include 'includes/header.php';
       <p class="leading-relaxed text-stone-600 mb-6">Say goodbye to standardized hotel buffets. Operating as premium <a href="/villas-in-lonavala-with-caretaker" class="text-amber-600 font-semibold hover:underline">villas with a caretaker in Lonavala</a>, our resident private chef prepares fresh, wholesome meals tailored to your family's preferences — including strict Pure Jain, Pure Vegetarian, and mild food for toddlers. In the evening, gather for a delicious feast with our <a href="/villas-in-lonavala-with-barbeque" class="text-amber-600 font-semibold hover:underline">villas with live barbeque in Lonavala</a> setups.</p>
       <h3>Pet-Friendly Accommodation & Complete Seclusion</h3>
       <p class="leading-relaxed text-stone-600 mb-6">Don't leave your four-legged family members behind in Thane. Our secure gated compounds serve as high-end <a href="/pet-friendly-villas-in-lonavala" class="text-amber-600 font-semibold hover:underline">pet-friendly villas in Lonavala</a> where your pets can run and explore safely.</p>
-
-      <!-- ===== RICH ANCHOR TEXT INTERNAL LINKING HUB ===== -->
-      <div class="mt-12 pt-8 border-t border-stone-200 not-prose">
-        <h3 class="text-xl font-bold text-[#0F2A24] font-display mb-4">Explore Related Family Stays & Top Locations</h3>
-        <div class="flex flex-wrap gap-2.5">
-          <a href="/homestay-near-mumbai-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Mumbai for Family</a>
-          <a href="/homestay-near-pune-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Pune for Family</a>
-          <a href="/homestay-near-navi-mumbai-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Navi Mumbai for Family</a>
-          <a href="/homestay-near-thane-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Thane for Family</a>
-          <a href="/homestay-near-panvel-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Homestay Near Panvel for Family</a>
-          <a href="/best-4bhk-homestay-in-lonavala-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Best 4BHK Homestay in Lonavala for Family</a>
-          <a href="/4bhk-villa-near-mumbai-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Mumbai for Family</a>
-          <a href="/4bhk-villa-near-pune-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">4BHK Villa Near Pune for Family</a>
-          <a href="/villas-in-lonavala-for-family" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Villas in Lonavala for Family</a>
-          <a href="/pet-friendly-homestay-near-mumbai" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-amber-600 hover:text-white text-stone-700 text-xs sm:text-sm font-semibold transition-all border border-stone-200">Pet Friendly Homestay Near Mumbai</a>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -574,7 +556,7 @@ include 'includes/header.php';
                 <p class="text-white font-medium text-lg group-hover:text-amber-300 transition-colors">contact@retrofusion.in</p>
               </div>
             </a>
-            <a href="https://wa.me/918999036644" target="_blank" class="flex items-center gap-4 group">
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" target="_blank" class="flex items-center gap-4 group">
               <div class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                 <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.737-1.283l-.34-.202-3.523.923.94-3.435-.222-.353a9.268 9.268 0 01-1.423-4.87c0-5.118 4.162-9.28 9.282-9.28 2.481 0 4.814.966 6.566 2.719a9.23 9.23 0 012.714 6.56c0 5.118-4.163 9.28-9.283 9.28m8.209-17.487A10.74 10.74 0 0012.048 1.5c-5.94 0-10.775 4.835-10.778 10.776 0 1.9.488 3.754 1.414 5.418L1.133 22.4l4.825-1.265a10.73 10.73 0 005.087 1.298h.005c5.941 0 10.777-4.835 10.781-10.776a10.71 10.71 0 00-3.155-7.618z"/></svg>
               </div>
@@ -590,7 +572,7 @@ include 'includes/header.php';
           <div class="relative z-10">
             <h3 class="text-2xl font-bold text-white mb-4 font-display">Need Directions?</h3>
             <p class="text-amber-100 text-sm mb-6">Wondering exactly which route to take? Message our team for a location pin and fast routing assistance!</p>
-            <a href="https://wa.me/918999036644" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
+            <a href="https://wa.me/918999036644?text=Hi%2C%20I%27m%20interested%20in%20your%20services.%20Please%20share%20images" class="inline-block bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-stone-900 hover:text-white transition-all duration-300">Message Now</a>
           </div>
           <div class="absolute -right-8 -bottom-8 opacity-10 group-hover:scale-110 transition-transform duration-700">
             <svg class="w-40 h-40 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
